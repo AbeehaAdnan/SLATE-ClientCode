@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>sitestats</prefix>
+      <describeURL>/direct/sitestats/describe</describeURL>
+      <summary><br />Provides a set of RESTful endpoints for retrieving Sitestats event data. <br /><br /></summary>
+      <customActions>
+        <customAction>
+          <action>runreport</action>
+          <url>/direct/sitestats/runreport</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>(GET) Runs the report specified by the id url paramemter. The site id must also be provided in the url. <br /> Example URL: /direct/sitestats/runreport/SITEID.json?id=1</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>presencetotals</action>
+          <url>/direct/sitestats/presencetotals</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>(GET) Returns a map of presence total onto user for the specified site id. The site id must be provided in the url. <br /> Example URL: /direct/sitestats/presencetotals/SITEID.json</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>listreports</action>
+          <url>/direct/sitestats/listreports</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>(GET) Retrieves a list of predefined reports for a given site id. The id fields in the report entries can be used to run the reports, using the 'run' action <br /> Example URL: /direct/sitestats/listreports/SITEID.json</description>
+        </customAction>
+      </customActions>
+      <outputFormats>
+        <format>json</format>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>ActionsExecutable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>Outputable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</type>
+        </capability>
+      </capabilities>
+    </prefix>

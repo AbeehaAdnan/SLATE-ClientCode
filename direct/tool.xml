@@ -1,0 +1,2619 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tool_collection entityPrefix="tool">
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Site Group Manager Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai-site-group-manager</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </registeredConfig>
+  <title>Group Manager Helper</title>
+  <entityReference>/tool/sakai-site-group-manager</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai-site-group-manager</entityURL>
+  <entityId>sakai-site-group-manager</entityId>
+  <entityTitle>Group Manager Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>For setting parent/child links between sites.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai-site-manage-link-helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <height>600px</height>
+    <functions.require></functions.require>
+    <source></source>
+    <reset.button>true</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='4'>
+    <height>600px</height>
+    <functions.require></functions.require>
+    <source></source>
+    <reset.button>true</reset.button>
+  </registeredConfig>
+  <title>Site Link Helper</title>
+  <entityReference>/tool/sakai-site-manage-link-helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai-site-manage-link-helper</entityURL>
+  <entityId>sakai-site-manage-link-helper</entityId>
+  <entityTitle>Site Link Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Site Add Participant Helper</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai-site-manage-participant-helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </registeredConfig>
+  <title>Site Add Participants Helper</title>
+  <entityReference>/tool/sakai-site-manage-participant-helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai-site-manage-participant-helper</entityURL>
+  <entityId>sakai-site-manage-participant-helper</entityId>
+  <entityTitle>Site Add Participants Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Site Page Order Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai-site-pageorder-helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </registeredConfig>
+  <title>Page Order Helper</title>
+  <entityReference>/tool/sakai-site-pageorder-helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai-site-pageorder-helper</entityURL>
+  <entityId>sakai-site-pageorder-helper</entityId>
+  <entityTitle>Page Order Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>Add or edit academic terms</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.acadtermmanage</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Academic Term Manager</title>
+  <entityReference>/tool/sakai.acadtermmanage</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.acadtermmanage</entityURL>
+  <entityId>sakai.acadtermmanage</entityId>
+  <entityTitle>Academic Term Manager</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For validating new accounts</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.accountvalidator</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <help.button>false</help.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <help.button>false</help.button>
+  </registeredConfig>
+  <title>Account Validator</title>
+  <entityReference>/tool/sakai.accountvalidator</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.accountvalidator</entityURL>
+  <entityId>sakai.accountvalidator</entityId>
+  <entityTitle>Account Validator</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For administrators to view and modify any user's preferences</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.admin.prefs</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Administrator Preferences</title>
+  <entityReference>/tool/sakai.admin.prefs</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.admin.prefs</entityURL>
+  <entityId>sakai.admin.prefs</entityId>
+  <entityTitle>Administrator Preferences</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For managing permissions for all sites of a type and roles within that site</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.adminsiteperms</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Admin Site Perms</title>
+  <entityReference>/tool/sakai.adminsiteperms</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.adminsiteperms</entityURL>
+  <entityId>sakai.adminsiteperms</entityId>
+  <entityTitle>Admin Site Perms</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For managing aliases within the system</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.aliases</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Aliases</title>
+  <entityReference>/tool/sakai.aliases</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.aliases</entityURL>
+  <entityId>sakai.aliases</entityId>
+  <entityTitle>Aliases</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='7'>
+    <string>GradToolsStudent</string>
+    <string>portfolio</string>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+    <string>GradToolsDepartment</string>
+    <string>GradToolsRackham</string>
+  </categories>
+  <description>For posting and viewing current, time-critical information</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.announcements</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='5'>
+    <groupAware>true</groupAware>
+    <pagesize>10</pagesize>
+    <functions.require>annc.read</functions.require>
+    <channel></channel>
+    <enableReorder>true</enableReorder>
+  </mutableConfig>
+  <registeredConfig type='map' size='5'>
+    <groupAware>true</groupAware>
+    <pagesize>10</pagesize>
+    <functions.require>annc.read</functions.require>
+    <channel></channel>
+    <enableReorder>true</enableReorder>
+  </registeredConfig>
+  <title>Announcements</title>
+  <entityReference>/tool/sakai.announcements</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.announcements</entityURL>
+  <entityId>sakai.announcements</entityId>
+  <entityTitle>Announcements</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For archiving and importing sites</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.archive</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Site Archive</title>
+  <entityReference>/tool/sakai.archive</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.archive</entityURL>
+  <entityId>sakai.archive</entityId>
+  <entityTitle>Site Archive</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>portfolio</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For posting, submitting, and grading assignments online</description>
+  <finalConfig type='map' size='2'>
+    <help.id>sakai.assignment</help.id>
+    <withGrades>TRUE</withGrades>
+  </finalConfig>
+  <home/>
+  <id>sakai.assignment.grades</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='3'>
+    <groupAware>true</groupAware>
+    <pagesize>200</pagesize>
+    <showNumSubmissionColumn>TRUE</showNumSubmissionColumn>
+  </mutableConfig>
+  <registeredConfig type='map' size='5'>
+    <groupAware>true</groupAware>
+    <help.id>sakai.assignment</help.id>
+    <pagesize>200</pagesize>
+    <showNumSubmissionColumn>TRUE</showNumSubmissionColumn>
+    <withGrades>TRUE</withGrades>
+  </registeredConfig>
+  <title>Assignments</title>
+  <entityReference>/tool/sakai.assignment.grades</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.assignment.grades</entityURL>
+  <entityId>sakai.assignment.grades</entityId>
+  <entityTitle>Assignments</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>portfolio</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For connecting to external tools using IMS Learning Tools Interoperability (LTI)</description>
+  <finalConfig type='map' size='3'>
+    <portlet-name>IMSBLTIPortlet</portlet-name>
+    <portlet-context>/imsblti</portlet-context>
+    <portlet-app-name>/imsblti</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.basiclti</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='47'>
+    <final.custom>false</final.custom>
+    <imsti.debug></imsti.debug>
+    <imsti.toolorder></imsti.toolorder>
+    <final.frameheight>false</final.frameheight>
+    <functions.require></functions.require>
+    <final.encryptedsecret>false</final.encryptedsecret>
+    <imsti.frameheight></imsti.frameheight>
+    <imsti.allowsettings></imsti.allowsettings>
+    <imsti.encryptedsecret></imsti.encryptedsecret>
+    <imsti.custom></imsti.custom>
+    <final.debug>false</final.debug>
+    <sakai:menuClass></sakai:menuClass>
+    <final.maximize>false</final.maximize>
+    <final.pagetitle>false</final.pagetitle>
+    <final.allowsettings>false</final.allowsettings>
+    <final.fa_icon>false</final.fa_icon>
+    <final.secret>false</final.secret>
+    <imsti.fa_icon></imsti.fa_icon>
+    <imsti.pagetitle></imsti.pagetitle>
+    <allowToolDuplicate>true</allowToolDuplicate>
+    <final.sha256>false</final.sha256>
+    <allowMultipleInstances>true</allowMultipleInstances>
+    <final.launch>false</final.launch>
+    <imsti.releaseemail></imsti.releaseemail>
+    <final.allowroster>false</final.allowroster>
+    <imsti.allowroster></imsti.allowroster>
+    <imsti.maximize></imsti.maximize>
+    <final.splash>false</final.splash>
+    <final.key>false</final.key>
+    <final.releasename>false</final.releasename>
+    <final.xml>true</final.xml>
+    <final.newpage>false</final.newpage>
+    <imsti.secret></imsti.secret>
+    <imsti.releasename></imsti.releasename>
+    <final.tooltitle>false</final.tooltitle>
+    <sakai:portlet-pre-render>true</sakai:portlet-pre-render>
+    <final.toolorder>false</final.toolorder>
+    <imsti.sha256></imsti.sha256>
+    <imsti.allowoutcomes></imsti.allowoutcomes>
+    <imsti.newpage></imsti.newpage>
+    <imsti.launch></imsti.launch>
+    <imsti.key></imsti.key>
+    <final.releaseemail>false</final.releaseemail>
+    <imsti.xml></imsti.xml>
+    <imsti.splash></imsti.splash>
+    <final.allowoutcomes>false</final.allowoutcomes>
+    <imsti.tooltitle></imsti.tooltitle>
+  </mutableConfig>
+  <registeredConfig type='map' size='50'>
+    <final.custom>false</final.custom>
+    <imsti.debug></imsti.debug>
+    <imsti.toolorder></imsti.toolorder>
+    <portlet-app-name>/imsblti</portlet-app-name>
+    <final.frameheight>false</final.frameheight>
+    <functions.require></functions.require>
+    <final.encryptedsecret>false</final.encryptedsecret>
+    <imsti.frameheight></imsti.frameheight>
+    <imsti.allowsettings></imsti.allowsettings>
+    <imsti.encryptedsecret></imsti.encryptedsecret>
+    <imsti.custom></imsti.custom>
+    <final.debug>false</final.debug>
+    <sakai:menuClass></sakai:menuClass>
+    <final.maximize>false</final.maximize>
+    <final.pagetitle>false</final.pagetitle>
+    <final.allowsettings>false</final.allowsettings>
+    <final.fa_icon>false</final.fa_icon>
+    <portlet-name>IMSBLTIPortlet</portlet-name>
+    <final.secret>false</final.secret>
+    <imsti.fa_icon></imsti.fa_icon>
+    <imsti.pagetitle></imsti.pagetitle>
+    <allowToolDuplicate>true</allowToolDuplicate>
+    <final.sha256>false</final.sha256>
+    <allowMultipleInstances>true</allowMultipleInstances>
+    <final.launch>false</final.launch>
+    <imsti.releaseemail></imsti.releaseemail>
+    <final.allowroster>false</final.allowroster>
+    <imsti.allowroster></imsti.allowroster>
+    <imsti.maximize></imsti.maximize>
+    <final.splash>false</final.splash>
+    <final.key>false</final.key>
+    <final.releasename>false</final.releasename>
+    <final.xml>true</final.xml>
+    <final.newpage>false</final.newpage>
+    <imsti.secret></imsti.secret>
+    <imsti.releasename></imsti.releasename>
+    <final.tooltitle>false</final.tooltitle>
+    <sakai:portlet-pre-render>true</sakai:portlet-pre-render>
+    <final.toolorder>false</final.toolorder>
+    <imsti.sha256></imsti.sha256>
+    <imsti.allowoutcomes></imsti.allowoutcomes>
+    <imsti.newpage></imsti.newpage>
+    <imsti.launch></imsti.launch>
+    <portlet-context>/imsblti</portlet-context>
+    <imsti.key></imsti.key>
+    <final.releaseemail>false</final.releaseemail>
+    <imsti.xml></imsti.xml>
+    <imsti.splash></imsti.splash>
+    <final.allowoutcomes>false</final.allowoutcomes>
+    <imsti.tooltitle></imsti.tooltitle>
+  </registeredConfig>
+  <title>External Tool</title>
+  <entityReference>/tool/sakai.basiclti</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.basiclti</entityURL>
+  <entityId>sakai.basiclti</entityId>
+  <entityTitle>External Tool</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>admin</string>
+  </categories>
+  <description>This tool manages external tools launchable via IMS LTI.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.basiclti.admin</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <functions.require></functions.require>
+    <reset.button>true</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <functions.require></functions.require>
+    <reset.button>true</reset.button>
+  </registeredConfig>
+  <title>External Tools</title>
+  <entityReference>/tool/sakai.basiclti.admin</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.basiclti.admin</entityURL>
+  <entityId>sakai.basiclti.admin</entityId>
+  <entityTitle>External Tools</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>This tool manages external tools launchable via IMS LTI.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.basiclti.admin.helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='3'>
+    <functions.require></functions.require>
+    <helper>true</helper>
+    <reset.button>true</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='3'>
+    <functions.require></functions.require>
+    <helper>true</helper>
+    <reset.button>true</reset.button>
+  </registeredConfig>
+  <title>External Tool Helper</title>
+  <entityReference>/tool/sakai.basiclti.admin.helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.basiclti.admin.helper</entityURL>
+  <entityId>sakai.basiclti.admin.helper</entityId>
+  <entityTitle>External Tool Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For synchronous, real-time written conversations</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.chat</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='8'>
+    <display-date>false</display-date>
+    <filter-param>3</filter-param>
+    <display-time>true</display-time>
+    <sound-alert>true</sound-alert>
+    <functions.require>chat.read</functions.require>
+    <channel></channel>
+    <filter-type>SelectMessagesByTime</filter-type>
+    <display-user>true</display-user>
+  </mutableConfig>
+  <registeredConfig type='map' size='8'>
+    <display-date>false</display-date>
+    <filter-param>3</filter-param>
+    <display-time>true</display-time>
+    <sound-alert>true</sound-alert>
+    <functions.require>chat.read</functions.require>
+    <channel></channel>
+    <filter-type>SelectMessagesByTime</filter-type>
+    <display-user>true</display-user>
+  </registeredConfig>
+  <title>Chat Room</title>
+  <entityReference>/tool/sakai.chat</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.chat</entityURL>
+  <entityId>sakai.chat</entityId>
+  <entityTitle>Chat Room</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Chat Message Deletion Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.chat.deleteMessage</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Delete Chat Message</title>
+  <entityReference>/tool/sakai.chat.deleteMessage</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.chat.deleteMessage</entityURL>
+  <entityId>sakai.chat.deleteMessage</entityId>
+  <entityTitle>Delete Chat Message</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Citations Editor Integration.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.citation.editor.integration</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Search Library Resources</title>
+  <entityReference>/tool/sakai.citation.editor.integration</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.citation.editor.integration</entityURL>
+  <entityId>sakai.citation.editor.integration</entityId>
+  <entityTitle>Search Library Resources</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Citations Editor Integration</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.citation.tool</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Search Library Resources </title>
+  <entityReference>/tool/sakai.citation.tool</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.citation.tool</entityURL>
+  <entityId>sakai.citation.tool</entityId>
+  <entityTitle>Search Library Resources </entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For social networking-style posts featuring embedded images and url-to-thumbnail expansion</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.commons</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='5'>
+    <sakai:tool-directurl-enabled>false</sakai:tool-directurl-enabled>
+    <suppressTitle>true</suppressTitle>
+    <renderInline>true</renderInline>
+    <help.button>false</help.button>
+    <reset.button>false</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='5'>
+    <sakai:tool-directurl-enabled>false</sakai:tool-directurl-enabled>
+    <suppressTitle>true</suppressTitle>
+    <renderInline>true</renderInline>
+    <help.button>false</help.button>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Commons</title>
+  <entityReference>/tool/sakai.commons</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.commons</entityURL>
+  <entityId>sakai.commons</entityId>
+  <entityTitle>Commons</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For creating a new user account</description>
+  <finalConfig type='map' size='3'>
+    <create-login>true</create-login>
+    <create-user>true</create-user>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.createuser</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='5'>
+    <create-blurb></create-blurb>
+    <validate-through-email>false</validate-through-email>
+    <create-type>registered</create-type>
+    <force-eid-equals-email>false</force-eid-equals-email>
+    <user.recaptcha-enabled>true</user.recaptcha-enabled>
+  </mutableConfig>
+  <registeredConfig type='map' size='8'>
+    <create-blurb></create-blurb>
+    <create-login>true</create-login>
+    <create-user>true</create-user>
+    <validate-through-email>false</validate-through-email>
+    <create-type>registered</create-type>
+    <force-eid-equals-email>false</force-eid-equals-email>
+    <reset.button>false</reset.button>
+    <user.recaptcha-enabled>true</user.recaptcha-enabled>
+  </registeredConfig>
+  <title>New Account</title>
+  <entityReference>/tool/sakai.createuser</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.createuser</entityURL>
+  <entityId>sakai.createuser</entityId>
+  <entityTitle>New Account</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Site Date Manager Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.datemanager</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </registeredConfig>
+  <title>Date Manager Helper</title>
+  <entityReference>/tool/sakai.datemanager</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.datemanager</entityURL>
+  <entityId>sakai.datemanager</entityId>
+  <entityTitle>Date Manager Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>myworkspace</string>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For delegating access of users to sites based on a site hierarchy</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.delegatedaccess</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Delegated Access</title>
+  <entityReference>/tool/sakai.delegatedaccess</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.delegatedaccess</entityURL>
+  <entityId>sakai.delegatedaccess</entityId>
+  <entityTitle>Delegated Access</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For searching for available sites for shopping</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.delegatedaccess.shopping</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Shopping</title>
+  <entityReference>/tool/sakai.delegatedaccess.shopping</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.delegatedaccess.shopping</entityURL>
+  <entityId>sakai.delegatedaccess.shopping</entityId>
+  <entityTitle>Shopping</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For private file sharing between the instructor and student</description>
+  <finalConfig type='map' size='2'>
+    <resources_mode>dropbox</resources_mode>
+    <functions.require>dropbox.own|dropbox.maintain|dropbox.maintain.own.groups</functions.require>
+  </finalConfig>
+  <home/>
+  <id>sakai.dropbox</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <resources_mode>dropbox</resources_mode>
+    <functions.require>dropbox.own|dropbox.maintain|dropbox.maintain.own.groups</functions.require>
+  </registeredConfig>
+  <title>Drop Box</title>
+  <entityReference>/tool/sakai.dropbox</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.dropbox</entityURL>
+  <entityId>sakai.dropbox</entityId>
+  <entityTitle>Drop Box</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>emailtemplateservice created by Sakai App Builder Plugin</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.emailtemplateservice</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Email template administration</title>
+  <entityReference>/tool/sakai.emailtemplateservice</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.emailtemplateservice</entityURL>
+  <entityId>sakai.emailtemplateservice</entityId>
+  <entityTitle>Email template administration</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For gathering feedback and improvements about the site or the system</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.feedback</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <functions.require></functions.require>
+    <reset.button>false</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <functions.require></functions.require>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Contact Us</title>
+  <entityReference>/tool/sakai.feedback</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.feedback</entityURL>
+  <entityId>sakai.feedback</entityId>
+  <entityTitle>Contact Us</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Sakai File Picker Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.filepicker</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <test>reg-value</test>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <test>reg-value</test>
+  </registeredConfig>
+  <title>Choose File</title>
+  <entityReference>/tool/sakai.filepicker</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.filepicker</entityURL>
+  <entityId>sakai.filepicker</entityId>
+  <entityTitle>Choose File</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For asynchronous, written conversations organized by topics</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.forums</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Forums</title>
+  <entityReference>/tool/sakai.forums</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.forums</entityURL>
+  <entityId>sakai.forums</entityId>
+  <entityTitle>Forums</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For storing, calculating, and viewing grades</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.gradebookng</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Gradebook</title>
+  <entityReference>/tool/sakai.gradebookng</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.gradebookng</entityURL>
+  <entityId>sakai.gradebookng</entityId>
+  <entityTitle>Gradebook</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.help</string>
+  </categories>
+  <description>The Sakai Help Tool</description>
+  <finalConfig type='map' size='1'>
+    <help.collections>sakai_toc,sakai_screensteps_aboutHelpUserGuide,sakai_screensteps_accessibilityUserGuide,sakai_screensteps_announcementsUserGuide,sakai_screensteps_assignmentsUserGuide,sakai_screensteps_bullhornsUserGuide,sakai_screensteps_calendarUserGuide,sakai_screensteps_chatUserGuide,sakai_screensteps_commonsUserGuide,sakai_screensteps_contactUsUserGuide,sakai_screensteps_courseandProjectSitesUserGuide,sakai_screensteps_dropBoxUserGuide,sakai_screensteps_emailUserGuide,sakai_screensteps_emailArchiveUserGuide,sakai_screensteps_externalToolLTIUserGuide,sakai_screensteps_forumsUserGuide,sakai_screensteps_gradebookUserGuide,sakai_screensteps_homeUserGuide,sakai_screensteps_lessonsUserGuide,sakai_screensteps_messagesUserGuide,sakai_screensteps_newsUserGuide,sakai_screensteps_overviewUserGuide,sakai_screensteps_permissionsandRolesUserGuide,sakai_screensteps_podcastsUserGuide,sakai_screensteps_pollsUserGuide,sakai_screensteps_postEmUserGuide,sakai_screensteps_profileUserGuide,sakai_screensteps_resourcesUserGuide,sakai_screensteps_richTextEditorUserGuide,sakai_screensteps_rosterUserGuide,sakai_screensteps_rubricsUserGuide,sakai_screensteps_searchUserGuide,sakai_screensteps_sectionInfoUserGuide,sakai_screensteps_signUpUserGuide,sakai_screensteps_siteInfoUserGuide,sakai_screensteps_statisticsUserGuide,sakai_screensteps_syllabusUserGuide,sakai_screensteps_testsandQuizzesUserGuide,sakai_screensteps_webContentUserGuide,sakai_screensteps_wikiUserGuide,sakai_screensteps_academicTermManagerAdministratorGuide,sakai_screensteps_adminSitePermsAdministratorGuide,sakai_screensteps_aliasesAdministratorGuide,sakai_screensteps_announcementsorMessageoftheDayAdministratorGuide,sakai_screensteps_becomeUserAdministratorGuide,sakai_screensteps_delegatedAccessAdministratorGuide,sakai_screensteps_emailTemplatesAdministratorGuide,sakai_screensteps_eventsAdministratorGuide,sakai_screensteps_externalToolsAdministratorGuide,sakai_screensteps_jobSchedulerAdministratorGuide,sakai_screensteps_memoryAdministratorGuide,sakai_screensteps_messageBundleManagerAdministratorGuide,sakai_screensteps_onlineAdministratorGuide,sakai_screensteps_pASystemAdministratorGuide,sakai_screensteps_permissionsandRolesAdministratorGuide,sakai_screensteps_realmsAdministratorGuide,sakai_screensteps_resourcesAdministratorGuide,sakai_screensteps_searchAdministratorGuide,sakai_screensteps_siteArchiveAdministratorGuide,sakai_screensteps_sitesAdministratorGuide,sakai_screensteps_sitestatsAdminAdministratorGuide,sakai_screensteps_usersAdministratorGuide,sakai_screensteps_userMembershipAdministratorGuide,sakai_screensteps_worksiteSetupAdministratorGuide</help.collections>
+  </finalConfig>
+  <home/>
+  <id>sakai.help</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <help.collections>sakai_toc,sakai_screensteps_aboutHelpUserGuide,sakai_screensteps_accessibilityUserGuide,sakai_screensteps_announcementsUserGuide,sakai_screensteps_assignmentsUserGuide,sakai_screensteps_bullhornsUserGuide,sakai_screensteps_calendarUserGuide,sakai_screensteps_chatUserGuide,sakai_screensteps_commonsUserGuide,sakai_screensteps_contactUsUserGuide,sakai_screensteps_courseandProjectSitesUserGuide,sakai_screensteps_dropBoxUserGuide,sakai_screensteps_emailUserGuide,sakai_screensteps_emailArchiveUserGuide,sakai_screensteps_externalToolLTIUserGuide,sakai_screensteps_forumsUserGuide,sakai_screensteps_gradebookUserGuide,sakai_screensteps_homeUserGuide,sakai_screensteps_lessonsUserGuide,sakai_screensteps_messagesUserGuide,sakai_screensteps_newsUserGuide,sakai_screensteps_overviewUserGuide,sakai_screensteps_permissionsandRolesUserGuide,sakai_screensteps_podcastsUserGuide,sakai_screensteps_pollsUserGuide,sakai_screensteps_postEmUserGuide,sakai_screensteps_profileUserGuide,sakai_screensteps_resourcesUserGuide,sakai_screensteps_richTextEditorUserGuide,sakai_screensteps_rosterUserGuide,sakai_screensteps_rubricsUserGuide,sakai_screensteps_searchUserGuide,sakai_screensteps_sectionInfoUserGuide,sakai_screensteps_signUpUserGuide,sakai_screensteps_siteInfoUserGuide,sakai_screensteps_statisticsUserGuide,sakai_screensteps_syllabusUserGuide,sakai_screensteps_testsandQuizzesUserGuide,sakai_screensteps_webContentUserGuide,sakai_screensteps_wikiUserGuide,sakai_screensteps_academicTermManagerAdministratorGuide,sakai_screensteps_adminSitePermsAdministratorGuide,sakai_screensteps_aliasesAdministratorGuide,sakai_screensteps_announcementsorMessageoftheDayAdministratorGuide,sakai_screensteps_becomeUserAdministratorGuide,sakai_screensteps_delegatedAccessAdministratorGuide,sakai_screensteps_emailTemplatesAdministratorGuide,sakai_screensteps_eventsAdministratorGuide,sakai_screensteps_externalToolsAdministratorGuide,sakai_screensteps_jobSchedulerAdministratorGuide,sakai_screensteps_memoryAdministratorGuide,sakai_screensteps_messageBundleManagerAdministratorGuide,sakai_screensteps_onlineAdministratorGuide,sakai_screensteps_pASystemAdministratorGuide,sakai_screensteps_permissionsandRolesAdministratorGuide,sakai_screensteps_realmsAdministratorGuide,sakai_screensteps_resourcesAdministratorGuide,sakai_screensteps_searchAdministratorGuide,sakai_screensteps_siteArchiveAdministratorGuide,sakai_screensteps_sitesAdministratorGuide,sakai_screensteps_sitestatsAdminAdministratorGuide,sakai_screensteps_usersAdministratorGuide,sakai_screensteps_userMembershipAdministratorGuide,sakai_screensteps_worksiteSetupAdministratorGuide</help.collections>
+  </registeredConfig>
+  <title>Help Documentation</title>
+  <entityReference>/tool/sakai.help</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.help</entityURL>
+  <entityId>sakai.help</entityId>
+  <entityTitle>Help Documentation</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='4'>
+    <string>portfolio</string>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For linking to internal resources or external websites</description>
+  <finalConfig type='map' size='3'>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.iframe</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='7'>
+    <height>600px</height>
+    <webcontent.revise>webcontent.revise</webcontent.revise>
+    <webcontent.read>webcontent.read</webcontent.read>
+    <functions.require></functions.require>
+    <allowMultipleInstances>true</allowMultipleInstances>
+    <source></source>
+    <reset.button>true</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='10'>
+    <reset.button>true</reset.button>
+    <source></source>
+    <functions.require></functions.require>
+    <allowMultipleInstances>true</allowMultipleInstances>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <webcontent.revise>webcontent.revise</webcontent.revise>
+    <webcontent.read>webcontent.read</webcontent.read>
+    <height>600px</height>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </registeredConfig>
+  <title>Web Content</title>
+  <entityReference>/tool/sakai.iframe</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.iframe</entityURL>
+  <entityId>sakai.iframe</entityId>
+  <entityTitle>Web Content</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>Displays a link with an annotation. URL and initial annotation can be set by admin, tool maintain user can change the annotation</description>
+  <finalConfig type='map' size='2'>
+    <special>annotatedurl</special>
+    <reset.button>true</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.iframe.annotatedurl</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='7'>
+    <height>600px</height>
+    <TargetPageName>[Target Page Name - will be used as the label for the link to the URL]</TargetPageName>
+    <TargetPageUrl>https://www.sakailms.org/</TargetPageUrl>
+    <webcontent.revise>webcontent.revise.annotatedurl</webcontent.revise>
+    <functions.require></functions.require>
+    <webcontent.read>webcontent.read.annotatedurl</webcontent.read>
+    <desp>[Change this text when configuring the tool. It should give some idea of the purpose of the URL and prompt the tool maintain user to change this annotation via the tool menu if needed]</desp>
+  </mutableConfig>
+  <registeredConfig type='map' size='9'>
+    <reset.button>true</reset.button>
+    <functions.require></functions.require>
+    <TargetPageUrl>https://www.sakailms.org/</TargetPageUrl>
+    <special>annotatedurl</special>
+    <TargetPageName>[Target Page Name - will be used as the label for the link to the URL]</TargetPageName>
+    <webcontent.revise>webcontent.revise.annotatedurl</webcontent.revise>
+    <webcontent.read>webcontent.read.annotatedurl</webcontent.read>
+    <height>600px</height>
+    <desp>[Change this text when configuring the tool. It should give some idea of the purpose of the URL and prompt the tool maintain user to change this annotation via the tool menu if needed]</desp>
+  </registeredConfig>
+  <title>AnnotatedUrl</title>
+  <entityReference>/tool/sakai.iframe.annotatedurl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.iframe.annotatedurl</entityURL>
+  <entityId>sakai.iframe.annotatedurl</entityId>
+  <entityTitle>AnnotatedUrl</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For displaying information about your Home</description>
+  <finalConfig type='map' size='5'>
+    <special>workspace</special>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <reset.button>false</reset.button>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.iframe.myworkspace</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <height>600px</height>
+    <webcontent.revise>webcontent.myworkspace.revise</webcontent.revise>
+    <webcontent.read>webcontent.myworkspace.read</webcontent.read>
+    <functions.require></functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='9'>
+    <reset.button>false</reset.button>
+    <functions.require></functions.require>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <special>workspace</special>
+    <webcontent.revise>webcontent.myworkspace.revise</webcontent.revise>
+    <webcontent.read>webcontent.myworkspace.read</webcontent.read>
+    <height>600px</height>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </registeredConfig>
+  <title>Home Information Display</title>
+  <entityReference>/tool/sakai.iframe.myworkspace</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.iframe.myworkspace</entityURL>
+  <entityId>sakai.iframe.myworkspace</entityId>
+  <entityTitle>Home Information Display</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For displaying overview information</description>
+  <finalConfig type='map' size='5'>
+    <special>site</special>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <reset.button>false</reset.button>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.iframe.service</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <height>600px</height>
+    <webcontent.revise>webcontent.service.revise</webcontent.revise>
+    <webcontent.read>webcontent.service.read</webcontent.read>
+    <functions.require></functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='9'>
+    <reset.button>false</reset.button>
+    <functions.require></functions.require>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <special>site</special>
+    <webcontent.revise>webcontent.service.revise</webcontent.revise>
+    <webcontent.read>webcontent.service.read</webcontent.read>
+    <height>600px</height>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </registeredConfig>
+  <title>Service Information Display</title>
+  <entityReference>/tool/sakai.iframe.service</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.iframe.service</entityURL>
+  <entityId>sakai.iframe.service</entityId>
+  <entityTitle>Service Information Display</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>widget</string>
+  </categories>
+  <description>For displaying the site's description</description>
+  <finalConfig type='map' size='5'>
+    <special>worksite</special>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <reset.button>false</reset.button>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.iframe.site</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <height>600px</height>
+    <webcontent.revise>webcontent.site.revise</webcontent.revise>
+    <webcontent.read>webcontent.site.read</webcontent.read>
+    <functions.require></functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='9'>
+    <reset.button>false</reset.button>
+    <functions.require></functions.require>
+    <portlet-name>PortletIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet</portlet-context>
+    <special>worksite</special>
+    <webcontent.revise>webcontent.site.revise</webcontent.revise>
+    <webcontent.read>webcontent.site.read</webcontent.read>
+    <height>600px</height>
+    <portlet-app-name>/sakai-web-portlet</portlet-app-name>
+  </registeredConfig>
+  <title>Overview</title>
+  <entityReference>/tool/sakai.iframe.site</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.iframe.site</entityURL>
+  <entityId>sakai.iframe.site</entityId>
+  <entityTitle>Overview</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For creating, organizing, and delivering content modules and sequences, such as by week or unit</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.lessonbuildertool</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <filterHtml>default</filterHtml>
+    <allowMultipleInstances>true</allowMultipleInstances>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <filterHtml>default</filterHtml>
+    <allowMultipleInstances>true</allowMultipleInstances>
+  </registeredConfig>
+  <title>Lessons</title>
+  <entityReference>/tool/sakai.lessonbuildertool</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.lessonbuildertool</entityURL>
+  <entityId>sakai.lessonbuildertool</entityId>
+  <entityTitle>Lessons</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>A login tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.login</id>
+  <keywords type='collection' size='1'>
+    <string>login</string>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <eid>user id:</eid>
+    <pw>password:</pw>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <eid>user id:</eid>
+    <pw>password:</pw>
+  </registeredConfig>
+  <title>Login</title>
+  <entityReference>/tool/sakai.login</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.login</entityURL>
+  <entityId>sakai.login</entityId>
+  <entityTitle>Login</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>portfolio</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For viewing email sent to the site's mailing address</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.mailbox</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <pagesize>20</pagesize>
+    <showNonAlias>false</showNonAlias>
+    <functions.require>mail.read</functions.require>
+    <channel></channel>
+  </mutableConfig>
+  <registeredConfig type='map' size='4'>
+    <pagesize>20</pagesize>
+    <showNonAlias>false</showNonAlias>
+    <functions.require>mail.read</functions.require>
+    <channel></channel>
+  </registeredConfig>
+  <title>Email Archive</title>
+  <entityReference>/tool/sakai.mailbox</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.mailbox</entityURL>
+  <entityId>sakai.mailbox</entityId>
+  <entityTitle>Email Archive</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For sending mail to select participants in the site</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.mailtool</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='3'>
+    <help.id>sakai.mailsender</help.id>
+    <functions.require>mailtool.send</functions.require>
+    <subjectprefix></subjectprefix>
+  </mutableConfig>
+  <registeredConfig type='map' size='3'>
+    <help.id>sakai.mailsender</help.id>
+    <functions.require>mailtool.send</functions.require>
+    <subjectprefix></subjectprefix>
+  </registeredConfig>
+  <title>Email</title>
+  <entityReference>/tool/sakai.mailtool</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.mailtool</entityURL>
+  <entityId>sakai.mailtool</entityId>
+  <entityTitle>Email</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>myworkspace</string>
+  </categories>
+  <description>For viewing and modifying your membership in sites of which you are a participant or that you may join</description>
+  <finalConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.membership</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Membership</title>
+  <entityReference>/tool/sakai.membership</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.membership</entityURL>
+  <entityId>sakai.membership</entityId>
+  <entityTitle>Membership</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For viewing the JVM memory and reseting the system caches</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.memory</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Memory</title>
+  <entityReference>/tool/sakai.memory</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.memory</entityURL>
+  <entityId>sakai.memory</entityId>
+  <entityTitle>Memory</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>Tool that allows editing localization (i18n) properties.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.message.bundle.manager</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Message Bundle Manager</title>
+  <entityReference>/tool/sakai.message.bundle.manager</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.message.bundle.manager</entityURL>
+  <entityId>sakai.message.bundle.manager</entityId>
+  <entityTitle>Message Bundle Manager</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Message Center Navigation Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.messageforums.helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Private Messages Helper</title>
+  <entityReference>/tool/sakai.messageforums.helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.messageforums.helper</entityURL>
+  <entityId>sakai.messageforums.helper</entityId>
+  <entityTitle>Private Messages Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For composing and receiving written messages with other participants in the site</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.messages</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <groupAware>true</groupAware>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <groupAware>true</groupAware>
+  </registeredConfig>
+  <title>Messages</title>
+  <entityReference>/tool/sakai.messages</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.messages</entityURL>
+  <entityId>sakai.messages</entityId>
+  <entityTitle>Messages</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For displaying the system message of the day</description>
+  <finalConfig type='map' size='3'>
+    <help.id>sakai.motd</help.id>
+    <message-service>org.sakaiproject.announcement.api.AnnouncementService</message-service>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.motd</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='6'>
+    <items>1</items>
+    <show-subject>false</show-subject>
+    <length>50000</length>
+    <show-newlines>true</show-newlines>
+    <channel>/announcement/channel/!site/motd</channel>
+    <days>1000</days>
+  </mutableConfig>
+  <registeredConfig type='map' size='9'>
+    <reset.button>false</reset.button>
+    <length>50000</length>
+    <show-subject>false</show-subject>
+    <message-service>org.sakaiproject.announcement.api.AnnouncementService</message-service>
+    <channel>/announcement/channel/!site/motd</channel>
+    <items>1</items>
+    <show-newlines>true</show-newlines>
+    <days>1000</days>
+    <help.id>sakai.motd</help.id>
+  </registeredConfig>
+  <title>Message Of The Day</title>
+  <entityReference>/tool/sakai.motd</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.motd</entityURL>
+  <entityId>sakai.motd</entityId>
+  <entityTitle>Message Of The Day</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>A widget that shows a user's calendar and upcoming events</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.mycalendar</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='5'>
+    <sakai:tool-directurl-enabled>false</sakai:tool-directurl-enabled>
+    <suppressTitle>true</suppressTitle>
+    <help.button>false</help.button>
+    <renderInline>true</renderInline>
+    <reset.button>false</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='5'>
+    <sakai:tool-directurl-enabled>false</sakai:tool-directurl-enabled>
+    <suppressTitle>true</suppressTitle>
+    <help.button>false</help.button>
+    <renderInline>true</renderInline>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>My Calendar</title>
+  <entityReference>/tool/sakai.mycalendar</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.mycalendar</entityURL>
+  <entityId>sakai.mycalendar</entityId>
+  <entityTitle>My Calendar</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>A widget that shows a user's connections</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.myconnections</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='5'>
+    <sakai:tool-directurl-enabled>false</sakai:tool-directurl-enabled>
+    <suppressTitle>false</suppressTitle>
+    <help.button>false</help.button>
+    <renderInline>true</renderInline>
+    <reset.button>false</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='5'>
+    <sakai:tool-directurl-enabled>false</sakai:tool-directurl-enabled>
+    <suppressTitle>false</suppressTitle>
+    <help.button>false</help.button>
+    <renderInline>true</renderInline>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Connections</title>
+  <entityReference>/tool/sakai.myconnections</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.myconnections</entityURL>
+  <entityId>sakai.myconnections</entityId>
+  <entityTitle>Connections</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>myworkspace</string>
+  </categories>
+  <description>Tool to allow you to manage applications that can access the service.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.oauth</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Trusted Applications</title>
+  <entityReference>/tool/sakai.oauth</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.oauth</entityURL>
+  <entityId>sakai.oauth</entityId>
+  <entityTitle>Trusted Applications</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>Tool to allow you to manage applications that can use oAuth.</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.oauth.admin</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>oAuth Admin</title>
+  <entityReference>/tool/sakai.oauth.admin</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.oauth.admin</entityURL>
+  <entityId>sakai.oauth.admin</entityId>
+  <entityTitle>oAuth Admin</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For seeing who's on-line and where they are</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.online</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Online</title>
+  <entityReference>/tool/sakai.online</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.online</entityURL>
+  <entityId>sakai.online</entityId>
+  <entityTitle>Online</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For managing banner alerts and popup screens</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.pasystem</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>pasystem.manage</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>pasystem.manage</functions.require>
+  </registeredConfig>
+  <title>PA System</title>
+  <entityReference>/tool/sakai.pasystem</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.pasystem</entityURL>
+  <entityId>sakai.pasystem</entityId>
+  <entityTitle>PA System</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Sakai Permissions Helper Tool</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.permissions.helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <test>reg-value</test>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <test>reg-value</test>
+  </registeredConfig>
+  <title>Set Permissions</title>
+  <entityReference>/tool/sakai.permissions.helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.permissions.helper</entityURL>
+  <entityId>sakai.permissions.helper</entityId>
+  <entityTitle>Set Permissions</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For delivering and accessing podcasts and podcast feeds</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.podcasts</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <help.id>sakai.podcasts</help.id>
+    <functions.require>content.read</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <help.id>sakai.podcasts</help.id>
+    <functions.require>content.read</functions.require>
+  </registeredConfig>
+  <title>Podcasts</title>
+  <entityReference>/tool/sakai.podcasts</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.podcasts</entityURL>
+  <entityId>sakai.podcasts</entityId>
+  <entityTitle>Podcasts</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For posting questions, voting anonymously, and gathering results</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.poll</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Polls</title>
+  <entityReference>/tool/sakai.poll</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.poll</entityURL>
+  <entityId>sakai.poll</entityId>
+  <entityTitle>Polls</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>This starts up the portal chat entity provider</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.portal.chat.loader</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Portal Chat Service Loader</title>
+  <entityReference>/tool/sakai.portal.chat.loader</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.portal.chat.loader</entityURL>
+  <entityId>sakai.portal.chat.loader</entityId>
+  <entityTitle>Portal Chat Service Loader</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For distributing individual feedback and confirming when each person has accessed it</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.postem</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>PostEm</title>
+  <entityReference>/tool/sakai.postem</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.postem</entityURL>
+  <entityId>sakai.postem</entityId>
+  <entityTitle>PostEm</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>myworkspace</string>
+  </categories>
+  <description>For viewing and modifying your preferences</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.preferences</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Preferences</title>
+  <entityReference>/tool/sakai.preferences</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.preferences</entityURL>
+  <entityId>sakai.preferences</entityId>
+  <entityTitle>Preferences</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For displaying the users present at a location</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.presence</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Presence Tool</title>
+  <entityReference>/tool/sakai.presence</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.presence</entityURL>
+  <entityId>sakai.presence</entityId>
+  <entityTitle>Presence Tool</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>Display current privacy status for all sites or a site</description>
+  <finalConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.privacy</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Privacy Status</title>
+  <entityReference>/tool/sakai.privacy</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.privacy</entityURL>
+  <entityId>sakai.privacy</entityId>
+  <entityTitle>Privacy Status</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>myworkspace</string>
+  </categories>
+  <description>For editing your profile, posting status updates, searching for people with common interests, viewing their profiles, and adding them as connections</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.profile2</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require></functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require></functions.require>
+  </registeredConfig>
+  <title>Profile</title>
+  <entityReference>/tool/sakai.profile2</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.profile2</entityURL>
+  <entityId>sakai.profile2</entityId>
+  <entityTitle>Profile</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For creating and editing realms</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.realms</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </registeredConfig>
+  <title>Realms</title>
+  <entityReference>/tool/sakai.realms</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.realms</entityURL>
+  <entityId>sakai.realms</entityId>
+  <entityTitle>Realms</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For resetting a guest user's password</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.resetpass</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <instructions></instructions>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <instructions></instructions>
+  </registeredConfig>
+  <title>Reset Password</title>
+  <entityReference>/tool/sakai.resetpass</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.resetpass</entityURL>
+  <entityId>sakai.resetpass</entityId>
+  <entityTitle>Reset Password</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>Provides Implementations for Actions of Basic Resource Types</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.resource.type.helper</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <test>reg-value</test>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <test>reg-value</test>
+  </registeredConfig>
+  <title>Resource Type Helper</title>
+  <entityReference>/tool/sakai.resource.type.helper</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.resource.type.helper</entityURL>
+  <entityId>sakai.resource.type.helper</entityId>
+  <entityTitle>Resource Type Helper</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='4'>
+    <string>portfolio</string>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For creating, uploading, organizing, and viewing site files, including documents and URLs, to be used throughout the site</description>
+  <finalConfig type='map' size='1'>
+    <resources_mode>resources</resources_mode>
+  </finalConfig>
+  <home/>
+  <id>sakai.resources</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='6'>
+    <groupAware>true</groupAware>
+    <collections_per_page>50</collections_per_page>
+    <optional_properties>true</optional_properties>
+    <functions.require>content.read</functions.require>
+    <home></home>
+    <user_sees_all_their_sites>true</user_sees_all_their_sites>
+  </mutableConfig>
+  <registeredConfig type='map' size='7'>
+    <groupAware>true</groupAware>
+    <resources_mode>resources</resources_mode>
+    <collections_per_page>50</collections_per_page>
+    <optional_properties>true</optional_properties>
+    <functions.require>content.read</functions.require>
+    <home></home>
+    <user_sees_all_their_sites>true</user_sees_all_their_sites>
+  </registeredConfig>
+  <title>Resources</title>
+  <entityReference>/tool/sakai.resources</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.resources</entityURL>
+  <entityId>sakai.resources</entityId>
+  <entityTitle>Resources</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For creating and managing grading rubrics for use in the Gradebook and in individual assessment tools</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.rubrics</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>rubrics.editor</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>rubrics.editor</functions.require>
+  </registeredConfig>
+  <title>Rubrics</title>
+  <entityReference>/tool/sakai.rubrics</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.rubrics</entityURL>
+  <entityId>sakai.rubrics</entityId>
+  <entityTitle>Rubrics</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For collaborative editing of pages and content</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.rwiki</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='3'>
+    <home-page-friendly-name></home-page-friendly-name>
+    <functions.require>rwiki.read</functions.require>
+    <home-page>Home</home-page>
+  </mutableConfig>
+  <registeredConfig type='map' size='3'>
+    <home-page-friendly-name></home-page-friendly-name>
+    <functions.require>rwiki.read</functions.require>
+    <home-page>Home</home-page>
+  </registeredConfig>
+  <title>Wiki</title>
+  <entityReference>/tool/sakai.rwiki</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.rwiki</entityURL>
+  <entityId>sakai.rwiki</entityId>
+  <entityTitle>Wiki</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For creating and taking online assessments</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.samigo</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Tests &amp; Quizzes</title>
+  <entityReference>/tool/sakai.samigo</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.samigo</entityURL>
+  <entityId>sakai.samigo</entityId>
+  <entityTitle>Tests &amp; Quizzes</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='4'>
+    <string>portfolio</string>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For posting and viewing events, such as due dates, meetings, and other important dates</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.schedule</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='3'>
+    <groupAware>true</groupAware>
+    <functions.require>calendar.read</functions.require>
+    <calendar></calendar>
+  </mutableConfig>
+  <registeredConfig type='map' size='3'>
+    <groupAware>true</groupAware>
+    <functions.require>calendar.read</functions.require>
+    <calendar></calendar>
+  </registeredConfig>
+  <title>Calendar</title>
+  <entityReference>/tool/sakai.schedule</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.schedule</entityURL>
+  <entityId>sakai.schedule</entityId>
+  <entityTitle>Calendar</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.scheduler</string>
+  </categories>
+  <description>For scheduling system jobs based on Quartz</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.scheduler</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Job Scheduler</title>
+  <entityReference>/tool/sakai.scheduler</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.scheduler</entityURL>
+  <entityId>sakai.scheduler</entityId>
+  <entityTitle>Job Scheduler</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For searching for content in the site</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.search</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <search_all_sites></search_all_sites>
+    <search_site_ids></search_site_ids>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <search_all_sites></search_all_sites>
+    <search_site_ids></search_site_ids>
+  </registeredConfig>
+  <title>Search</title>
+  <entityReference>/tool/sakai.search</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.search</entityURL>
+  <entityId>sakai.search</entityId>
+  <entityTitle>Search</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For managing participant sections, such as classes and rosters, within the site</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.sections</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <help.id>sakai.sections</help.id>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <help.id>sakai.sections</help.id>
+  </registeredConfig>
+  <title>Section Info</title>
+  <entityReference>/tool/sakai.sections</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.sections</entityURL>
+  <entityId>sakai.sections</entityId>
+  <entityTitle>Section Info</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For enabling online registration for meetings and other events</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.signup</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <signup.other.sites.availability>default</signup.other.sites.availability>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <signup.other.sites.availability>default</signup.other.sites.availability>
+  </registeredConfig>
+  <title>Sign-up</title>
+  <entityReference>/tool/sakai.signup</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.signup</entityURL>
+  <entityId>sakai.signup</entityId>
+  <entityTitle>Sign-up</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>myworkspace</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For viewing content from RSS feeds </description>
+  <finalConfig type='map' size='3'>
+    <portlet-name>simple-rss-portlet</portlet-name>
+    <portlet-context>/simple-rss-portlet</portlet-context>
+    <portlet-app-name>/simple-rss-portlet</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.simple.rss</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <feed_url>https://www.sakailms.org/blog-feed.xml</feed_url>
+    <functions.require></functions.require>
+    <allowMultipleInstances>true</allowMultipleInstances>
+    <reset.button>true</reset.button>
+  </mutableConfig>
+  <registeredConfig type='map' size='7'>
+    <feed_url>https://www.sakailms.org/blog-feed.xml</feed_url>
+    <functions.require></functions.require>
+    <portlet-name>simple-rss-portlet</portlet-name>
+    <portlet-context>/simple-rss-portlet</portlet-context>
+    <allowMultipleInstances>true</allowMultipleInstances>
+    <reset.button>true</reset.button>
+    <portlet-app-name>/simple-rss-portlet</portlet-app-name>
+  </registeredConfig>
+  <title>News</title>
+  <entityReference>/tool/sakai.simple.rss</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.simple.rss</entityURL>
+  <entityId>sakai.simple.rss</entityId>
+  <entityTitle>News</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>myworkspace</string>
+  </categories>
+  <description>For viewing and modifying your account details</description>
+  <finalConfig type='map' size='1'>
+    <single-user>true</single-user>
+  </finalConfig>
+  <home/>
+  <id>sakai.singleuser</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <include-password>true</include-password>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <single-user>true</single-user>
+    <include-password>true</include-password>
+  </registeredConfig>
+  <title>Account</title>
+  <entityReference>/tool/sakai.singleuser</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.singleuser</entityURL>
+  <entityId>sakai.singleuser</entityId>
+  <entityTitle>Account</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>portfolio</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For viewing the site participants list</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.site.roster2</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Roster</title>
+  <entityReference>/tool/sakai.site.roster2</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.site.roster2</entityURL>
+  <entityId>sakai.site.roster2</entityId>
+  <entityTitle>Roster</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For finding and viewing summaries of sites</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.sitebrowser</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </registeredConfig>
+  <title>Site Browser</title>
+  <entityReference>/tool/sakai.sitebrowser</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.sitebrowser</entityURL>
+  <entityId>sakai.sitebrowser</entityId>
+  <entityTitle>Site Browser</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='3'>
+    <string>portfolio</string>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For displaying and managing information and settings about the site</description>
+  <finalConfig type='map' size='1'>
+    <site_mode>siteinfo</site_mode>
+  </finalConfig>
+  <home/>
+  <id>sakai.siteinfo</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='6'>
+    <defaultSiteType>project</defaultSiteType>
+    <privateSiteTypes></privateSiteTypes>
+    <functions.require>site.visit</functions.require>
+    <publicChangeableSiteTypes>project</publicChangeableSiteTypes>
+    <publicSiteTypes>course</publicSiteTypes>
+    <siteTypes>course,project</siteTypes>
+  </mutableConfig>
+  <registeredConfig type='map' size='7'>
+    <defaultSiteType>project</defaultSiteType>
+    <privateSiteTypes></privateSiteTypes>
+    <functions.require>site.visit</functions.require>
+    <publicChangeableSiteTypes>project</publicChangeableSiteTypes>
+    <site_mode>siteinfo</site_mode>
+    <publicSiteTypes>course</publicSiteTypes>
+    <siteTypes>course,project</siteTypes>
+  </registeredConfig>
+  <title>Site Info</title>
+  <entityReference>/tool/sakai.siteinfo</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.siteinfo</entityURL>
+  <entityId>sakai.siteinfo</entityId>
+  <entityTitle>Site Info</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For creating and editing sites</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.sites</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </registeredConfig>
+  <title>Sites</title>
+  <entityReference>/tool/sakai.sites</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.sites</entityURL>
+  <entityId>sakai.sites</entityId>
+  <entityTitle>Sites</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>myworkspace</string>
+  </categories>
+  <description>For creating and modifying sites</description>
+  <finalConfig type='map' size='1'>
+    <site_mode>sitesetup</site_mode>
+  </finalConfig>
+  <home/>
+  <id>sakai.sitesetup</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='5'>
+    <defaultSiteType>project</defaultSiteType>
+    <privateSiteTypes></privateSiteTypes>
+    <publicChangeableSiteTypes>project</publicChangeableSiteTypes>
+    <publicSiteTypes>course</publicSiteTypes>
+    <siteTypes>course,project</siteTypes>
+  </mutableConfig>
+  <registeredConfig type='map' size='6'>
+    <defaultSiteType>project</defaultSiteType>
+    <privateSiteTypes></privateSiteTypes>
+    <publicChangeableSiteTypes>project</publicChangeableSiteTypes>
+    <site_mode>sitesetup</site_mode>
+    <publicSiteTypes>course</publicSiteTypes>
+    <siteTypes>course,project</siteTypes>
+  </registeredConfig>
+  <title>Worksite Setup</title>
+  <entityReference>/tool/sakai.sitesetup</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.sitesetup</entityURL>
+  <entityId>sakai.sitesetup</entityId>
+  <entityTitle>Worksite Setup</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For displaying usage statistics about the site by user, event, or resource</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.sitestats</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='2'>
+    <roles.allow>maintain,Instructor</roles.allow>
+    <functions.require>sitestats.view|sitestats.own</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <roles.allow>maintain,Instructor</roles.allow>
+    <functions.require>sitestats.view|sitestats.own</functions.require>
+  </registeredConfig>
+  <title>Statistics</title>
+  <entityReference>/tool/sakai.sitestats</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.sitestats</entityURL>
+  <entityId>sakai.sitestats</entityId>
+  <entityTitle>Statistics</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For statistics management and administration</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.sitestats.admin</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>sitestats.admin.view</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>sitestats.admin.view</functions.require>
+  </registeredConfig>
+  <title>Statistics management</title>
+  <entityReference>/tool/sakai.sitestats.admin</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.sitestats.admin</entityURL>
+  <entityId>sakai.sitestats.admin</entityId>
+  <entityTitle>Statistics management</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>tool</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For logging in as another user</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.su</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Become User</title>
+  <entityReference>/tool/sakai.su</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.su</entityURL>
+  <entityId>sakai.su</entityId>
+  <entityTitle>Become User</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>widget</string>
+  </categories>
+  <description>For viewing a summary of calendar events</description>
+  <finalConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.summary.calendar</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>calendar.read</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='2'>
+    <functions.require>calendar.read</functions.require>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Calendar</title>
+  <entityReference>/tool/sakai.summary.calendar</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.summary.calendar</entityURL>
+  <entityId>sakai.summary.calendar</entityId>
+  <entityTitle>Calendar</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='2'>
+    <string>course</string>
+    <string>project</string>
+  </categories>
+  <description>For posting an outline of the site's information, such as objectives, requirements, policies, and expectations</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.syllabus</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='0'>
+  </registeredConfig>
+  <title>Syllabus</title>
+  <entityReference>/tool/sakai.syllabus</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.syllabus</entityURL>
+  <entityId>sakai.syllabus</entityId>
+  <entityTitle>Syllabus</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>widget</string>
+  </categories>
+  <description>For displaying recent announcements, updated as new events arrive</description>
+  <finalConfig type='map' size='2'>
+    <help.id>sakai.synoptic.announcements</help.id>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.synoptic.announcement</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='8'>
+    <showOnlyOptionsButton>true</showOnlyOptionsButton>
+    <items>3</items>
+    <showAnnouncementBody>false</showAnnouncementBody>
+    <functions.require>annc.read</functions.require>
+    <length>50</length>
+    <channel></channel>
+    <showAllColumns>false</showAllColumns>
+    <days>10</days>
+  </mutableConfig>
+  <registeredConfig type='map' size='10'>
+    <reset.button>false</reset.button>
+    <showOnlyOptionsButton>true</showOnlyOptionsButton>
+    <functions.require>annc.read</functions.require>
+    <length>50</length>
+    <channel></channel>
+    <items>3</items>
+    <days>10</days>
+    <showAllColumns>false</showAllColumns>
+    <showAnnouncementBody>false</showAnnouncementBody>
+    <help.id>sakai.synoptic.announcements</help.id>
+  </registeredConfig>
+  <title>Recent Announcements</title>
+  <entityReference>/tool/sakai.synoptic.announcement</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.synoptic.announcement</entityURL>
+  <entityId>sakai.synoptic.announcement</entityId>
+  <entityTitle>Recent Announcements</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>widget</string>
+  </categories>
+  <description>For displaying recent chat messages, updated as new messages arrive</description>
+  <finalConfig type='map' size='3'>
+    <help.id>sakai.chat</help.id>
+    <message-service>org.sakaiproject.chat.api.ChatService</message-service>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.synoptic.chat</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='7'>
+    <items>3</items>
+    <show-subject>false</show-subject>
+    <functions.require>site.visit</functions.require>
+    <length>50</length>
+    <show-newlines>false</show-newlines>
+    <channel></channel>
+    <days>10</days>
+  </mutableConfig>
+  <registeredConfig type='map' size='10'>
+    <reset.button>false</reset.button>
+    <functions.require>site.visit</functions.require>
+    <length>50</length>
+    <show-subject>false</show-subject>
+    <message-service>org.sakaiproject.chat.api.ChatService</message-service>
+    <channel></channel>
+    <items>3</items>
+    <show-newlines>false</show-newlines>
+    <days>10</days>
+    <help.id>sakai.chat</help.id>
+  </registeredConfig>
+  <title>Recent Chat Messages</title>
+  <entityReference>/tool/sakai.synoptic.chat</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.synoptic.chat</entityURL>
+  <entityId>sakai.synoptic.chat</entityId>
+  <entityTitle>Recent Chat Messages</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>widget</string>
+  </categories>
+  <description>For displaying unread discussion and forum topic messages for all sites or a site</description>
+  <finalConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </finalConfig>
+  <home/>
+  <id>sakai.synoptic.messagecenter</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='0'>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <reset.button>false</reset.button>
+  </registeredConfig>
+  <title>Message Center Notifications</title>
+  <entityReference>/tool/sakai.synoptic.messagecenter</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.synoptic.messagecenter</entityURL>
+  <entityId>sakai.synoptic.messagecenter</entityId>
+  <entityTitle>Message Center Notifications</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For managing tags and collections of tags</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.tagservice</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>tagservice.manage</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>tagservice.manage</functions.require>
+  </registeredConfig>
+  <title>Tags Service</title>
+  <entityReference>/tool/sakai.tagservice</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.tagservice</entityURL>
+  <entityId>sakai.tagservice</entityId>
+  <entityTitle>Tags Service</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.helper</string>
+  </categories>
+  <description>For showing changes to user membership in a site</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.useraudit</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <functions.require>site.upd</functions.require>
+  </registeredConfig>
+  <title>Site User Audit Event Log</title>
+  <entityReference>/tool/sakai.useraudit</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.useraudit</entityURL>
+  <entityId>sakai.useraudit</entityId>
+  <entityTitle>Site User Audit Event Log</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>sakai.admin</string>
+  </categories>
+  <description>For retrieving site membership information about users</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.usermembership</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='4'>
+    <userType.limitToList></userType.limitToList>
+    <help.id>sakai.usermembership</help.id>
+    <functions.require>usermembership.view</functions.require>
+    <userType.limitToSelf>false</userType.limitToSelf>
+  </mutableConfig>
+  <registeredConfig type='map' size='4'>
+    <userType.limitToList></userType.limitToList>
+    <help.id>sakai.usermembership</help.id>
+    <functions.require>usermembership.view</functions.require>
+    <userType.limitToSelf>false</userType.limitToSelf>
+  </registeredConfig>
+  <title>User Membership</title>
+  <entityReference>/tool/sakai.usermembership</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.usermembership</entityURL>
+  <entityId>sakai.usermembership</entityId>
+  <entityTitle>User Membership</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='0'>
+  </categories>
+  <description>For editing local user accounts</description>
+  <finalConfig type='map' size='0'>
+  </finalConfig>
+  <home/>
+  <id>sakai.users</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </mutableConfig>
+  <registeredConfig type='map' size='1'>
+    <pagesize>20</pagesize>
+  </registeredConfig>
+  <title>Users</title>
+  <entityReference>/tool/sakai.users</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.users</entityURL>
+  <entityId>sakai.users</entityId>
+  <entityTitle>Users</entityTitle>
+</tool>
+<tool type='bean' size='14'>
+  <access>portal</access>
+  <categories type='collection' size='1'>
+    <string>stealth</string>
+  </categories>
+  <description>For accessing an external website within the site.</description>
+  <finalConfig type='map' size='3'>
+    <portlet-name>SakaiIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet-basiclti</portlet-context>
+    <portlet-app-name>/sakai-web-portlet-basiclti</portlet-app-name>
+  </finalConfig>
+  <home/>
+  <id>sakai.web.168</id>
+  <keywords type='collection' size='0'>
+  </keywords>
+  <mutableConfig type='map' size='3'>
+    <height>600px</height>
+    <functions.require></functions.require>
+    <source></source>
+  </mutableConfig>
+  <registeredConfig type='map' size='6'>
+    <height>600px</height>
+    <functions.require></functions.require>
+    <portlet-name>SakaiIFrame</portlet-name>
+    <portlet-context>/sakai-web-portlet-basiclti</portlet-context>
+    <source></source>
+    <portlet-app-name>/sakai-web-portlet-basiclti</portlet-app-name>
+  </registeredConfig>
+  <title>Web Portlet</title>
+  <entityReference>/tool/sakai.web.168</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/tool/sakai.web.168</entityURL>
+  <entityId>sakai.web.168</entityId>
+  <entityTitle>Web Portlet</entityTitle>
+</tool>
+</tool_collection>

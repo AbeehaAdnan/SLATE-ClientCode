@@ -1,0 +1,105 @@
+
+
+
+
+ 
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+<title>Edit</title>
+<link href="../../../library/skin/morpheus-default/portal.css%3Fversion=f43f07d9.css" type="text/css" rel="stylesheet" media="screen, tty, tv, handheld, projection" />
+<link href="../../../library/skin/tool_base.css%3Fversion=f43f07d9.css" type="text/css" rel="stylesheet" media="screen, tty, tv, handheld, projection" />
+<link href="../../../library/skin/morpheus-default/tool.css%3Fversion=f43f07d9.css" type="text/css" rel="stylesheet" media="screen, tty, tv, handheld, projection" />
+<link href="../../../library/skin/morpheus-default/print.css%3Fversion=f43f07d9.css" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="../../../library/js/headscripts.js%3Fversion=f43f07d9"></script>
+<script type="text/javascript">var sakai = sakai || {}; sakai.editor = sakai.editor || {}; sakai.editor.editors = sakai.editor.editors || {}; sakai.editor.editors.ckeditor = sakai.editor.editors.ckeditor || {}; sakai.locale = sakai.locale || {};
+sakai.locale.userCountry = 'US';
+sakai.locale.userLanguage = 'en';
+sakai.locale.userLocale = 'en_US';
+sakai.editor.collectionId = '/group/null/';
+sakai.editor.enableResourceSearch = false;
+sakai.editor.contentItemUrl = false;
+sakai.editor.siteToolSkin = '/library/skin/morpheus-default/tool.css';
+sakai.editor.sitePrintSkin = '/library/skin/morpheus-default/print.css';
+sakai.editor.editors.ckeditor.browser = 'elfinder';
+</script>
+<script type="text/javascript">var CKEDITOR_BASEPATH='/library/webjars/ckeditor/4.13.1/full/';
+</script>
+<script type="text/javascript" src="../../../library/webjars/ckeditor/4.13.1/full/ckeditor.js%3Fversion=f43f07d9"></script>
+<script type="text/javascript" src="../../../library/editor/ckeditor.launch.js%3Fversion=f43f07d9"></script>
+</head>
+<body onload="setMainFrameHeight('Mainhelp');setFocus(focus_path);">
+<div class="portletBody">
+
+<script type="text/javascript">
+ function clearText(thefield) { if (thefield.defaultValue == thefield.value) thefield.value = ""; else thefield.value = thefield.defaultValue }
+</script>
+
+<div id="message" style="padding: 2px; background:#000000 none repeat scroll 0%; position: absolute; z-index: 3; 
+-moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; color: white; font-size: 
+90%; top: 1px; left: 1px; display: none;">
+Searching.....please wait
+</div>  
+
+<form id="helpSearchForm" method="post" action="main.html" enctype="application/x-www-form-urlencoded">
+
+      
+      <br/>
+      
+	
+	
+		
+			
+		
+		
+		
+		 
+			
+		
+    <h1 style="font-size:1em;padding:0;margin:0">Search Help</h1><label for="helpSearchForm:searchField" class="skip">
+Search Help</label><input id="helpSearchForm:searchField" type="text" name="helpSearchForm:searchField" value="enter search term" onclick="clearText(this)" /><input id="helpSearchForm:searchButton" type="submit" name="helpSearchForm:searchButton" value="Search" onclick="clearFormHiddenParams_helpSearchForm(this.form.id);document.getElementById('message').style.display = 'block';" /><script type="text/javascript">if (document.layers) 
+document.captureEvents(Event.KEYDOWN); 
+document.onkeydown =function (evt) 
+ { var keyCode = evt ? (evt.which ? evt.which : evt.keyCode) : event.keyCode; 
+var eventTarget = evt ? evt.target : event.srcElement;  
+var textField = eventTarget.type == 'text';  
+if (keyCode == 13 && textField) { 
+ document.getElementById('helpSearchForm:searchButton').click();return false; }  
+else  return true; }</script>
+<input type="hidden" name="com.sun.faces.VIEW" id="com.sun.faces.VIEW" value="_id46307:_id46308" /><input type="hidden" name="helpSearchForm" value="helpSearchForm" />
+<script type="text/javascript">
+<!--
+function clearFormHiddenParams_helpSearchForm(curFormName) {
+  var curForm = document.forms[curFormName];
+}
+//-->
+</script>
+</form>
+<fieldset><legend></legend>
+
+    
+    
+	    
+	    	
+  	      
+	    	
+	  		
+			    
+			  
+		
+		
+			
+		
+    <table class="listHier" border="0" summary="List of search results. Column 1: link to article; column 2: relevance.">
+<tbody>
+</tbody>
+</table>
+
+</fieldset>
+</div></body></html>
+
+

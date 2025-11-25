@@ -1,0 +1,22 @@
+{
+  "createdDate": null,
+  "displayId": null,
+  "displayName": null,
+  "eid": null,
+  "email": "",
+  "firstName": "",
+  "id": "",
+  "lastModified": 1764078293671,
+  "lastName": "",
+  "modifiedDate": null,
+  "owner": "\/user\/",
+  "password": null,
+  "props": null,
+  "reference": "\/user\/",
+  "sortName": null,
+  "type": null,
+  "url": "http:\/\/slate.nu.edu.pk\/access\/user",
+  "entityReference": "\/user",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/user",
+  "entityTitle": "current"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+    <h3 style='margin-bottom: 0.3em;'><a href='describe.html'>forums</a> (<a href='describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Provides a set of RESTful endpoints for retrieving single fora, site collections of fora , individual topics (collections of conversations) and messages with their children. An example workflow would be to call the site action with /direct/forums/site/SITEID.json for the top level fora in a site, then to use /direct/forums/site/SITEID/forum/FORUMID.json to get an individual forum to the topic level. After that you would use /direct/forums/site/SITEID/forum/FORUMID/topic/TOPICID.json to get a topic, basicallya set of conversations, then you would call /direct/forums/site/SITEID/forum/FORUMID/topic/TOPICID/message/MESSAGEID.json to get a fully populated message with attachments and children.</div>
+      <div style='font-style: italic; padding-left:1em;'>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></div>
+      <div style='font-style: italic; padding-left:2em; font-size:0.9em;'>HTTP response codes as returned by the system: <br/> 200 - OK (request is ok and content returned) <br/> 201 - CREATED (request created new content, URL and id of content in the header) <br/> 204 - NO CONTENT (request is ok but no content to return) <br/> 400 - ERROR (general error in the request, probably invalid parameters or data) <br/> 401 - UNAUTHORIZED (user authentication required for this request) <br/> 403 - FORBIDDEN (authorization required, insufficient privileges, user is already authenticated) <br/> 404 - NOT FOUND (resource not found, URL is invalid in some way, id or action are invalid) <br/> 405 - METHOD NOT ALLOWED (the method is not supported for this entity type) <br/> 406 - NOT ACCEPTABLE (the data format requested is unavailable for this entity type) <br/> 500 - INTERNAL SERVER ERROR (general server failure, probably a failure in the provider) <br/> 501 - NOT IMPLEMENTED (indicates that a prefix is invalid)</div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Custom Actions</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/forums/site'>site</a> : <span>list (GET)</span> : <span>[/forums/site]</span>  (<a href='http://slate.nu.edu.pk/direct/forums/site.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/forums/site.xml'>xml</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>(GET) Retrieves fora, topics and conversations for a given site id. <br /><br />Get all fora for a site:<br /> /direct/forums/site/SITEID.json<br /> <br />Get all topics for a forum:<br /> /direct/forums/site/SITEID/forum/FORUMID.json<br /><br /> Get all conversations for a topic:<br /> /direct/forums/site/SITEID/forum/FORUMID/topic/TOPICID.json <br /><br />Get a fully populated conversation or message. This retrieves the message tree from the specified message downwards. If the MESSAGEID is the top level message in a conversation, the entire conversation is returned.<br /> /direct/forums/site/SITEID/forum/FORUMID/topic/TOPICID/message/MESSAGEID.json</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/forums/messages'>messages</a> : <span>list (GET)</span> : <span>[/forums/messages]</span>  (<a href='http://slate.nu.edu.pk/direct/forums/messages.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/forums/messages.xml'>xml</a>)<br/>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Data and Request Handling</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>Output formats : json, xml</div>
+        <div>Input formats : <i>No formats allowed</i></div>
+        <div style='font-style:italic;padding-left:1em'>No Access Provider registered for request processing</div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Capabilities</h4>
+      <table width='95%' style='padding-left:1.5em;'>
+        <tr style='font-size:0.9em;'><th width='1%'></th><th width='14%'>Name</th><th width='30%'>Type</th><th width='55%'>Description</th></tr>
+        <tr style='font-size:0.9em;'><td>1</td><td>EntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.EntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>2</td><td>ActionsExecutable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>3</td><td>AutoRegisterEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>4</td><td>Describeable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>5</td><td>Outputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</td><td></td></tr>
+      </table>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

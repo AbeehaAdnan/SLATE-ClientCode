@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server-config_collection entityPrefix="server-config">
+<server-config type='bean' size='6'>
+  <name>accessPath</name>
+  <type>string</type>
+  <value>/access</value>
+  <entityReference>/server-config/accessPath</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/accessPath</entityURL>
+  <entityId>accessPath</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>accessUrl</name>
+  <type>string</type>
+  <value>http://slate.nu.edu.pk/access</value>
+  <entityReference>/server-config/accessUrl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/accessUrl</entityURL>
+  <entityId>accessUrl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>auto.ddl</name>
+  <type>boolean</type>
+  <value type='boolean'>false</value>
+  <entityReference>/server-config/auto.ddl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/auto.ddl</entityURL>
+  <entityId>auto.ddl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>buildTime.kernel</name>
+  <type>string</type>
+  <value></value>
+  <entityReference>/server-config/buildTime.kernel</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/buildTime.kernel</entityURL>
+  <entityId>buildTime.kernel</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>database.vendor</name>
+  <type>string</type>
+  <value>oracle</value>
+  <entityReference>/server-config/database.vendor</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/database.vendor</entityURL>
+  <entityId>database.vendor</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>display.users.present</name>
+  <type>boolean</type>
+  <value type='boolean'>true</value>
+  <entityReference>/server-config/display.users.present</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/display.users.present</entityURL>
+  <entityId>display.users.present</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>force.url.secure</name>
+  <type>string</type>
+  <value></value>
+  <entityReference>/server-config/force.url.secure</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/force.url.secure</entityURL>
+  <entityId>force.url.secure</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>gatewaySiteId</name>
+  <type>string</type>
+  <value>!gateway</value>
+  <entityReference>/server-config/gatewaySiteId</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/gatewaySiteId</entityURL>
+  <entityId>gatewaySiteId</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>locales</name>
+  <type>string</type>
+  <value>en_US</value>
+  <entityReference>/server-config/locales</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/locales</entityURL>
+  <entityId>locales</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>loggedOutUrl</name>
+  <type>string</type>
+  <value>http://slate.nu.edu.pk/portal</value>
+  <entityReference>/server-config/loggedOutUrl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/loggedOutUrl</entityURL>
+  <entityId>loggedOutUrl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>portalPath</name>
+  <type>string</type>
+  <value>/portal</value>
+  <entityReference>/server-config/portalPath</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/portalPath</entityURL>
+  <entityId>portalPath</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>portalUrl</name>
+  <type>string</type>
+  <value>http://slate.nu.edu.pk/portal</value>
+  <entityReference>/server-config/portalUrl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/portalUrl</entityURL>
+  <entityId>portalUrl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverHostAddress</name>
+  <type>string</type>
+  <value>192.168.1.121</value>
+  <entityReference>/server-config/serverHostAddress</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverHostAddress</entityURL>
+  <entityId>serverHostAddress</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverHostName</name>
+  <type>string</type>
+  <value>Slate-App1</value>
+  <entityReference>/server-config/serverHostName</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverHostName</entityURL>
+  <entityId>serverHostName</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverId</name>
+  <type>string</type>
+  <value>s1</value>
+  <entityReference>/server-config/serverId</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverId</entityURL>
+  <entityId>serverId</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverIdInstance</name>
+  <type>string</type>
+  <value>s1-1762466196054</value>
+  <entityReference>/server-config/serverIdInstance</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverIdInstance</entityURL>
+  <entityId>serverIdInstance</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverInstance</name>
+  <type>string</type>
+  <value>1762466196054</value>
+  <entityReference>/server-config/serverInstance</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverInstance</entityURL>
+  <entityId>serverInstance</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverName</name>
+  <type>string</type>
+  <value>nu.edu.pk</value>
+  <entityReference>/server-config/serverName</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverName</entityURL>
+  <entityId>serverName</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>serverUrl</name>
+  <type>string</type>
+  <value>http://slate.nu.edu.pk</value>
+  <entityReference>/server-config/serverUrl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/serverUrl</entityURL>
+  <entityId>serverUrl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>skin.default</name>
+  <type>string</type>
+  <value>morpheus-default</value>
+  <entityReference>/server-config/skin.default</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/skin.default</entityURL>
+  <entityId>skin.default</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>skin.repo</name>
+  <type>string</type>
+  <value>/library/skin</value>
+  <entityReference>/server-config/skin.repo</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/skin.repo</entityURL>
+  <entityId>skin.repo</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>toolUrl</name>
+  <type>string</type>
+  <value>http://slate.nu.edu.pk/portal/tool</value>
+  <entityReference>/server-config/toolUrl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/toolUrl</entityURL>
+  <entityId>toolUrl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>ui.institution</name>
+  <type>string</type>
+  <value></value>
+  <entityReference>/server-config/ui.institution</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/ui.institution</entityURL>
+  <entityId>ui.institution</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>ui.service</name>
+  <type>string</type>
+  <value>SLATE</value>
+  <entityReference>/server-config/ui.service</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/ui.service</entityURL>
+  <entityId>ui.service</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>userHomeUrl</name>
+  <type>string</type>
+  <value>http://slate.nu.edu.pk/portal/site/~#UID#</value>
+  <entityReference>/server-config/userHomeUrl</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/userHomeUrl</entityURL>
+  <entityId>userHomeUrl</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>version.sakai</name>
+  <type>string</type>
+  <value>20.3</value>
+  <entityReference>/server-config/version.sakai</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/version.sakai</entityURL>
+  <entityId>version.sakai</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>version.service</name>
+  <type>string</type>
+  <value>f43f07d9</value>
+  <entityReference>/server-config/version.service</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/version.service</entityURL>
+  <entityId>version.service</entityId>
+</server-config>
+<server-config type='bean' size='6'>
+  <name>webdav.ignore</name>
+  <type>string</type>
+  <value>[Ljava.lang.String;@279b95bf</value>
+  <entityReference>/server-config/webdav.ignore</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/server-config/webdav.ignore</entityURL>
+  <entityId>webdav.ignore</entityId>
+</server-config>
+</server-config_collection>

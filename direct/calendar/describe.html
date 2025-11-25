@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+    <h3 style='margin-bottom: 0.3em;'><a href='describe.html'>calendar</a> (<a href='describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents calendar events.</div>
+      <div style='font-style: italic; padding-left:1em;'>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></div>
+      <div style='font-style: italic; padding-left:2em; font-size:0.9em;'>HTTP response codes as returned by the system: <br/> 200 - OK (request is ok and content returned) <br/> 201 - CREATED (request created new content, URL and id of content in the header) <br/> 204 - NO CONTENT (request is ok but no content to return) <br/> 400 - ERROR (general error in the request, probably invalid parameters or data) <br/> 401 - UNAUTHORIZED (user authentication required for this request) <br/> 403 - FORBIDDEN (authorization required, insufficient privileges, user is already authenticated) <br/> 404 - NOT FOUND (resource not found, URL is invalid in some way, id or action are invalid) <br/> 405 - METHOD NOT ALLOWED (the method is not supported for this entity type) <br/> 406 - NOT ACCEPTABLE (the data format requested is unavailable for this entity type) <br/> 500 - INTERNAL SERVER ERROR (general server failure, probably a failure in the provider) <br/> 501 - NOT IMPLEMENTED (indicates that a prefix is invalid)</div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Custom Actions</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/calendar/site'>site</a> : <span>list (GET)</span> : <span>[/calendar/site]</span>  (<a href='http://slate.nu.edu.pk/direct/calendar/site.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/calendar/site.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/calendar/site.html'>html</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Retrieve the calendar events for a site. The request url pattern: /direct/calendar/site/{siteId}.{format} Optional query params: firstDate, ISO-8601 yyyy-MM-dd format. Used for filtering. lastDate, ISO-8601 yyyy-MM-dd format. Used for filtering.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/calendar/my'>my</a> : <span>list (GET)</span> : <span>[/calendar/my]</span>  (<a href='my.json'>json</a>) (<a href='my.xml'>xml</a>) (<a href='my.html'>html</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Retrieve all my calendar events for all of my sites. The request url pattern: /direct/calendar/my.{format} Optional query params: firstDate, ISO-8601 yyyy-MM-dd format. Used for filtering. lastDate, ISO-8601 yyyy-MM-dd format. Used for filtering.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/calendar/event'>event</a> : <span>list (GET)</span> : <span>[/calendar/event]</span>  (<a href='http://slate.nu.edu.pk/direct/calendar/event.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/calendar/event.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/calendar/event.html'>html</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Retrieve a calendar event details specified by the site id and event id. The request url pattern: /direct/calendar/event/{siteId}/{eventId}.{format}</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Entity class : org.sakaiproject.calendar.entityproviders.CalendarEventSummary</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div><b>Type :: bean</b></div>
+        <table width='80%' cellpadding='0' cellspacing='0'>
+          <thead>
+            <tr>
+              <td width='1%'></td>
+              <td>Name</td>
+              <td>Type</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1)&nbsp;</td><td style='font-weight:bold;'>assignmentId</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>2)&nbsp;</td><td style='font-weight:bold;'>creator</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>3)&nbsp;</td><td style='font-weight:bold;'>description</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>4)&nbsp;</td><td style='font-weight:bold;'>duration</td><td>long</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>5)&nbsp;</td><td style='font-weight:bold;'>eventIcon</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>6)&nbsp;</td><td style='font-weight:bold;'>eventId</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>7)&nbsp;</td><td style='font-weight:bold;'>firstTime</td><td>org.sakaiproject.time.api.Time</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>8)&nbsp;</td><td style='font-weight:bold;'>recurrenceRule</td><td>org.sakaiproject.calendar.api.RecurrenceRule</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>9)&nbsp;</td><td style='font-weight:bold;'>reference</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>10)&nbsp;</td><td style='font-weight:bold;'>siteId</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>11)&nbsp;</td><td style='font-weight:bold;'>siteName</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>12)&nbsp;</td><td style='font-weight:bold;'>title</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>13)&nbsp;</td><td style='font-weight:bold;'>type</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Data and Request Handling</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>Output formats : json, xml, html</div>
+        <div>Input formats : <i>No formats allowed</i></div>
+        <div style='font-style:italic;padding-left:1em'>No Access Provider registered for request processing</div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Capabilities</h4>
+      <table width='95%' style='padding-left:1.5em;'>
+        <tr style='font-size:0.9em;'><th width='1%'></th><th width='14%'>Name</th><th width='30%'>Type</th><th width='55%'>Description</th></tr>
+        <tr style='font-size:0.9em;'><td>1</td><td>EntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.EntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>2</td><td>ActionsExecutable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>3</td><td>AutoRegisterEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>4</td><td>Describeable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>5</td><td>Outputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>6</td><td>Sampleable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Sampleable</td><td></td></tr>
+      </table>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

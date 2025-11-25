@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>polls</prefix>
+      <describeURL>/direct/polls/describe</describeURL>
+      <summary>Represents polls, options (choices), and votes of the poll tool. </summary>
+      <customActions>
+        <customAction>
+          <action>option-create</action>
+          <url>/direct/polls/option-create</url>
+          <method>POST</method>
+          <viewKey>new</viewKey>
+          <description>Creates an new option (choice) in a poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>poll-view</action>
+          <url>/direct/polls/:ID:/poll-view</url>
+          <method>GET</method>
+          <viewKey>show</viewKey>
+          <description>Gets a single poll by the pollId (the long, not the UUID string), returns only the poll itself by default, add in the options using 'includeOptions' (boolean), add in the votes using 'includeVotes' (boolean)</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>vote-view</action>
+          <url>/direct/polls/:ID:/vote-view</url>
+          <method>GET</method>
+          <viewKey>show</viewKey>
+          <description>Gets a vote for a specific poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>vote-create</action>
+          <url>/direct/polls/vote-create</url>
+          <method>POST</method>
+          <viewKey>new</viewKey>
+          <description>Vote for a specific poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>vote-list</action>
+          <url>/direct/polls/vote-list</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>Gets all the votes for a specific poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>poll-create</action>
+          <url>/direct/polls/poll-create</url>
+          <method>POST</method>
+          <viewKey>new</viewKey>
+          <description>Creates a new poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>poll-update</action>
+          <url>/direct/polls/:ID:/poll-update</url>
+          <method>PUT</method>
+          <viewKey>edit</viewKey>
+          <description>Updates an existing poll by the pollId (the long, not the UUID string)</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>my</action>
+          <url>/direct/polls/my</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>Gets all the polls that the current user can take in all sites, limit to a specific site using 'siteId' or 'siteReference', switch to the polls a user can control (administrate) using 'admin' (boolean) set to true</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>poll-option-list</action>
+          <url>/direct/polls/:ID:/poll-option-list</url>
+          <method>GET</method>
+          <viewKey>show</viewKey>
+          <description>Gets all the options for a specific poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>option-update</action>
+          <url>/direct/polls/:ID:/option-update</url>
+          <method>PUT</method>
+          <viewKey>edit</viewKey>
+          <description>Updates an option (choice) in a poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>site</action>
+          <url>/direct/polls/site</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>Gets all the polls the current user can take in the given site</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>option-delete</action>
+          <url>/direct/polls/:ID:/option-delete</url>
+          <method>GET</method>
+          <viewKey>show</viewKey>
+          <description>an option (choice) in a poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>poll-delete</action>
+          <url>/direct/polls/:ID:/poll-delete</url>
+          <method>GET</method>
+          <viewKey>show</viewKey>
+          <description>Deletes an existing poll by the pollId (the long, not the UUID string)</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>vote</action>
+          <url>/direct/polls/vote</url>
+          <method>POST</method>
+          <viewKey>new</viewKey>
+          <description>Vote for a specific poll</description>
+        </customAction>
+      </customActions>
+      <customActions>
+        <customAction>
+          <action>option-view</action>
+          <url>/direct/polls/:ID:/option-view</url>
+          <method>GET</method>
+          <viewKey>show</viewKey>
+          <description>Gets an option (choice) in a poll</description>
+        </customAction>
+      </customActions>
+      <outputFormats>
+        <format>xml</format>
+        <format>json</format>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>ActionsExecutable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>Outputable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</type>
+        </capability>
+        <capability>
+          <name>RequestStorable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.RequestStorable</type>
+        </capability>
+      </capabilities>
+    </prefix>

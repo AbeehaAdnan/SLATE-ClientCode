@@ -1,0 +1,19 @@
+{
+  "attributeNames": {
+    "iterator": {
+      "locked": false
+    }
+  },
+  "attributes": null,
+  "creationTime": 1764078248368,
+  "currentTime": 1764078248368,
+  "id": null,
+  "lastAccessedTime": 1764078248368,
+  "maxInactiveInterval": 1800,
+  "userEid": null,
+  "userId": null,
+  "active": true,
+  "entityReference": "\/session",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/session",
+  "entityTitle": "current"
+}

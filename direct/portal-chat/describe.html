@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+    <h3 style='margin-bottom: 0.3em;'><a href='describe.html'>portal-chat</a> (<a href='describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Presents an HTTP interface onto Sakai's portal chat system.</div>
+      <div style='font-style: italic; padding-left:1em;'>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></div>
+      <div style='font-style: italic; padding-left:2em; font-size:0.9em;'>HTTP response codes as returned by the system: <br/> 200 - OK (request is ok and content returned) <br/> 201 - CREATED (request created new content, URL and id of content in the header) <br/> 204 - NO CONTENT (request is ok but no content to return) <br/> 400 - ERROR (general error in the request, probably invalid parameters or data) <br/> 401 - UNAUTHORIZED (user authentication required for this request) <br/> 403 - FORBIDDEN (authorization required, insufficient privileges, user is already authenticated) <br/> 404 - NOT FOUND (resource not found, URL is invalid in some way, id or action are invalid) <br/> 405 - METHOD NOT ALLOWED (the method is not supported for this entity type) <br/> 406 - NOT ACCEPTABLE (the data format requested is unavailable for this entity type) <br/> 500 - INTERNAL SERVER ERROR (general server failure, probably a failure in the provider) <br/> 501 - NOT IMPLEMENTED (indicates that a prefix is invalid)</div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Sample Entity URLs (_id=':ID:') [may not be valid]:</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <div>Create Entity URL: POST <a href='http://slate.nu.edu.pk/direct/portal-chat'>/portal-chat</a></div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 201 plus id (EntityId); 400 if inputs invalid</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:2em;'>The URL format is "/direct/portal-chat/new" <br/> Send a message to another user. Takes two parameters, 'to' (a Sakai user id) and 'message'.</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Custom Actions</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/servers'>servers</a> : <span>show (GET)</span> : <span>[/portal-chat/:ID:/servers]</span>  (<a href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/servers.txt'>txt</a>) (<a href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/servers.json'>json</a>)<br/>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/latestData'>latestData</a> : <span>show (GET)</span> : <span>[/portal-chat/:ID:/latestData]</span>  (<a href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/latestData.txt'>txt</a>) (<a href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/latestData.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>The URL format is "/direct/portal-chat/ANYTHING/latestData.json?online=true&siteId=SITEID". <br/> Grabs all the latest data for the currently logged in user. This operation will also optionally set the heartbeat for the current user.<br/> If you don't want to show up in chattable lists, pass false for online and you'll be hidden from others. The latestData operation retrieves your connections, your messages, and, if you specify a siteId parameter, the list of users currently in that site.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/ping'>ping</a> : <span>show (GET)</span> : <span>[/portal-chat/:ID:/ping]</span>  (<a href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/ping.txt'>txt</a>) (<a href='http://slate.nu.edu.pk/direct/portal-chat/:ID:/ping.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>The URL format is "/direct/portal-chat/USERTOPING/ping" where USERTOPING is a Sakai user id. <br/> Returns the string "success" if an email is successfully sent to the user.</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Entity class : org.sakaiproject.portal.chat.entity.PCServiceEntityProvider$UserMessage</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div><b>Type :: bean</b></div>
+        <table width='80%' cellpadding='0' cellspacing='0'>
+          <thead>
+            <tr>
+              <td width='1%'></td>
+              <td>Name</td>
+              <td>Type</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1)&nbsp;</td><td style='font-weight:bold;'>clear</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>2)&nbsp;</td><td style='font-weight:bold;'>content</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>3)&nbsp;</td><td style='font-weight:bold;'>from</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>4)&nbsp;</td><td style='font-weight:bold;'>fromConnection</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>5)&nbsp;</td><td style='font-weight:bold;'>siteId</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>6)&nbsp;</td><td style='font-weight:bold;'>timestamp</td><td>long</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>7)&nbsp;</td><td style='font-weight:bold;'>to</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>8)&nbsp;</td><td style='font-weight:bold;'>video</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Data and Request Handling</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>Output formats : txt, json</div>
+        <div>Input formats : html</div>
+        <div style='font-style:italic;padding-left:1em'>No Access Provider registered for request processing</div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Capabilities</h4>
+      <table width='95%' style='padding-left:1.5em;'>
+        <tr style='font-size:0.9em;'><th width='1%'></th><th width='14%'>Name</th><th width='30%'>Type</th><th width='55%'>Description</th></tr>
+        <tr style='font-size:0.9em;'><td>1</td><td>EntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.EntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>2</td><td>ActionsExecutable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>3</td><td>AutoRegisterEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>4</td><td>Createable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Createable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>5</td><td>Describeable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>6</td><td>Inputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Inputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>7</td><td>Outputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>8</td><td>Sampleable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Sampleable</td><td></td></tr>
+      </table>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

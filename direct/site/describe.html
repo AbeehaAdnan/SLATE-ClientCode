@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+    <h3 style='margin-bottom: 0.3em;'><a href='describe.html'>site</a> (<a href='describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a site (a collection of users and tools) in the Sakai system</div>
+      <div style='font-style: italic; padding-left:1em;'>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></div>
+      <div style='font-style: italic; padding-left:2em; font-size:0.9em;'>HTTP response codes as returned by the system: <br/> 200 - OK (request is ok and content returned) <br/> 201 - CREATED (request created new content, URL and id of content in the header) <br/> 204 - NO CONTENT (request is ok but no content to return) <br/> 400 - ERROR (general error in the request, probably invalid parameters or data) <br/> 401 - UNAUTHORIZED (user authentication required for this request) <br/> 403 - FORBIDDEN (authorization required, insufficient privileges, user is already authenticated) <br/> 404 - NOT FOUND (resource not found, URL is invalid in some way, id or action are invalid) <br/> 405 - METHOD NOT ALLOWED (the method is not supported for this entity type) <br/> 406 - NOT ACCEPTABLE (the data format requested is unavailable for this entity type) <br/> 500 - INTERNAL SERVER ERROR (general server failure, probably a failure in the provider) <br/> 501 - NOT IMPLEMENTED (indicates that a prefix is invalid)</div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Sample Entity URLs (_id=':ID:') [may not be valid]:</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <div>Entity Collection URL: GET <a href='http://slate.nu.edu.pk/direct/site'>/site</a> (<a href='../site.xml'>xml</a>) (<a href='../site.json'>json</a>) (<a href='../site.html'>html</a>) (<a href='../site.form.html'>form</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 200 plus data; 404 if not found, 406 if format unavailable</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:2em;'>Retrieves the list of all sites that the current user can access. Supply a value for '_limit' to specify how many sites should be returned. Note that there is a system maximum that will override a specified value if it is larger than allowed. Supply a value for '_start' to page through results in multiple requests. For example, with 42 sites, requests with '_start' = 1, '_limit' = 50 and then '_start' = 51, '_limit' = 50 could be used to retrieve the first batch of 42 sites and the second being empty would signify the end of available results.</div>
+        </div>
+        <div>
+          <div>Create Entity URL: POST <a href='http://slate.nu.edu.pk/direct/site'>/site</a> (<a href='../site.form.html'>form</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 201 plus id (EntityId); 400 if inputs invalid</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:2em;'>Adding a site will always set the owner/created by to the current user unless 'owner' is set to a userId, the minimum to create a site is the id and the type, all other fields are optional</div>
+        </div>
+        <div>
+          <div>Show Entity URL: GET <a href='http://slate.nu.edu.pk/direct/site/:ID:'>/site/:ID:</a> (<a href='http://slate.nu.edu.pk/direct/site/:ID:.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:.form'>form</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 200 plus data; 404 if not found, 406 if format unavailable</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:2em;'>Allows viewing of data from a single site, use 'includeGroups' (boolean) to also get the groups data with the site</div>
+        </div>
+        <div>
+          <div>Update Entity URL: PUT <a href='http://slate.nu.edu.pk/direct/site/:ID:'>/site/:ID:</a> (<a href='http://slate.nu.edu.pk/direct/site/:ID:.form'>form</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 204; 400 if inputs invalid</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:2em;'>Can update all writeable fields in the site including owner</div>
+        </div>
+        <div>
+          <div>Delete Entity URL: DELETE <a href='http://slate.nu.edu.pk/direct/site/:ID:'>/site/:ID:</a> (<a href='http://slate.nu.edu.pk/direct/site/:ID:.form'>form</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 204; 404 if not found</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Custom Actions</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/role'>role</a> : <span>*</span> : <span>[/site/role]</span>  (<a href='http://slate.nu.edu.pk/direct/site/role.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/role.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/role.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/role.form'>form</a>)<br/>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/:ID:/pages'>pages</a> : <span>show (GET)</span> : <span>[/site/:ID:/pages]</span>  (<a href='http://slate.nu.edu.pk/direct/site/:ID:/pages.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/pages.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/pages.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/pages.form'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows retrieval of all pages and tools in a site, use "props" (true/false, default false) to include page properties, use "config" (true/false, default false) to include tool configurations</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/:ID:/setPerms'>setPerms</a> : <span>edit (PUT)</span> : <span>[/site/:ID:/setPerms]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows the setting of the permissions for the specified site by posting to the url /site/:SITEID:/setPerms. This is done by passing a set of post parameters where the key takes the form of 'ROLEID:FUNCTION' and the value is a boolean 'true' or 'false'. For example, passing the parameter 'maintain:blog.post.create=true' would switch the blog.post.create function on for the maintain role in the specified site.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/:ID:/exists'>exists</a> : <span>show (GET)</span> : <span>[/site/:ID:/exists]</span>  (<a href='http://slate.nu.edu.pk/direct/site/:ID:/exists.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/exists.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/exists.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/exists.form'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Returns an empty 200 if the site exists, and a failure (possibly 404) if it does not. <br/> Note that you can also check this by simply using the show view of a site but that returns the site information as well so this is faster</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/groups'>groups</a> : <span>*</span> : <span>[/site/groups]</span>  (<a href='http://slate.nu.edu.pk/direct/site/groups.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/groups.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/groups.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/groups.form'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows access to the groups for a site using a url like: /site/siteId/groups. <br/> (GET) /direct/site/siteid/groups - gets metadata for groups but not membership.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/:ID:/perms'>perms</a> : <span>show (GET)</span> : <span>[/site/:ID:/perms]</span>  (<a href='http://slate.nu.edu.pk/direct/site/:ID:/perms.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/perms.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/perms.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/perms.form'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows the retrieval of the permissions for the specified site using a url like /site/:SITEID:/perms[/:PREFIX].json, where PREFIX allows the caller to limit the returned permissions to a subset. For example, the url '/direct/site/XYZ/perms/calendar.json' would return the calendar permissions for each role in the site 'XYZ'. Missing the PREFIX off would result in the permissions for all the tools in the site being returned.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/:ID:/userPerms'>userPerms</a> : <span>show (GET)</span> : <span>[/site/:ID:/userPerms]</span>  (<a href='http://slate.nu.edu.pk/direct/site/:ID:/userPerms.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/userPerms.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/userPerms.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/:ID:/userPerms.form'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows the retrieval of the current user's permissions within the specified site using a url like /site/:SITEID:/userPerms[/:PREFIX], where PREFIX allows the caller to limit the returned permissions to a subset. For example, the url '/direct/site/XYZ/userPerms/calendar.json' would return the calendar permissions of the current user in the site 'XYZ'. Missing the PREFIX off would result in the permissions for all the tools in the site being returned.</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/withPerm'>withPerm</a> : <span>*</span> : <span>[/site/withPerm]</span>  (<a href='withPerm.xml'>xml</a>) (<a href='withPerm.json'>json</a>) (<a href='withPerm.html'>html</a>) (<a href='withPerm.form.html'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>The URL for example, /site/withPerm/.json?permission=site.upd</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/info'>info</a> : <span>*</span> : <span>[/site/info]</span>  (<a href='http://slate.nu.edu.pk/direct/site/info.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/info.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/info.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/info.form'>form</a>)<br/>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/site/group'>group</a> : <span>*</span> : <span>[/site/group]</span>  (<a href='http://slate.nu.edu.pk/direct/site/group.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/site/group.json'>json</a>) (<a href='http://slate.nu.edu.pk/direct/site/group.html'>html</a>) (<a href='http://slate.nu.edu.pk/direct/site/group.form'>form</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows access to group information directly using a url like: /site/siteId/group/groupId For membership actions use the Membership Provider<br /> (GET) /direct/site/siteid/group/groupid - gets metadata for group but not membership. <br />(POST) /direct/site/siteid/group/groupid - updates metadata for group but not membership. <br />(PUT) /direct/site/siteid/group - create a new group in the site (returns group id). Parameters include title, description, optionally initial list of members. <br />(DELETE) /direct/site/siteid/group/groupid - delete an existing group in the site.</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>URL Redirects</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <span>1)</span> &nbsp; <span style='font-weight:bold;'>/site/{id}/memberships</span> ==&gt; <span><i>calculated destination</i></span><br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Allows for retrieval of all memberships for a site by redirecting to the memberships entity provider</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Entity class : org.sakaiproject.entitybroker.providers.model.EntitySite</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div><b>Type :: bean</b></div>
+        <table width='80%' cellpadding='0' cellspacing='0'>
+          <thead>
+            <tr>
+              <td width='1%'></td>
+              <td>Name</td>
+              <td>Type</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style='color:red;'><td>1)&nbsp;</td><td style='font-weight:bold;'>activeEdit</td><td>boolean</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>2)&nbsp;</td><td style='font-weight:bold;'>contactEmail</td><td>string</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>3)&nbsp;</td><td style='font-weight:bold;'>contactName</td><td>string</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>4)&nbsp;</td><td style='font-weight:bold;'>createdDate</td><td>java.util.Date</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>5)&nbsp;</td><td style='font-weight:bold;'>createdTime</td><td>org.sakaiproject.time.api.Time</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>6)&nbsp;</td><td style='font-weight:bold;'>customPageOrdered</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>7)&nbsp;</td><td style='font-weight:bold;'>description</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr style='color:red;'><td>8)&nbsp;</td><td style='font-weight:bold;'>empty</td><td>boolean</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>9)&nbsp;</td><td style='font-weight:bold;'>htmlDescription</td><td>string</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>10)&nbsp;</td><td style='font-weight:bold;'>htmlShortDescription</td><td>string</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>11)&nbsp;</td><td style='font-weight:bold;'>iconUrl</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>12)&nbsp;</td><td style='font-weight:bold;'>iconUrlFull</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>13)&nbsp;</td><td style='font-weight:bold;'>id</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>14)&nbsp;</td><td style='font-weight:bold;'>infoUrl</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>15)&nbsp;</td><td style='font-weight:bold;'>infoUrlFull</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>16)&nbsp;</td><td style='font-weight:bold;'>joinable</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>17)&nbsp;</td><td style='font-weight:bold;'>joinerRole</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>18)&nbsp;</td><td style='font-weight:bold;'>lastModified</td><td>long</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>19)&nbsp;</td><td style='font-weight:bold;'>maintainRole</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr style='color:red;'><td>20)&nbsp;</td><td style='font-weight:bold;'>modifiedDate</td><td>java.util.Date</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>21)&nbsp;</td><td style='font-weight:bold;'>modifiedTime</td><td>org.sakaiproject.time.api.Time</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>22)&nbsp;</td><td style='font-weight:bold;'>owner</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td></td><td colspan='3' style='font-style:italic;font-size:0.9em;'>A userId, can be changed after a site is created but has no real effect if the contact info is set</td></tr>
+            <tr><td>23)&nbsp;</td><td style='font-weight:bold;'>props</td><td>java.util.Map</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>24)&nbsp;</td><td style='font-weight:bold;'>providerGroupId</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>25)&nbsp;</td><td style='font-weight:bold;'>pubView</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>26)&nbsp;</td><td style='font-weight:bold;'>published</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr style='color:red;'><td>27)&nbsp;</td><td style='font-weight:bold;'>realmLock</td><td>org.sakaiproject.authz.api.AuthzGroup$RealmLockMode</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>28)&nbsp;</td><td style='font-weight:bold;'>realmLocks</td><td>java.util.List</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>29)&nbsp;</td><td style='font-weight:bold;'>reference</td><td>string</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>30)&nbsp;</td><td style='font-weight:bold;'>shortDescription</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr style='color:red;'><td>31)&nbsp;</td><td style='font-weight:bold;'>siteGroups</td><td>java.util.List</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:blue;'><td>32)&nbsp;</td><td style='font-weight:bold;'>siteGroupsList</td><td>java.util.List</td><td style='font-style:italic;'>Write Only</td></tr>
+            <tr style='color:red;'><td>33)&nbsp;</td><td style='font-weight:bold;'>siteOwner</td><td>org.sakaiproject.entitybroker.providers.model.Owner</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr style='color:red;'><td>34)&nbsp;</td><td style='font-weight:bold;'>sitePages</td><td>java.util.List</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>35)&nbsp;</td><td style='font-weight:bold;'>skin</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>36)&nbsp;</td><td style='font-weight:bold;'>softlyDeleted</td><td>boolean</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr style='color:red;'><td>37)&nbsp;</td><td style='font-weight:bold;'>softlyDeletedDate</td><td>java.util.Date</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>38)&nbsp;</td><td style='font-weight:bold;'>title</td><td>string</td><td style='font-style:italic;'>Read/Write <b style='color:red;'>* required</b></td></tr>
+            <tr><td>39)&nbsp;</td><td style='font-weight:bold;'>type</td><td>string</td><td style='font-style:italic;'>Read/Write <b style='color:red;'>* required</b></td></tr>
+            <tr><td>40)&nbsp;</td><td style='font-weight:bold;'>userRoles</td><td>[Ljava.lang.String;</td><td style='font-style:italic;'>Read/Write</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Data and Request Handling</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>Output formats : xml, json, html, form</div>
+        <div>Input formats : html, xml, json</div>
+        <div style='font-style:italic;padding-left:1em'>No Access Provider registered for request processing</div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Capabilities</h4>
+      <table width='95%' style='padding-left:1.5em;'>
+        <tr style='font-size:0.9em;'><th width='1%'></th><th width='14%'>Name</th><th width='30%'>Type</th><th width='55%'>Description</th></tr>
+        <tr style='font-size:0.9em;'><td>1</td><td>CoreEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.CoreEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>2</td><td>EntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.EntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>3</td><td>ActionsExecutable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>4</td><td>CRUDable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.CRUDable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>5</td><td>CollectionResolvable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.CollectionResolvable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>6</td><td>Createable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Createable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>7</td><td>Deleteable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Deleteable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>8</td><td>DepthLimitable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.DepthLimitable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>9</td><td>Describeable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>10</td><td>Inputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Inputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>11</td><td>Outputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>12</td><td>RESTful</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.RESTful</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>13</td><td>Redirectable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Redirectable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>14</td><td>RequestStorable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.RequestStorable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>15</td><td>Resolvable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Resolvable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>16</td><td>Sampleable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Sampleable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>17</td><td>Saveable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Saveable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>18</td><td>Updateable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Updateable</td><td>The owner (a userId) value can now be changed once the site is created</td></tr>
+      </table>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

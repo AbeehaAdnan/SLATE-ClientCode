@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user type='bean' size='20'>
+  <createdDate/>
+  <displayId/>
+  <displayName/>
+  <eid/>
+  <email></email>
+  <firstName></firstName>
+  <id></id>
+  <lastModified type='number'>1764078293477</lastModified>
+  <lastName></lastName>
+  <modifiedDate/>
+  <owner>/user/</owner>
+  <password/>
+  <props/>
+  <reference>/user/</reference>
+  <sortName/>
+  <type/>
+  <url>http://slate.nu.edu.pk/access/user</url>
+  <entityReference>/user</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/user</entityURL>
+  <entityTitle>current</entityTitle>
+</user>

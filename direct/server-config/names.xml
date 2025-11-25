@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server-config type='collection' size='28'>
+  <string>accessPath</string>
+  <string>accessUrl</string>
+  <string>auto.ddl</string>
+  <string>buildTime.kernel</string>
+  <string>database.vendor</string>
+  <string>display.users.present</string>
+  <string>force.url.secure</string>
+  <string>gatewaySiteId</string>
+  <string>locales</string>
+  <string>loggedOutUrl</string>
+  <string>portalPath</string>
+  <string>portalUrl</string>
+  <string>serverHostAddress</string>
+  <string>serverHostName</string>
+  <string>serverId</string>
+  <string>serverIdInstance</string>
+  <string>serverInstance</string>
+  <string>serverName</string>
+  <string>serverUrl</string>
+  <string>skin.default</string>
+  <string>skin.repo</string>
+  <string>toolUrl</string>
+  <string>ui.institution</string>
+  <string>ui.service</string>
+  <string>userHomeUrl</string>
+  <string>version.sakai</string>
+  <string>version.service</string>
+  <string>webdav.ignore</string>
+</server-config>

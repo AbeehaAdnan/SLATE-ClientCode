@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>my</prefix>
+      <describeURL>/direct/my/describe</describeURL>
+      <summary>A set of URLs that can be used for directly linking to various pages and views in Profile2.</summary>
+      <outputFormats>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <redirects>
+        <redirect>
+          <template>/{prefix}/connections</template>
+          <methodName>redirectToMyConnections</methodName>
+          <description>Redirects to the connections page for the currently logged in user</description>
+          <controllable>false</controllable>
+          <order>0</order>
+        </redirect>
+        <redirect>
+          <template>/{prefix}/messages</template>
+          <methodName>redirectToMyMessages</methodName>
+          <description>Redirects to the messages page for the currently logged in user</description>
+          <controllable>false</controllable>
+          <order>1</order>
+        </redirect>
+        <redirect>
+          <template>/{prefix}/messages/thread/{thread}</template>
+          <methodName>redirectToMyMessageThread</methodName>
+          <description>Redirects to a specific thread in the messages page for the currently logged in user</description>
+          <controllable>false</controllable>
+          <order>2</order>
+        </redirect>
+        <redirect>
+          <template>/{prefix}/profile</template>
+          <methodName>redirectToMyProfile</methodName>
+          <description>Redirects to the front page view of the profile for the currently logged in user</description>
+          <controllable>false</controllable>
+          <order>3</order>
+        </redirect>
+        <redirect>
+          <template>/{prefix}/profile-view/{userUuid}</template>
+          <methodName>redirectToUserProfile</methodName>
+          <description>Redirects to the profile view for the specified user</description>
+          <controllable>false</controllable>
+          <order>4</order>
+        </redirect>
+        <redirect>
+          <template>/{prefix}/wall/{userUuid}</template>
+          <methodName>redirectToMyWall</methodName>
+          <controllable>false</controllable>
+          <order>5</order>
+        </redirect>
+        <redirect>
+          <template>/{prefix}/wall/{userUuid}/item/{wallItemId}</template>
+          <methodName>redirectToMyWallItem</methodName>
+          <controllable>false</controllable>
+          <order>6</order>
+        </redirect>
+      </redirects>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>Redirectable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Redirectable</type>
+        </capability>
+      </capabilities>
+    </prefix>

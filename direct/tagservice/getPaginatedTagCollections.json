@@ -1,0 +1,12 @@
+{
+  "data": {
+    "total": 0,
+    "tagCollections": []
+  },
+  "displayTitle": "getPaginatedTagCollections",
+  "entityId": null,
+  "entityProperties": {
+  },
+  "entityReference": "\/tagservice",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tagservice"
+}

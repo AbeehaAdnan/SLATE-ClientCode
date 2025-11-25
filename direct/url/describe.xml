@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>url</prefix>
+      <describeURL>/direct/url/describe</describeURL>
+      <summary>An entity provider to allow shortening of URLs via the ShortenedUrlService</summary>
+      <customActions>
+        <customAction>
+          <action>shorten</action>
+          <url>/direct/url/shorten</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>Shorten a given URL using the configured implementation. The URL should be passed in via the 'path' URL parameter and should be URL encoded. If you want to use the 'secure' method (RandomisedUrlService only), also pass it as a URL parameter and use true|false as the value. Note that by default, for security reasons, external URLs cannot be shortened. If you want to allow this, set shortenedurl.external.enabled=true in sakai.properties.</description>
+        </customAction>
+      </customActions>
+      <outputFormats>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>ActionsExecutable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>ShortenedUrlServiceEntityProvider</name>
+          <type>org.sakaiproject.shortenedurl.entityprovider.ShortenedUrlServiceEntityProvider</type>
+        </capability>
+      </capabilities>
+    </prefix>

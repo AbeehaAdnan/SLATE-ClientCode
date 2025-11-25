@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<session_collection entityPrefix="session">
+<session type='bean' size='12'>
+  <attributeNames type='bean' size='1'>
+    <iterator type='bean' size='1'>
+      <locked type='boolean'>false</locked>
+    </iterator>
+  </attributeNames>
+  <attributes/>
+  <creationTime type='number'>1764078246935</creationTime>
+  <currentTime type='number'>1764078246935</currentTime>
+  <id/>
+  <lastAccessedTime type='number'>1764078246935</lastAccessedTime>
+  <maxInactiveInterval type='number'>1800</maxInactiveInterval>
+  <userEid/>
+  <userId/>
+  <active type='boolean'>true</active>
+  <entityReference>/session</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/session</entityURL>
+</session>
+</session_collection>

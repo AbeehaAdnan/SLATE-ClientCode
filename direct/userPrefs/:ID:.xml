@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<userPrefs type='bean' size='10'>
+  <id>:ID:</id>
+  <keys type='collection' size='0'>
+  </keys>
+  <properties type='bean' size='31'>
+    <contentHander type='bean' size='0'>
+    </contentHander>
+    <namePropAssignmentDeleted>CHEF:assignment_deleted</namePropAssignmentDeleted>
+    <namePropCalendarLocation>CHEF:calendar-location</namePropCalendarLocation>
+    <namePropCalendarType>CHEF:calendar-type</namePropCalendarType>
+    <namePropChatRoom>CHEF:chat-room</namePropChatRoom>
+    <namePropCollectionBodyQuota>CHEF:collection-body-quota</namePropCollectionBodyQuota>
+    <namePropContentLength>DAV:getcontentlength</namePropContentLength>
+    <namePropContentType>DAV:getcontenttype</namePropContentType>
+    <namePropCopyright>CHEF:copyright</namePropCopyright>
+    <namePropCopyrightAlert>CHEF:copyrightalert</namePropCopyrightAlert>
+    <namePropCopyrightChoice>CHEF:copyrightchoice</namePropCopyrightChoice>
+    <namePropCreationDate>DAV:creationdate</namePropCreationDate>
+    <namePropCreator>CHEF:creator</namePropCreator>
+    <namePropDescription>CHEF:description</namePropDescription>
+    <namePropDisplayName>DAV:displayname</namePropDisplayName>
+    <namePropIsCollection>CHEF:is-collection</namePropIsCollection>
+    <namePropModifiedBy>CHEF:modifiedby</namePropModifiedBy>
+    <namePropModifiedDate>DAV:getlastmodified</namePropModifiedDate>
+    <namePropNewAssignmentCheckAddDueDate>new_assignment_check_add_due_date</namePropNewAssignmentCheckAddDueDate>
+    <namePropNewAssignmentCheckAutoAnnounce>new_assignment_check_auto_announce</namePropNewAssignmentCheckAutoAnnounce>
+    <namePropReplyStyle>CHEF:discussion-reply-style</namePropReplyStyle>
+    <namePropStructObjType>SAKAI:structobj_type</namePropStructObjType>
+    <namePropSubmissionPreviousFeedbackComment>CHEF:submission_previous_feedback_comment</namePropSubmissionPreviousFeedbackComment>
+    <namePropSubmissionPreviousFeedbackText>CHEF:submission_previous_feedback_text</namePropSubmissionPreviousFeedbackText>
+    <namePropSubmissionPreviousGrades>CHEF:submission_previous_grades</namePropSubmissionPreviousGrades>
+    <namePropSubmissionScaledPreviousGrades>CHEF:submission_scaled_previous_grades</namePropSubmissionScaledPreviousGrades>
+    <namePropTo>CHEF:to</namePropTo>
+    <propertyNames type='bean' size='0'>
+    </propertyNames>
+    <serializableProperties type='map' size='0'>
+    </serializableProperties>
+    <typeUrl>text/url</typeUrl>
+    <lazy type='boolean'>false</lazy>
+  </properties>
+  <propertiesEdit type='bean' size='31'>
+    <contentHander type='bean' size='0'>
+    </contentHander>
+    <namePropAssignmentDeleted>CHEF:assignment_deleted</namePropAssignmentDeleted>
+    <namePropCalendarLocation>CHEF:calendar-location</namePropCalendarLocation>
+    <namePropCalendarType>CHEF:calendar-type</namePropCalendarType>
+    <namePropChatRoom>CHEF:chat-room</namePropChatRoom>
+    <namePropCollectionBodyQuota>CHEF:collection-body-quota</namePropCollectionBodyQuota>
+    <namePropContentLength>DAV:getcontentlength</namePropContentLength>
+    <namePropContentType>DAV:getcontenttype</namePropContentType>
+    <namePropCopyright>CHEF:copyright</namePropCopyright>
+    <namePropCopyrightAlert>CHEF:copyrightalert</namePropCopyrightAlert>
+    <namePropCopyrightChoice>CHEF:copyrightchoice</namePropCopyrightChoice>
+    <namePropCreationDate>DAV:creationdate</namePropCreationDate>
+    <namePropCreator>CHEF:creator</namePropCreator>
+    <namePropDescription>CHEF:description</namePropDescription>
+    <namePropDisplayName>DAV:displayname</namePropDisplayName>
+    <namePropIsCollection>CHEF:is-collection</namePropIsCollection>
+    <namePropModifiedBy>CHEF:modifiedby</namePropModifiedBy>
+    <namePropModifiedDate>DAV:getlastmodified</namePropModifiedDate>
+    <namePropNewAssignmentCheckAddDueDate>new_assignment_check_add_due_date</namePropNewAssignmentCheckAddDueDate>
+    <namePropNewAssignmentCheckAutoAnnounce>new_assignment_check_auto_announce</namePropNewAssignmentCheckAutoAnnounce>
+    <namePropReplyStyle>CHEF:discussion-reply-style</namePropReplyStyle>
+    <namePropStructObjType>SAKAI:structobj_type</namePropStructObjType>
+    <namePropSubmissionPreviousFeedbackComment>CHEF:submission_previous_feedback_comment</namePropSubmissionPreviousFeedbackComment>
+    <namePropSubmissionPreviousFeedbackText>CHEF:submission_previous_feedback_text</namePropSubmissionPreviousFeedbackText>
+    <namePropSubmissionPreviousGrades>CHEF:submission_previous_grades</namePropSubmissionPreviousGrades>
+    <namePropSubmissionScaledPreviousGrades>CHEF:submission_scaled_previous_grades</namePropSubmissionScaledPreviousGrades>
+    <namePropTo>CHEF:to</namePropTo>
+    <propertyNames type='bean' size='0'>
+    </propertyNames>
+    <serializableProperties type='map' size='0'>
+    </serializableProperties>
+    <typeUrl>text/url</typeUrl>
+    <lazy type='boolean'>false</lazy>
+  </propertiesEdit>
+  <reference>/prefs/:ID:</reference>
+  <url>http://slate.nu.edu.pk/access/prefs:ID:</url>
+  <activeEdit type='boolean'>false</activeEdit>
+  <entityReference>/userPrefs/:ID:</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/userPrefs/:ID:</entityURL>
+  <entityId>:ID:</entityId>
+</userPrefs>

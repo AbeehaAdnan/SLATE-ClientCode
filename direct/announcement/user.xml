@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<announcement_collection entityPrefix="announcement">
+<announcement type='bean' size='14'>
+  <announcementId>ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b</announcementId>
+  <attachments type='collection' size='0'>
+  </attachments>
+  <body>&lt;h3&gt;&lt;span style=&quot;color: rgb(231,76,60);&quot;&gt;Dear Users,&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span style=&quot;color: rgb(231,76,60);&quot;&gt;Due to some network related issue, assignment tab of courses is taking quite some time to load. We have contacted the network team &amp;amp; they are looking into it. We'll update /  remove this message accordingly.&lt;/span&gt;&lt;/h3&gt;</body>
+  <channel>motd</channel>
+  <createdByDisplayName>Administrator Islamabad</createdByDisplayName>
+  <createdOn type='date' date='2025-03-31T18:26:54+05:00'>1743427614737</createdOn>
+  <id>!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b</id>
+  <siteId>!admin</siteId>
+  <siteTitle>Message Of The Day</siteTitle>
+  <title>Assignment Tab Issue</title>
+  <entityReference>/announcement/!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/announcement/!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b</entityURL>
+  <entityId>!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b</entityId>
+  <entityTitle>Assignment Tab Issue</entityTitle>
+</announcement>
+<announcement type='bean' size='14'>
+  <announcementId>58a09685-d8de-4ac3-a798-c802f7b9ebda</announcementId>
+  <attachments type='collection' size='0'>
+  </attachments>
+  <body>&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(231,76,60);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(231,76,60);&quot;&gt;Important Notice for Islamabad Campus Only: &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(231,76,60);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(231,76,60);&quot;&gt;We would like to inform you that we are transitioning to a Internet authentication system. As a result, it is essential for you to obtain the passwords associated with your user IDs for your respective domains. Without this authentication, you will not be able to access the internet in the C Block (Initially).&lt;br /&gt;
+&lt;br /&gt;
+You can obtain your passwords from any IT labs or the Help Desk at A Block Reception.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</body>
+  <channel>motd</channel>
+  <createdByDisplayName>Administrator Islamabad</createdByDisplayName>
+  <createdOn type='date' date='2024-10-23T14:44:32+05:00'>1729676672454</createdOn>
+  <id>!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda</id>
+  <siteId>!admin</siteId>
+  <siteTitle>Message Of The Day</siteTitle>
+  <title>Important Notice for Islamabad Campus Only</title>
+  <entityReference>/announcement/!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/announcement/!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda</entityURL>
+  <entityId>!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda</entityId>
+  <entityTitle>Important Notice for Islamabad Campus Only</entityTitle>
+</announcement>
+</announcement_collection>

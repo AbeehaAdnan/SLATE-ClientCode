@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>notify</prefix>
+      <describeURL>/direct/notify/describe</describeURL>
+      <summary>Allows access to Sakai's email notification handling</summary>
+      <customActions>
+        <customAction>
+          <action>post</action>
+          <url>/direct/notify/post</url>
+          <method>POST</method>
+          <viewKey>new</viewKey>
+          <description>Creates a new notification. Expects /notify/post/:ID:</description>
+        </customAction>
+      </customActions>
+      <outputFormats>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>ActionsExecutable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+      </capabilities>
+    </prefix>

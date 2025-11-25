@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>wiki</prefix>
+      <describeURL>/direct/wiki/describe</describeURL>
+      <summary>Provides a set of RESTful endpoints for retrieving wiki pages.</summary>
+      <customActions>
+        <customAction>
+          <action>site</action>
+          <url>/direct/wiki/site</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>Using the first form of URL, retrieves a graph of pages, identified by page name ('Home' for example), for a given site id as specified in the path.<br/> Example URL: /direct/wiki/site/SITEID.json<br />The second valid URL form retrieves a particular page using a page name as returned in the site's page graph.<br /> Example URL: /direct/wiki/site/SITEID/page/PAGENAME.json <br /><br /> All returned urls are url encoded.</description>
+        </customAction>
+      </customActions>
+      <outputFormats>
+        <format>json</format>
+        <format>xml</format>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>ActionsExecutable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>Outputable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</type>
+        </capability>
+      </capabilities>
+    </prefix>

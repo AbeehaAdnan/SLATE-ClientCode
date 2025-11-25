@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<syllabus type='bean' size='6'>
+  <data type='map' size='0'>
+  </data>
+  <displayTitle>syllabus : /syllabus/:ID:</displayTitle>
+  <entityId>:ID:</entityId>
+  <entityProperties type='map' size='0'>
+  </entityProperties>
+  <entityReference>/syllabus/:ID:</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/syllabus/:ID:</entityURL>
+</syllabus>

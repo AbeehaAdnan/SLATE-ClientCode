@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>dropbox</prefix>
+      <describeURL>/direct/dropbox/describe</describeURL>
+      <summary>Represents the Drop Box tool</summary>
+      <customActions>
+        <customAction>
+          <action>site</action>
+          <url>/direct/dropbox/site</url>
+          <method>GET</method>
+          <viewKey>list</viewKey>
+          <description>Gets the Drop Box items for a given site and user. URL should be of the form /direct/dropbox/site/SITEID/user/EID.format.</description>
+        </customAction>
+      </customActions>
+      <outputFormats>
+        <format>xml</format>
+        <format>json</format>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>ActionsExecutable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>Outputable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</type>
+        </capability>
+      </capabilities>
+    </prefix>

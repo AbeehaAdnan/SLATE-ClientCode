@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>basiclti-events</prefix>
+      <describeURL>/direct/basiclti-events/describe</describeURL>
+      <summary>Enables reporting of LTI usage to SiteStats. There are no usable interfaces here.</summary>
+      <outputFormats>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+        <capability>
+          <name>Describeable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</type>
+        </capability>
+        <capability>
+          <name>Statisticable</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.Statisticable</type>
+        </capability>
+      </capabilities>
+    </prefix>

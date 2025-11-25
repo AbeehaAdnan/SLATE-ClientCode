@@ -1,0 +1,11 @@
+{
+  "Number_of_events_processed_per_sec": 288.291,
+  "Total_time_spent_processing_events": "284116 ms",
+  "Idle": true,
+  "Average_time_spent_in_event_processing_per_event": "3 ms",
+  "Number_of_total_events_processed": 81908,
+  "Number_of_events_generated_in_Sakai_per_sec": 0.051,
+  "Reset_or_Init_time": "Fri Nov 07 02:56:42 PKT 2025( 1762466202691 ms)",
+  "Total_time_ellapsed_since_reset": "1612066335 ms",
+  "Event_queue_size": 0
+}

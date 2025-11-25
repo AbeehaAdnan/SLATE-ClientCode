@@ -1,0 +1,20 @@
+{"entityPrefix": "session", "session_collection": [
+{
+  "attributeNames": {
+    "iterator": {
+      "locked": false
+    }
+  },
+  "attributes": null,
+  "creationTime": 1764078247038,
+  "currentTime": 1764078247038,
+  "id": null,
+  "lastAccessedTime": 1764078247038,
+  "maxInactiveInterval": 1800,
+  "userEid": null,
+  "userId": null,
+  "active": true,
+  "entityReference": "\/session",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/session"
+}
+]}

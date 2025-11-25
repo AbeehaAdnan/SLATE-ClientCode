@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server-config type='map' size='28'>
+  <accessPath>/access</accessPath>
+  <accessUrl>http://slate.nu.edu.pk/access</accessUrl>
+  <auto.ddl type='boolean'>false</auto.ddl>
+  <buildTime.kernel></buildTime.kernel>
+  <database.vendor>oracle</database.vendor>
+  <display.users.present type='boolean'>true</display.users.present>
+  <force.url.secure></force.url.secure>
+  <gatewaySiteId>!gateway</gatewaySiteId>
+  <locales>en_US</locales>
+  <loggedOutUrl>http://slate.nu.edu.pk/portal</loggedOutUrl>
+  <portalPath>/portal</portalPath>
+  <portalUrl>http://slate.nu.edu.pk/portal</portalUrl>
+  <serverHostAddress>192.168.1.121</serverHostAddress>
+  <serverHostName>Slate-App1</serverHostName>
+  <serverId>s1</serverId>
+  <serverIdInstance>s1-1762466196054</serverIdInstance>
+  <serverInstance>1762466196054</serverInstance>
+  <serverName>nu.edu.pk</serverName>
+  <serverUrl>http://slate.nu.edu.pk</serverUrl>
+  <skin.default>morpheus-default</skin.default>
+  <skin.repo>/library/skin</skin.repo>
+  <toolUrl>http://slate.nu.edu.pk/portal/tool</toolUrl>
+  <ui.institution></ui.institution>
+  <ui.service>SLATE</ui.service>
+  <userHomeUrl>http://slate.nu.edu.pk/portal/site/~#UID#</userHomeUrl>
+  <version.sakai>20.3</version.sakai>
+  <version.service>f43f07d9</version.service>
+  <webdav.ignore>[Ljava.lang.String;@279b95bf</webdav.ignore>
+</server-config>

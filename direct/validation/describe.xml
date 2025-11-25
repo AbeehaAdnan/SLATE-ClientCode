@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <prefix>
+      <prefix>validation</prefix>
+      <describeURL>/direct/validation/describe</describeURL>
+      <outputFormats>
+       </outputFormats>
+      <inputFormats>
+       </inputFormats>
+      <capabilities>
+        <capability>
+          <name>ValidationEntityProvider</name>
+          <type>org.sakaiproject.accountvalidator.entity.ValidationEntityProvider</type>
+        </capability>
+        <capability>
+          <name>EntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.EntityProvider</type>
+        </capability>
+        <capability>
+          <name>AutoRegisterEntityProvider</name>
+          <type>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</type>
+        </capability>
+      </capabilities>
+    </prefix>

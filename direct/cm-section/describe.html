@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+    <h3 style='margin-bottom: 0.3em;'><a href='describe.html'>cm-section</a> (<a href='describe.xml'>xml</a>)</h3>
+      <div style='font-style: italic; padding-left:1em;'>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></div>
+      <div style='font-style: italic; padding-left:2em; font-size:0.9em;'>HTTP response codes as returned by the system: <br/> 200 - OK (request is ok and content returned) <br/> 201 - CREATED (request created new content, URL and id of content in the header) <br/> 204 - NO CONTENT (request is ok but no content to return) <br/> 400 - ERROR (general error in the request, probably invalid parameters or data) <br/> 401 - UNAUTHORIZED (user authentication required for this request) <br/> 403 - FORBIDDEN (authorization required, insufficient privileges, user is already authenticated) <br/> 404 - NOT FOUND (resource not found, URL is invalid in some way, id or action are invalid) <br/> 405 - METHOD NOT ALLOWED (the method is not supported for this entity type) <br/> 406 - NOT ACCEPTABLE (the data format requested is unavailable for this entity type) <br/> 500 - INTERNAL SERVER ERROR (general server failure, probably a failure in the provider) <br/> 501 - NOT IMPLEMENTED (indicates that a prefix is invalid)</div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Sample Entity URLs (_id=':ID:') [may not be valid]:</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <div>Entity Collection URL: GET <a href='http://slate.nu.edu.pk/direct/cm-section'>/cm-section</a> (<a href='http://slate.nu.edu.pk/direct/cm-section.json'>json</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 200 plus data; 404 if not found, 406 if format unavailable</div>
+        </div>
+        <div>
+          <div>Create Entity URL: POST <a href='http://slate.nu.edu.pk/direct/cm-section'>/cm-section</a></div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 201 plus id (EntityId); 400 if inputs invalid</div>
+        </div>
+        <div>
+          <div>Show Entity URL: GET <a href='http://slate.nu.edu.pk/direct/cm-section/:ID:'>/cm-section/:ID:</a> (<a href='http://slate.nu.edu.pk/direct/cm-section/:ID:.json'>json</a>)</div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 200 plus data; 404 if not found, 406 if format unavailable</div>
+        </div>
+        <div>
+          <div>Update Entity URL: PUT <a href='http://slate.nu.edu.pk/direct/cm-section/:ID:'>/cm-section/:ID:</a></div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 204; 400 if inputs invalid</div>
+        </div>
+        <div>
+          <div>Delete Entity URL: DELETE <a href='http://slate.nu.edu.pk/direct/cm-section/:ID:'>/cm-section/:ID:</a></div>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Response Code Details: 204; 404 if not found</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Custom Actions</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/cm-section/:ID:/membership'>membership</a> : <span>delete (DELETE)</span> : <span>[/cm-section/:ID:/membership]</span> <br/>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Entity class : org.sakaiproject.cmprovider.data.SectionData</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div><b>Type :: bean</b></div>
+        <table width='80%' cellpadding='0' cellspacing='0'>
+          <thead>
+            <tr>
+              <td width='1%'></td>
+              <td>Name</td>
+              <td>Type</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1)&nbsp;</td><td style='font-weight:bold;'>category</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>2)&nbsp;</td><td style='font-weight:bold;'>courseOffering</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>3)&nbsp;</td><td style='font-weight:bold;'>description</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>4)&nbsp;</td><td style='font-weight:bold;'>eid</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>5)&nbsp;</td><td style='font-weight:bold;'>enrollmentSet</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr style='color:red;'><td>6)&nbsp;</td><td style='font-weight:bold;'>id</td><td>string</td><td style='font-style:italic;'>Read Only</td></tr>
+            <tr><td>7)&nbsp;</td><td style='font-weight:bold;'>maxSize</td><td>int</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>8)&nbsp;</td><td style='font-weight:bold;'>parent</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+            <tr><td>9)&nbsp;</td><td style='font-weight:bold;'>title</td><td>string</td><td style='font-style:italic;'>Read/Write</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Data and Request Handling</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>Output formats : json</div>
+        <div>Input formats : json</div>
+        <div style='font-style:italic;padding-left:1em'>No Access Provider registered for request processing</div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Capabilities</h4>
+      <table width='95%' style='padding-left:1.5em;'>
+        <tr style='font-size:0.9em;'><th width='1%'></th><th width='14%'>Name</th><th width='30%'>Type</th><th width='55%'>Description</th></tr>
+        <tr style='font-size:0.9em;'><td>1</td><td>CoreEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.CoreEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>2</td><td>EntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.EntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>3</td><td>ActionsExecutable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>4</td><td>AutoRegisterEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>5</td><td>CRUDable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.CRUDable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>6</td><td>CollectionResolvable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.CollectionResolvable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>7</td><td>Createable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Createable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>8</td><td>Deleteable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Deleteable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>9</td><td>Describeable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>10</td><td>Inputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Inputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>11</td><td>Outputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>12</td><td>RESTful</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.RESTful</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>13</td><td>Redirectable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Redirectable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>14</td><td>Resolvable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Resolvable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>15</td><td>Sampleable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Sampleable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>16</td><td>Saveable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Saveable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>17</td><td>Updateable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Updateable</td><td></td></tr>
+      </table>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

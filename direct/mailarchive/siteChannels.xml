@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mailarchive_collection entityPrefix="mailarchive">
+<mailarchive type='bean' size='6'>
+  <data>siteId must be set in order to get the mailArchiveMessages for a site, via the URL /mailArchiveMessage/site/siteId</data>
+  <displayTitle>mailarchive : /mailarchive</displayTitle>
+  <entityId/>
+  <entityProperties type='map' size='0'>
+  </entityProperties>
+  <entityReference>/mailarchive</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/mailarchive</entityURL>
+</mailarchive>
+</mailarchive_collection>

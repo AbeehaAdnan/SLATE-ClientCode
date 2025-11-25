@@ -1,0 +1,2412 @@
+{"entityPrefix": "tool", "tool_collection": [
+{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Site Group Manager Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai-site-group-manager",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "site.upd"
+  },
+  "registeredConfig": {
+    "functions.require": "site.upd"
+  },
+  "title": "Group Manager Helper",
+  "entityReference": "\/tool\/sakai-site-group-manager",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai-site-group-manager",
+  "entityId": "sakai-site-group-manager",
+  "entityTitle": "Group Manager Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "For setting parent\/child links between sites.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai-site-manage-link-helper",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "functions.require": "",
+    "source": "",
+    "reset.button": "true"
+  },
+  "registeredConfig": {
+    "height": "600px",
+    "functions.require": "",
+    "source": "",
+    "reset.button": "true"
+  },
+  "title": "Site Link Helper",
+  "entityReference": "\/tool\/sakai-site-manage-link-helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai-site-manage-link-helper",
+  "entityId": "sakai-site-manage-link-helper",
+  "entityTitle": "Site Link Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Site Add Participant Helper",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai-site-manage-participant-helper",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "site.upd"
+  },
+  "registeredConfig": {
+    "functions.require": "site.upd"
+  },
+  "title": "Site Add Participants Helper",
+  "entityReference": "\/tool\/sakai-site-manage-participant-helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai-site-manage-participant-helper",
+  "entityId": "sakai-site-manage-participant-helper",
+  "entityTitle": "Site Add Participants Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Site Page Order Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai-site-pageorder-helper",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "site.upd"
+  },
+  "registeredConfig": {
+    "functions.require": "site.upd"
+  },
+  "title": "Page Order Helper",
+  "entityReference": "\/tool\/sakai-site-pageorder-helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai-site-pageorder-helper",
+  "entityId": "sakai-site-pageorder-helper",
+  "entityTitle": "Page Order Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "Add or edit academic terms",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.acadtermmanage",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Academic Term Manager",
+  "entityReference": "\/tool\/sakai.acadtermmanage",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.acadtermmanage",
+  "entityId": "sakai.acadtermmanage",
+  "entityTitle": "Academic Term Manager"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For validating new accounts",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.accountvalidator",
+  "keywords": [],
+  "mutableConfig": {
+    "help.button": "false"
+  },
+  "registeredConfig": {
+    "help.button": "false"
+  },
+  "title": "Account Validator",
+  "entityReference": "\/tool\/sakai.accountvalidator",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.accountvalidator",
+  "entityId": "sakai.accountvalidator",
+  "entityTitle": "Account Validator"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For administrators to view and modify any user's preferences",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.admin.prefs",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Administrator Preferences",
+  "entityReference": "\/tool\/sakai.admin.prefs",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.admin.prefs",
+  "entityId": "sakai.admin.prefs",
+  "entityTitle": "Administrator Preferences"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For managing permissions for all sites of a type and roles within that site",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.adminsiteperms",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Admin Site Perms",
+  "entityReference": "\/tool\/sakai.adminsiteperms",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.adminsiteperms",
+  "entityId": "sakai.adminsiteperms",
+  "entityTitle": "Admin Site Perms"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For managing aliases within the system",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.aliases",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Aliases",
+  "entityReference": "\/tool\/sakai.aliases",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.aliases",
+  "entityId": "sakai.aliases",
+  "entityTitle": "Aliases"
+},{
+  "access": "portal",
+  "categories": [
+    "GradToolsStudent",
+    "portfolio",
+    "myworkspace",
+    "course",
+    "project",
+    "GradToolsDepartment",
+    "GradToolsRackham"
+  ],
+  "description": "For posting and viewing current, time-critical information",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.announcements",
+  "keywords": [],
+  "mutableConfig": {
+    "groupAware": "true",
+    "pagesize": "10",
+    "functions.require": "annc.read",
+    "channel": "",
+    "enableReorder": "true"
+  },
+  "registeredConfig": {
+    "groupAware": "true",
+    "pagesize": "10",
+    "functions.require": "annc.read",
+    "channel": "",
+    "enableReorder": "true"
+  },
+  "title": "Announcements",
+  "entityReference": "\/tool\/sakai.announcements",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.announcements",
+  "entityId": "sakai.announcements",
+  "entityTitle": "Announcements"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For archiving and importing sites",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.archive",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Site Archive",
+  "entityReference": "\/tool\/sakai.archive",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.archive",
+  "entityId": "sakai.archive",
+  "entityTitle": "Site Archive"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "course",
+    "project"
+  ],
+  "description": "For posting, submitting, and grading assignments online",
+  "finalConfig": {
+    "help.id": "sakai.assignment",
+    "withGrades": "TRUE"
+  },
+  "home": null,
+  "id": "sakai.assignment.grades",
+  "keywords": [],
+  "mutableConfig": {
+    "groupAware": "true",
+    "pagesize": "200",
+    "showNumSubmissionColumn": "TRUE"
+  },
+  "registeredConfig": {
+    "groupAware": "true",
+    "help.id": "sakai.assignment",
+    "pagesize": "200",
+    "showNumSubmissionColumn": "TRUE",
+    "withGrades": "TRUE"
+  },
+  "title": "Assignments",
+  "entityReference": "\/tool\/sakai.assignment.grades",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.assignment.grades",
+  "entityId": "sakai.assignment.grades",
+  "entityTitle": "Assignments"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "course",
+    "project"
+  ],
+  "description": "For connecting to external tools using IMS Learning Tools Interoperability (LTI)",
+  "finalConfig": {
+    "portlet-name": "IMSBLTIPortlet",
+    "portlet-context": "\/imsblti",
+    "portlet-app-name": "\/imsblti"
+  },
+  "home": null,
+  "id": "sakai.basiclti",
+  "keywords": [],
+  "mutableConfig": {
+    "final.custom": "false",
+    "imsti.debug": "",
+    "imsti.toolorder": "",
+    "final.frameheight": "false",
+    "functions.require": "",
+    "final.encryptedsecret": "false",
+    "imsti.frameheight": "",
+    "imsti.allowsettings": "",
+    "imsti.encryptedsecret": "",
+    "imsti.custom": "",
+    "final.debug": "false",
+    "sakai:menuClass": "",
+    "final.maximize": "false",
+    "final.pagetitle": "false",
+    "final.allowsettings": "false",
+    "final.fa_icon": "false",
+    "final.secret": "false",
+    "imsti.fa_icon": "",
+    "imsti.pagetitle": "",
+    "allowToolDuplicate": "true",
+    "final.sha256": "false",
+    "allowMultipleInstances": "true",
+    "final.launch": "false",
+    "imsti.releaseemail": "",
+    "final.allowroster": "false",
+    "imsti.allowroster": "",
+    "imsti.maximize": "",
+    "final.splash": "false",
+    "final.key": "false",
+    "final.releasename": "false",
+    "final.xml": "true",
+    "final.newpage": "false",
+    "imsti.secret": "",
+    "imsti.releasename": "",
+    "final.tooltitle": "false",
+    "sakai:portlet-pre-render": "true",
+    "final.toolorder": "false",
+    "imsti.sha256": "",
+    "imsti.allowoutcomes": "",
+    "imsti.newpage": "",
+    "imsti.launch": "",
+    "imsti.key": "",
+    "final.releaseemail": "false",
+    "imsti.xml": "",
+    "imsti.splash": "",
+    "final.allowoutcomes": "false",
+    "imsti.tooltitle": ""
+  },
+  "registeredConfig": {
+    "final.custom": "false",
+    "imsti.debug": "",
+    "imsti.toolorder": "",
+    "portlet-app-name": "\/imsblti",
+    "final.frameheight": "false",
+    "functions.require": "",
+    "final.encryptedsecret": "false",
+    "imsti.frameheight": "",
+    "imsti.allowsettings": "",
+    "imsti.encryptedsecret": "",
+    "imsti.custom": "",
+    "final.debug": "false",
+    "sakai:menuClass": "",
+    "final.maximize": "false",
+    "final.pagetitle": "false",
+    "final.allowsettings": "false",
+    "final.fa_icon": "false",
+    "portlet-name": "IMSBLTIPortlet",
+    "final.secret": "false",
+    "imsti.fa_icon": "",
+    "imsti.pagetitle": "",
+    "allowToolDuplicate": "true",
+    "final.sha256": "false",
+    "allowMultipleInstances": "true",
+    "final.launch": "false",
+    "imsti.releaseemail": "",
+    "final.allowroster": "false",
+    "imsti.allowroster": "",
+    "imsti.maximize": "",
+    "final.splash": "false",
+    "final.key": "false",
+    "final.releasename": "false",
+    "final.xml": "true",
+    "final.newpage": "false",
+    "imsti.secret": "",
+    "imsti.releasename": "",
+    "final.tooltitle": "false",
+    "sakai:portlet-pre-render": "true",
+    "final.toolorder": "false",
+    "imsti.sha256": "",
+    "imsti.allowoutcomes": "",
+    "imsti.newpage": "",
+    "imsti.launch": "",
+    "portlet-context": "\/imsblti",
+    "imsti.key": "",
+    "final.releaseemail": "false",
+    "imsti.xml": "",
+    "imsti.splash": "",
+    "final.allowoutcomes": "false",
+    "imsti.tooltitle": ""
+  },
+  "title": "External Tool",
+  "entityReference": "\/tool\/sakai.basiclti",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.basiclti",
+  "entityId": "sakai.basiclti",
+  "entityTitle": "External Tool"
+},{
+  "access": "portal",
+  "categories": [
+    "admin"
+  ],
+  "description": "This tool manages external tools launchable via IMS LTI.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.basiclti.admin",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "",
+    "reset.button": "true"
+  },
+  "registeredConfig": {
+    "functions.require": "",
+    "reset.button": "true"
+  },
+  "title": "External Tools",
+  "entityReference": "\/tool\/sakai.basiclti.admin",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.basiclti.admin",
+  "entityId": "sakai.basiclti.admin",
+  "entityTitle": "External Tools"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "This tool manages external tools launchable via IMS LTI.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.basiclti.admin.helper",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "",
+    "helper": "true",
+    "reset.button": "true"
+  },
+  "registeredConfig": {
+    "functions.require": "",
+    "helper": "true",
+    "reset.button": "true"
+  },
+  "title": "External Tool Helper",
+  "entityReference": "\/tool\/sakai.basiclti.admin.helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.basiclti.admin.helper",
+  "entityId": "sakai.basiclti.admin.helper",
+  "entityTitle": "External Tool Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For synchronous, real-time written conversations",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.chat",
+  "keywords": [],
+  "mutableConfig": {
+    "display-date": "false",
+    "filter-param": "3",
+    "display-time": "true",
+    "sound-alert": "true",
+    "functions.require": "chat.read",
+    "channel": "",
+    "filter-type": "SelectMessagesByTime",
+    "display-user": "true"
+  },
+  "registeredConfig": {
+    "display-date": "false",
+    "filter-param": "3",
+    "display-time": "true",
+    "sound-alert": "true",
+    "functions.require": "chat.read",
+    "channel": "",
+    "filter-type": "SelectMessagesByTime",
+    "display-user": "true"
+  },
+  "title": "Chat Room",
+  "entityReference": "\/tool\/sakai.chat",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.chat",
+  "entityId": "sakai.chat",
+  "entityTitle": "Chat Room"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Chat Message Deletion Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.chat.deleteMessage",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Delete Chat Message",
+  "entityReference": "\/tool\/sakai.chat.deleteMessage",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.chat.deleteMessage",
+  "entityId": "sakai.chat.deleteMessage",
+  "entityTitle": "Delete Chat Message"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Citations Editor Integration.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.citation.editor.integration",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Search Library Resources",
+  "entityReference": "\/tool\/sakai.citation.editor.integration",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.citation.editor.integration",
+  "entityId": "sakai.citation.editor.integration",
+  "entityTitle": "Search Library Resources"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Citations Editor Integration",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.citation.tool",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Search Library Resources ",
+  "entityReference": "\/tool\/sakai.citation.tool",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.citation.tool",
+  "entityId": "sakai.citation.tool",
+  "entityTitle": "Search Library Resources "
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For social networking-style posts featuring embedded images and url-to-thumbnail expansion",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.commons",
+  "keywords": [],
+  "mutableConfig": {
+    "sakai:tool-directurl-enabled": "false",
+    "suppressTitle": "true",
+    "renderInline": "true",
+    "help.button": "false",
+    "reset.button": "false"
+  },
+  "registeredConfig": {
+    "sakai:tool-directurl-enabled": "false",
+    "suppressTitle": "true",
+    "renderInline": "true",
+    "help.button": "false",
+    "reset.button": "false"
+  },
+  "title": "Commons",
+  "entityReference": "\/tool\/sakai.commons",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.commons",
+  "entityId": "sakai.commons",
+  "entityTitle": "Commons"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For creating a new user account",
+  "finalConfig": {
+    "create-login": "true",
+    "create-user": "true",
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.createuser",
+  "keywords": [],
+  "mutableConfig": {
+    "create-blurb": "",
+    "validate-through-email": "false",
+    "create-type": "registered",
+    "force-eid-equals-email": "false",
+    "user.recaptcha-enabled": "true"
+  },
+  "registeredConfig": {
+    "create-blurb": "",
+    "create-login": "true",
+    "create-user": "true",
+    "validate-through-email": "false",
+    "create-type": "registered",
+    "force-eid-equals-email": "false",
+    "reset.button": "false",
+    "user.recaptcha-enabled": "true"
+  },
+  "title": "New Account",
+  "entityReference": "\/tool\/sakai.createuser",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.createuser",
+  "entityId": "sakai.createuser",
+  "entityTitle": "New Account"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Site Date Manager Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.datemanager",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "site.upd"
+  },
+  "registeredConfig": {
+    "functions.require": "site.upd"
+  },
+  "title": "Date Manager Helper",
+  "entityReference": "\/tool\/sakai.datemanager",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.datemanager",
+  "entityId": "sakai.datemanager",
+  "entityTitle": "Date Manager Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace",
+    "sakai.admin"
+  ],
+  "description": "For delegating access of users to sites based on a site hierarchy",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.delegatedaccess",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Delegated Access",
+  "entityReference": "\/tool\/sakai.delegatedaccess",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.delegatedaccess",
+  "entityId": "sakai.delegatedaccess",
+  "entityTitle": "Delegated Access"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For searching for available sites for shopping",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.delegatedaccess.shopping",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Shopping",
+  "entityReference": "\/tool\/sakai.delegatedaccess.shopping",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.delegatedaccess.shopping",
+  "entityId": "sakai.delegatedaccess.shopping",
+  "entityTitle": "Shopping"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For private file sharing between the instructor and student",
+  "finalConfig": {
+    "resources_mode": "dropbox",
+    "functions.require": "dropbox.own|dropbox.maintain|dropbox.maintain.own.groups"
+  },
+  "home": null,
+  "id": "sakai.dropbox",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+    "resources_mode": "dropbox",
+    "functions.require": "dropbox.own|dropbox.maintain|dropbox.maintain.own.groups"
+  },
+  "title": "Drop Box",
+  "entityReference": "\/tool\/sakai.dropbox",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.dropbox",
+  "entityId": "sakai.dropbox",
+  "entityTitle": "Drop Box"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "emailtemplateservice created by Sakai App Builder Plugin",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.emailtemplateservice",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Email template administration",
+  "entityReference": "\/tool\/sakai.emailtemplateservice",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.emailtemplateservice",
+  "entityId": "sakai.emailtemplateservice",
+  "entityTitle": "Email template administration"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For gathering feedback and improvements about the site or the system",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.feedback",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "",
+    "reset.button": "false"
+  },
+  "registeredConfig": {
+    "functions.require": "",
+    "reset.button": "false"
+  },
+  "title": "Contact Us",
+  "entityReference": "\/tool\/sakai.feedback",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.feedback",
+  "entityId": "sakai.feedback",
+  "entityTitle": "Contact Us"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Sakai File Picker Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.filepicker",
+  "keywords": [],
+  "mutableConfig": {
+    "test": "reg-value"
+  },
+  "registeredConfig": {
+    "test": "reg-value"
+  },
+  "title": "Choose File",
+  "entityReference": "\/tool\/sakai.filepicker",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.filepicker",
+  "entityId": "sakai.filepicker",
+  "entityTitle": "Choose File"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For asynchronous, written conversations organized by topics",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.forums",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Forums",
+  "entityReference": "\/tool\/sakai.forums",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.forums",
+  "entityId": "sakai.forums",
+  "entityTitle": "Forums"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For storing, calculating, and viewing grades",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.gradebookng",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Gradebook",
+  "entityReference": "\/tool\/sakai.gradebookng",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.gradebookng",
+  "entityId": "sakai.gradebookng",
+  "entityTitle": "Gradebook"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.help"
+  ],
+  "description": "The Sakai Help Tool",
+  "finalConfig": {
+    "help.collections": "sakai_toc,sakai_screensteps_aboutHelpUserGuide,sakai_screensteps_accessibilityUserGuide,sakai_screensteps_announcementsUserGuide,sakai_screensteps_assignmentsUserGuide,sakai_screensteps_bullhornsUserGuide,sakai_screensteps_calendarUserGuide,sakai_screensteps_chatUserGuide,sakai_screensteps_commonsUserGuide,sakai_screensteps_contactUsUserGuide,sakai_screensteps_courseandProjectSitesUserGuide,sakai_screensteps_dropBoxUserGuide,sakai_screensteps_emailUserGuide,sakai_screensteps_emailArchiveUserGuide,sakai_screensteps_externalToolLTIUserGuide,sakai_screensteps_forumsUserGuide,sakai_screensteps_gradebookUserGuide,sakai_screensteps_homeUserGuide,sakai_screensteps_lessonsUserGuide,sakai_screensteps_messagesUserGuide,sakai_screensteps_newsUserGuide,sakai_screensteps_overviewUserGuide,sakai_screensteps_permissionsandRolesUserGuide,sakai_screensteps_podcastsUserGuide,sakai_screensteps_pollsUserGuide,sakai_screensteps_postEmUserGuide,sakai_screensteps_profileUserGuide,sakai_screensteps_resourcesUserGuide,sakai_screensteps_richTextEditorUserGuide,sakai_screensteps_rosterUserGuide,sakai_screensteps_rubricsUserGuide,sakai_screensteps_searchUserGuide,sakai_screensteps_sectionInfoUserGuide,sakai_screensteps_signUpUserGuide,sakai_screensteps_siteInfoUserGuide,sakai_screensteps_statisticsUserGuide,sakai_screensteps_syllabusUserGuide,sakai_screensteps_testsandQuizzesUserGuide,sakai_screensteps_webContentUserGuide,sakai_screensteps_wikiUserGuide,sakai_screensteps_academicTermManagerAdministratorGuide,sakai_screensteps_adminSitePermsAdministratorGuide,sakai_screensteps_aliasesAdministratorGuide,sakai_screensteps_announcementsorMessageoftheDayAdministratorGuide,sakai_screensteps_becomeUserAdministratorGuide,sakai_screensteps_delegatedAccessAdministratorGuide,sakai_screensteps_emailTemplatesAdministratorGuide,sakai_screensteps_eventsAdministratorGuide,sakai_screensteps_externalToolsAdministratorGuide,sakai_screensteps_jobSchedulerAdministratorGuide,sakai_screensteps_memoryAdministratorGuide,sakai_screensteps_messageBundleManagerAdministratorGuide,sakai_screensteps_onlineAdministratorGuide,sakai_screensteps_pASystemAdministratorGuide,sakai_screensteps_permissionsandRolesAdministratorGuide,sakai_screensteps_realmsAdministratorGuide,sakai_screensteps_resourcesAdministratorGuide,sakai_screensteps_searchAdministratorGuide,sakai_screensteps_siteArchiveAdministratorGuide,sakai_screensteps_sitesAdministratorGuide,sakai_screensteps_sitestatsAdminAdministratorGuide,sakai_screensteps_usersAdministratorGuide,sakai_screensteps_userMembershipAdministratorGuide,sakai_screensteps_worksiteSetupAdministratorGuide"
+  },
+  "home": null,
+  "id": "sakai.help",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+    "help.collections": "sakai_toc,sakai_screensteps_aboutHelpUserGuide,sakai_screensteps_accessibilityUserGuide,sakai_screensteps_announcementsUserGuide,sakai_screensteps_assignmentsUserGuide,sakai_screensteps_bullhornsUserGuide,sakai_screensteps_calendarUserGuide,sakai_screensteps_chatUserGuide,sakai_screensteps_commonsUserGuide,sakai_screensteps_contactUsUserGuide,sakai_screensteps_courseandProjectSitesUserGuide,sakai_screensteps_dropBoxUserGuide,sakai_screensteps_emailUserGuide,sakai_screensteps_emailArchiveUserGuide,sakai_screensteps_externalToolLTIUserGuide,sakai_screensteps_forumsUserGuide,sakai_screensteps_gradebookUserGuide,sakai_screensteps_homeUserGuide,sakai_screensteps_lessonsUserGuide,sakai_screensteps_messagesUserGuide,sakai_screensteps_newsUserGuide,sakai_screensteps_overviewUserGuide,sakai_screensteps_permissionsandRolesUserGuide,sakai_screensteps_podcastsUserGuide,sakai_screensteps_pollsUserGuide,sakai_screensteps_postEmUserGuide,sakai_screensteps_profileUserGuide,sakai_screensteps_resourcesUserGuide,sakai_screensteps_richTextEditorUserGuide,sakai_screensteps_rosterUserGuide,sakai_screensteps_rubricsUserGuide,sakai_screensteps_searchUserGuide,sakai_screensteps_sectionInfoUserGuide,sakai_screensteps_signUpUserGuide,sakai_screensteps_siteInfoUserGuide,sakai_screensteps_statisticsUserGuide,sakai_screensteps_syllabusUserGuide,sakai_screensteps_testsandQuizzesUserGuide,sakai_screensteps_webContentUserGuide,sakai_screensteps_wikiUserGuide,sakai_screensteps_academicTermManagerAdministratorGuide,sakai_screensteps_adminSitePermsAdministratorGuide,sakai_screensteps_aliasesAdministratorGuide,sakai_screensteps_announcementsorMessageoftheDayAdministratorGuide,sakai_screensteps_becomeUserAdministratorGuide,sakai_screensteps_delegatedAccessAdministratorGuide,sakai_screensteps_emailTemplatesAdministratorGuide,sakai_screensteps_eventsAdministratorGuide,sakai_screensteps_externalToolsAdministratorGuide,sakai_screensteps_jobSchedulerAdministratorGuide,sakai_screensteps_memoryAdministratorGuide,sakai_screensteps_messageBundleManagerAdministratorGuide,sakai_screensteps_onlineAdministratorGuide,sakai_screensteps_pASystemAdministratorGuide,sakai_screensteps_permissionsandRolesAdministratorGuide,sakai_screensteps_realmsAdministratorGuide,sakai_screensteps_resourcesAdministratorGuide,sakai_screensteps_searchAdministratorGuide,sakai_screensteps_siteArchiveAdministratorGuide,sakai_screensteps_sitesAdministratorGuide,sakai_screensteps_sitestatsAdminAdministratorGuide,sakai_screensteps_usersAdministratorGuide,sakai_screensteps_userMembershipAdministratorGuide,sakai_screensteps_worksiteSetupAdministratorGuide"
+  },
+  "title": "Help Documentation",
+  "entityReference": "\/tool\/sakai.help",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.help",
+  "entityId": "sakai.help",
+  "entityTitle": "Help Documentation"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For linking to internal resources or external websites",
+  "finalConfig": {
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "home": null,
+  "id": "sakai.iframe",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "webcontent.revise": "webcontent.revise",
+    "webcontent.read": "webcontent.read",
+    "functions.require": "",
+    "allowMultipleInstances": "true",
+    "source": "",
+    "reset.button": "true"
+  },
+  "registeredConfig": {
+    "reset.button": "true",
+    "source": "",
+    "functions.require": "",
+    "allowMultipleInstances": "true",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "webcontent.revise": "webcontent.revise",
+    "webcontent.read": "webcontent.read",
+    "height": "600px",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "title": "Web Content",
+  "entityReference": "\/tool\/sakai.iframe",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.iframe",
+  "entityId": "sakai.iframe",
+  "entityTitle": "Web Content"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "Displays a link with an annotation. URL and initial annotation can be set by admin, tool maintain user can change the annotation",
+  "finalConfig": {
+    "special": "annotatedurl",
+    "reset.button": "true"
+  },
+  "home": null,
+  "id": "sakai.iframe.annotatedurl",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "TargetPageName": "[Target Page Name - will be used as the label for the link to the URL]",
+    "TargetPageUrl": "https:\/\/www.sakailms.org\/",
+    "webcontent.revise": "webcontent.revise.annotatedurl",
+    "functions.require": "",
+    "webcontent.read": "webcontent.read.annotatedurl",
+    "desp": "[Change this text when configuring the tool. It should give some idea of the purpose of the URL and prompt the tool maintain user to change this annotation via the tool menu if needed]"
+  },
+  "registeredConfig": {
+    "reset.button": "true",
+    "functions.require": "",
+    "TargetPageUrl": "https:\/\/www.sakailms.org\/",
+    "special": "annotatedurl",
+    "TargetPageName": "[Target Page Name - will be used as the label for the link to the URL]",
+    "webcontent.revise": "webcontent.revise.annotatedurl",
+    "webcontent.read": "webcontent.read.annotatedurl",
+    "height": "600px",
+    "desp": "[Change this text when configuring the tool. It should give some idea of the purpose of the URL and prompt the tool maintain user to change this annotation via the tool menu if needed]"
+  },
+  "title": "AnnotatedUrl",
+  "entityReference": "\/tool\/sakai.iframe.annotatedurl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.iframe.annotatedurl",
+  "entityId": "sakai.iframe.annotatedurl",
+  "entityTitle": "AnnotatedUrl"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For displaying information about your Home",
+  "finalConfig": {
+    "special": "workspace",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "reset.button": "false",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "home": null,
+  "id": "sakai.iframe.myworkspace",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "webcontent.revise": "webcontent.myworkspace.revise",
+    "webcontent.read": "webcontent.myworkspace.read",
+    "functions.require": ""
+  },
+  "registeredConfig": {
+    "reset.button": "false",
+    "functions.require": "",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "special": "workspace",
+    "webcontent.revise": "webcontent.myworkspace.revise",
+    "webcontent.read": "webcontent.myworkspace.read",
+    "height": "600px",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "title": "Home Information Display",
+  "entityReference": "\/tool\/sakai.iframe.myworkspace",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.iframe.myworkspace",
+  "entityId": "sakai.iframe.myworkspace",
+  "entityTitle": "Home Information Display"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For displaying overview information",
+  "finalConfig": {
+    "special": "site",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "reset.button": "false",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "home": null,
+  "id": "sakai.iframe.service",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "webcontent.revise": "webcontent.service.revise",
+    "webcontent.read": "webcontent.service.read",
+    "functions.require": ""
+  },
+  "registeredConfig": {
+    "reset.button": "false",
+    "functions.require": "",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "special": "site",
+    "webcontent.revise": "webcontent.service.revise",
+    "webcontent.read": "webcontent.service.read",
+    "height": "600px",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "title": "Service Information Display",
+  "entityReference": "\/tool\/sakai.iframe.service",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.iframe.service",
+  "entityId": "sakai.iframe.service",
+  "entityTitle": "Service Information Display"
+},{
+  "access": "portal",
+  "categories": [
+    "widget"
+  ],
+  "description": "For displaying the site's description",
+  "finalConfig": {
+    "special": "worksite",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "reset.button": "false",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "home": null,
+  "id": "sakai.iframe.site",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "webcontent.revise": "webcontent.site.revise",
+    "webcontent.read": "webcontent.site.read",
+    "functions.require": ""
+  },
+  "registeredConfig": {
+    "reset.button": "false",
+    "functions.require": "",
+    "portlet-name": "PortletIFrame",
+    "portlet-context": "\/sakai-web-portlet",
+    "special": "worksite",
+    "webcontent.revise": "webcontent.site.revise",
+    "webcontent.read": "webcontent.site.read",
+    "height": "600px",
+    "portlet-app-name": "\/sakai-web-portlet"
+  },
+  "title": "Overview",
+  "entityReference": "\/tool\/sakai.iframe.site",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.iframe.site",
+  "entityId": "sakai.iframe.site",
+  "entityTitle": "Overview"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For creating, organizing, and delivering content modules and sequences, such as by week or unit",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.lessonbuildertool",
+  "keywords": [],
+  "mutableConfig": {
+    "filterHtml": "default",
+    "allowMultipleInstances": "true"
+  },
+  "registeredConfig": {
+    "filterHtml": "default",
+    "allowMultipleInstances": "true"
+  },
+  "title": "Lessons",
+  "entityReference": "\/tool\/sakai.lessonbuildertool",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.lessonbuildertool",
+  "entityId": "sakai.lessonbuildertool",
+  "entityTitle": "Lessons"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "A login tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.login",
+  "keywords": [
+    "login"
+  ],
+  "mutableConfig": {
+    "eid": "user id:",
+    "pw": "password:"
+  },
+  "registeredConfig": {
+    "eid": "user id:",
+    "pw": "password:"
+  },
+  "title": "Login",
+  "entityReference": "\/tool\/sakai.login",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.login",
+  "entityId": "sakai.login",
+  "entityTitle": "Login"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "course",
+    "project"
+  ],
+  "description": "For viewing email sent to the site's mailing address",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.mailbox",
+  "keywords": [],
+  "mutableConfig": {
+    "pagesize": "20",
+    "showNonAlias": "false",
+    "functions.require": "mail.read",
+    "channel": ""
+  },
+  "registeredConfig": {
+    "pagesize": "20",
+    "showNonAlias": "false",
+    "functions.require": "mail.read",
+    "channel": ""
+  },
+  "title": "Email Archive",
+  "entityReference": "\/tool\/sakai.mailbox",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.mailbox",
+  "entityId": "sakai.mailbox",
+  "entityTitle": "Email Archive"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For sending mail to select participants in the site",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.mailtool",
+  "keywords": [],
+  "mutableConfig": {
+    "help.id": "sakai.mailsender",
+    "functions.require": "mailtool.send",
+    "subjectprefix": ""
+  },
+  "registeredConfig": {
+    "help.id": "sakai.mailsender",
+    "functions.require": "mailtool.send",
+    "subjectprefix": ""
+  },
+  "title": "Email",
+  "entityReference": "\/tool\/sakai.mailtool",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.mailtool",
+  "entityId": "sakai.mailtool",
+  "entityTitle": "Email"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace"
+  ],
+  "description": "For viewing and modifying your membership in sites of which you are a participant or that you may join",
+  "finalConfig": {
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.membership",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+    "reset.button": "false"
+  },
+  "title": "Membership",
+  "entityReference": "\/tool\/sakai.membership",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.membership",
+  "entityId": "sakai.membership",
+  "entityTitle": "Membership"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For viewing the JVM memory and reseting the system caches",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.memory",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Memory",
+  "entityReference": "\/tool\/sakai.memory",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.memory",
+  "entityId": "sakai.memory",
+  "entityTitle": "Memory"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "Tool that allows editing localization (i18n) properties.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.message.bundle.manager",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Message Bundle Manager",
+  "entityReference": "\/tool\/sakai.message.bundle.manager",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.message.bundle.manager",
+  "entityId": "sakai.message.bundle.manager",
+  "entityTitle": "Message Bundle Manager"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Message Center Navigation Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.messageforums.helper",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Private Messages Helper",
+  "entityReference": "\/tool\/sakai.messageforums.helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.messageforums.helper",
+  "entityId": "sakai.messageforums.helper",
+  "entityTitle": "Private Messages Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For composing and receiving written messages with other participants in the site",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.messages",
+  "keywords": [],
+  "mutableConfig": {
+    "groupAware": "true"
+  },
+  "registeredConfig": {
+    "groupAware": "true"
+  },
+  "title": "Messages",
+  "entityReference": "\/tool\/sakai.messages",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.messages",
+  "entityId": "sakai.messages",
+  "entityTitle": "Messages"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For displaying the system message of the day",
+  "finalConfig": {
+    "help.id": "sakai.motd",
+    "message-service": "org.sakaiproject.announcement.api.AnnouncementService",
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.motd",
+  "keywords": [],
+  "mutableConfig": {
+    "items": "1",
+    "show-subject": "false",
+    "length": "50000",
+    "show-newlines": "true",
+    "channel": "\/announcement\/channel\/!site\/motd",
+    "days": "1000"
+  },
+  "registeredConfig": {
+    "reset.button": "false",
+    "length": "50000",
+    "show-subject": "false",
+    "message-service": "org.sakaiproject.announcement.api.AnnouncementService",
+    "channel": "\/announcement\/channel\/!site\/motd",
+    "items": "1",
+    "show-newlines": "true",
+    "days": "1000",
+    "help.id": "sakai.motd"
+  },
+  "title": "Message Of The Day",
+  "entityReference": "\/tool\/sakai.motd",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.motd",
+  "entityId": "sakai.motd",
+  "entityTitle": "Message Of The Day"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "A widget that shows a user's calendar and upcoming events",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.mycalendar",
+  "keywords": [],
+  "mutableConfig": {
+    "sakai:tool-directurl-enabled": "false",
+    "suppressTitle": "true",
+    "help.button": "false",
+    "renderInline": "true",
+    "reset.button": "false"
+  },
+  "registeredConfig": {
+    "sakai:tool-directurl-enabled": "false",
+    "suppressTitle": "true",
+    "help.button": "false",
+    "renderInline": "true",
+    "reset.button": "false"
+  },
+  "title": "My Calendar",
+  "entityReference": "\/tool\/sakai.mycalendar",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.mycalendar",
+  "entityId": "sakai.mycalendar",
+  "entityTitle": "My Calendar"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "A widget that shows a user's connections",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.myconnections",
+  "keywords": [],
+  "mutableConfig": {
+    "sakai:tool-directurl-enabled": "false",
+    "suppressTitle": "false",
+    "help.button": "false",
+    "renderInline": "true",
+    "reset.button": "false"
+  },
+  "registeredConfig": {
+    "sakai:tool-directurl-enabled": "false",
+    "suppressTitle": "false",
+    "help.button": "false",
+    "renderInline": "true",
+    "reset.button": "false"
+  },
+  "title": "Connections",
+  "entityReference": "\/tool\/sakai.myconnections",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.myconnections",
+  "entityId": "sakai.myconnections",
+  "entityTitle": "Connections"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace"
+  ],
+  "description": "Tool to allow you to manage applications that can access the service.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.oauth",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Trusted Applications",
+  "entityReference": "\/tool\/sakai.oauth",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.oauth",
+  "entityId": "sakai.oauth",
+  "entityTitle": "Trusted Applications"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "Tool to allow you to manage applications that can use oAuth.",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.oauth.admin",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "oAuth Admin",
+  "entityReference": "\/tool\/sakai.oauth.admin",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.oauth.admin",
+  "entityId": "sakai.oauth.admin",
+  "entityTitle": "oAuth Admin"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For seeing who's on-line and where they are",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.online",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Online",
+  "entityReference": "\/tool\/sakai.online",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.online",
+  "entityId": "sakai.online",
+  "entityTitle": "Online"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For managing banner alerts and popup screens",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.pasystem",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "pasystem.manage"
+  },
+  "registeredConfig": {
+    "functions.require": "pasystem.manage"
+  },
+  "title": "PA System",
+  "entityReference": "\/tool\/sakai.pasystem",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.pasystem",
+  "entityId": "sakai.pasystem",
+  "entityTitle": "PA System"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Sakai Permissions Helper Tool",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.permissions.helper",
+  "keywords": [],
+  "mutableConfig": {
+    "test": "reg-value"
+  },
+  "registeredConfig": {
+    "test": "reg-value"
+  },
+  "title": "Set Permissions",
+  "entityReference": "\/tool\/sakai.permissions.helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.permissions.helper",
+  "entityId": "sakai.permissions.helper",
+  "entityTitle": "Set Permissions"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For delivering and accessing podcasts and podcast feeds",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.podcasts",
+  "keywords": [],
+  "mutableConfig": {
+    "help.id": "sakai.podcasts",
+    "functions.require": "content.read"
+  },
+  "registeredConfig": {
+    "help.id": "sakai.podcasts",
+    "functions.require": "content.read"
+  },
+  "title": "Podcasts",
+  "entityReference": "\/tool\/sakai.podcasts",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.podcasts",
+  "entityId": "sakai.podcasts",
+  "entityTitle": "Podcasts"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For posting questions, voting anonymously, and gathering results",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.poll",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Polls",
+  "entityReference": "\/tool\/sakai.poll",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.poll",
+  "entityId": "sakai.poll",
+  "entityTitle": "Polls"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "This starts up the portal chat entity provider",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.portal.chat.loader",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Portal Chat Service Loader",
+  "entityReference": "\/tool\/sakai.portal.chat.loader",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.portal.chat.loader",
+  "entityId": "sakai.portal.chat.loader",
+  "entityTitle": "Portal Chat Service Loader"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For distributing individual feedback and confirming when each person has accessed it",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.postem",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "PostEm",
+  "entityReference": "\/tool\/sakai.postem",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.postem",
+  "entityId": "sakai.postem",
+  "entityTitle": "PostEm"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace"
+  ],
+  "description": "For viewing and modifying your preferences",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.preferences",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Preferences",
+  "entityReference": "\/tool\/sakai.preferences",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.preferences",
+  "entityId": "sakai.preferences",
+  "entityTitle": "Preferences"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For displaying the users present at a location",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.presence",
+  "keywords": [],
+  "mutableConfig": {
+    "reset.button": "false"
+  },
+  "registeredConfig": {
+    "reset.button": "false"
+  },
+  "title": "Presence Tool",
+  "entityReference": "\/tool\/sakai.presence",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.presence",
+  "entityId": "sakai.presence",
+  "entityTitle": "Presence Tool"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "Display current privacy status for all sites or a site",
+  "finalConfig": {
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.privacy",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+    "reset.button": "false"
+  },
+  "title": "Privacy Status",
+  "entityReference": "\/tool\/sakai.privacy",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.privacy",
+  "entityId": "sakai.privacy",
+  "entityTitle": "Privacy Status"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace"
+  ],
+  "description": "For editing your profile, posting status updates, searching for people with common interests, viewing their profiles, and adding them as connections",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.profile2",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": ""
+  },
+  "registeredConfig": {
+    "functions.require": ""
+  },
+  "title": "Profile",
+  "entityReference": "\/tool\/sakai.profile2",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.profile2",
+  "entityId": "sakai.profile2",
+  "entityTitle": "Profile"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For creating and editing realms",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.realms",
+  "keywords": [],
+  "mutableConfig": {
+    "pagesize": "20"
+  },
+  "registeredConfig": {
+    "pagesize": "20"
+  },
+  "title": "Realms",
+  "entityReference": "\/tool\/sakai.realms",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.realms",
+  "entityId": "sakai.realms",
+  "entityTitle": "Realms"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For resetting a guest user's password",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.resetpass",
+  "keywords": [],
+  "mutableConfig": {
+    "instructions": ""
+  },
+  "registeredConfig": {
+    "instructions": ""
+  },
+  "title": "Reset Password",
+  "entityReference": "\/tool\/sakai.resetpass",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.resetpass",
+  "entityId": "sakai.resetpass",
+  "entityTitle": "Reset Password"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "Provides Implementations for Actions of Basic Resource Types",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.resource.type.helper",
+  "keywords": [],
+  "mutableConfig": {
+    "test": "reg-value"
+  },
+  "registeredConfig": {
+    "test": "reg-value"
+  },
+  "title": "Resource Type Helper",
+  "entityReference": "\/tool\/sakai.resource.type.helper",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.resource.type.helper",
+  "entityId": "sakai.resource.type.helper",
+  "entityTitle": "Resource Type Helper"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For creating, uploading, organizing, and viewing site files, including documents and URLs, to be used throughout the site",
+  "finalConfig": {
+    "resources_mode": "resources"
+  },
+  "home": null,
+  "id": "sakai.resources",
+  "keywords": [],
+  "mutableConfig": {
+    "groupAware": "true",
+    "collections_per_page": "50",
+    "optional_properties": "true",
+    "functions.require": "content.read",
+    "home": "",
+    "user_sees_all_their_sites": "true"
+  },
+  "registeredConfig": {
+    "groupAware": "true",
+    "resources_mode": "resources",
+    "collections_per_page": "50",
+    "optional_properties": "true",
+    "functions.require": "content.read",
+    "home": "",
+    "user_sees_all_their_sites": "true"
+  },
+  "title": "Resources",
+  "entityReference": "\/tool\/sakai.resources",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.resources",
+  "entityId": "sakai.resources",
+  "entityTitle": "Resources"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For creating and managing grading rubrics for use in the Gradebook and in individual assessment tools",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.rubrics",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "rubrics.editor"
+  },
+  "registeredConfig": {
+    "functions.require": "rubrics.editor"
+  },
+  "title": "Rubrics",
+  "entityReference": "\/tool\/sakai.rubrics",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.rubrics",
+  "entityId": "sakai.rubrics",
+  "entityTitle": "Rubrics"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For collaborative editing of pages and content",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.rwiki",
+  "keywords": [],
+  "mutableConfig": {
+    "home-page-friendly-name": "",
+    "functions.require": "rwiki.read",
+    "home-page": "Home"
+  },
+  "registeredConfig": {
+    "home-page-friendly-name": "",
+    "functions.require": "rwiki.read",
+    "home-page": "Home"
+  },
+  "title": "Wiki",
+  "entityReference": "\/tool\/sakai.rwiki",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.rwiki",
+  "entityId": "sakai.rwiki",
+  "entityTitle": "Wiki"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For creating and taking online assessments",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.samigo",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Tests & Quizzes",
+  "entityReference": "\/tool\/sakai.samigo",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.samigo",
+  "entityId": "sakai.samigo",
+  "entityTitle": "Tests & Quizzes"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For posting and viewing events, such as due dates, meetings, and other important dates",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.schedule",
+  "keywords": [],
+  "mutableConfig": {
+    "groupAware": "true",
+    "functions.require": "calendar.read",
+    "calendar": ""
+  },
+  "registeredConfig": {
+    "groupAware": "true",
+    "functions.require": "calendar.read",
+    "calendar": ""
+  },
+  "title": "Calendar",
+  "entityReference": "\/tool\/sakai.schedule",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.schedule",
+  "entityId": "sakai.schedule",
+  "entityTitle": "Calendar"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.scheduler"
+  ],
+  "description": "For scheduling system jobs based on Quartz",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.scheduler",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Job Scheduler",
+  "entityReference": "\/tool\/sakai.scheduler",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.scheduler",
+  "entityId": "sakai.scheduler",
+  "entityTitle": "Job Scheduler"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For searching for content in the site",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.search",
+  "keywords": [],
+  "mutableConfig": {
+    "search_all_sites": "",
+    "search_site_ids": ""
+  },
+  "registeredConfig": {
+    "search_all_sites": "",
+    "search_site_ids": ""
+  },
+  "title": "Search",
+  "entityReference": "\/tool\/sakai.search",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.search",
+  "entityId": "sakai.search",
+  "entityTitle": "Search"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For managing participant sections, such as classes and rosters, within the site",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.sections",
+  "keywords": [],
+  "mutableConfig": {
+    "help.id": "sakai.sections"
+  },
+  "registeredConfig": {
+    "help.id": "sakai.sections"
+  },
+  "title": "Section Info",
+  "entityReference": "\/tool\/sakai.sections",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.sections",
+  "entityId": "sakai.sections",
+  "entityTitle": "Section Info"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For enabling online registration for meetings and other events",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.signup",
+  "keywords": [],
+  "mutableConfig": {
+    "signup.other.sites.availability": "default"
+  },
+  "registeredConfig": {
+    "signup.other.sites.availability": "default"
+  },
+  "title": "Sign-up",
+  "entityReference": "\/tool\/sakai.signup",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.signup",
+  "entityId": "sakai.signup",
+  "entityTitle": "Sign-up"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace",
+    "course",
+    "project"
+  ],
+  "description": "For viewing content from RSS feeds ",
+  "finalConfig": {
+    "portlet-name": "simple-rss-portlet",
+    "portlet-context": "\/simple-rss-portlet",
+    "portlet-app-name": "\/simple-rss-portlet"
+  },
+  "home": null,
+  "id": "sakai.simple.rss",
+  "keywords": [],
+  "mutableConfig": {
+    "feed_url": "https:\/\/www.sakailms.org\/blog-feed.xml",
+    "functions.require": "",
+    "allowMultipleInstances": "true",
+    "reset.button": "true"
+  },
+  "registeredConfig": {
+    "feed_url": "https:\/\/www.sakailms.org\/blog-feed.xml",
+    "functions.require": "",
+    "portlet-name": "simple-rss-portlet",
+    "portlet-context": "\/simple-rss-portlet",
+    "allowMultipleInstances": "true",
+    "reset.button": "true",
+    "portlet-app-name": "\/simple-rss-portlet"
+  },
+  "title": "News",
+  "entityReference": "\/tool\/sakai.simple.rss",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.simple.rss",
+  "entityId": "sakai.simple.rss",
+  "entityTitle": "News"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace"
+  ],
+  "description": "For viewing and modifying your account details",
+  "finalConfig": {
+    "single-user": "true"
+  },
+  "home": null,
+  "id": "sakai.singleuser",
+  "keywords": [],
+  "mutableConfig": {
+    "include-password": "true"
+  },
+  "registeredConfig": {
+    "single-user": "true",
+    "include-password": "true"
+  },
+  "title": "Account",
+  "entityReference": "\/tool\/sakai.singleuser",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.singleuser",
+  "entityId": "sakai.singleuser",
+  "entityTitle": "Account"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "course",
+    "project"
+  ],
+  "description": "For viewing the site participants list",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.site.roster2",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Roster",
+  "entityReference": "\/tool\/sakai.site.roster2",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.site.roster2",
+  "entityId": "sakai.site.roster2",
+  "entityTitle": "Roster"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For finding and viewing summaries of sites",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.sitebrowser",
+  "keywords": [],
+  "mutableConfig": {
+    "pagesize": "20"
+  },
+  "registeredConfig": {
+    "pagesize": "20"
+  },
+  "title": "Site Browser",
+  "entityReference": "\/tool\/sakai.sitebrowser",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.sitebrowser",
+  "entityId": "sakai.sitebrowser",
+  "entityTitle": "Site Browser"
+},{
+  "access": "portal",
+  "categories": [
+    "portfolio",
+    "course",
+    "project"
+  ],
+  "description": "For displaying and managing information and settings about the site",
+  "finalConfig": {
+    "site_mode": "siteinfo"
+  },
+  "home": null,
+  "id": "sakai.siteinfo",
+  "keywords": [],
+  "mutableConfig": {
+    "defaultSiteType": "project",
+    "privateSiteTypes": "",
+    "functions.require": "site.visit",
+    "publicChangeableSiteTypes": "project",
+    "publicSiteTypes": "course",
+    "siteTypes": "course,project"
+  },
+  "registeredConfig": {
+    "defaultSiteType": "project",
+    "privateSiteTypes": "",
+    "functions.require": "site.visit",
+    "publicChangeableSiteTypes": "project",
+    "site_mode": "siteinfo",
+    "publicSiteTypes": "course",
+    "siteTypes": "course,project"
+  },
+  "title": "Site Info",
+  "entityReference": "\/tool\/sakai.siteinfo",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.siteinfo",
+  "entityId": "sakai.siteinfo",
+  "entityTitle": "Site Info"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For creating and editing sites",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.sites",
+  "keywords": [],
+  "mutableConfig": {
+    "pagesize": "20"
+  },
+  "registeredConfig": {
+    "pagesize": "20"
+  },
+  "title": "Sites",
+  "entityReference": "\/tool\/sakai.sites",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.sites",
+  "entityId": "sakai.sites",
+  "entityTitle": "Sites"
+},{
+  "access": "portal",
+  "categories": [
+    "myworkspace"
+  ],
+  "description": "For creating and modifying sites",
+  "finalConfig": {
+    "site_mode": "sitesetup"
+  },
+  "home": null,
+  "id": "sakai.sitesetup",
+  "keywords": [],
+  "mutableConfig": {
+    "defaultSiteType": "project",
+    "privateSiteTypes": "",
+    "publicChangeableSiteTypes": "project",
+    "publicSiteTypes": "course",
+    "siteTypes": "course,project"
+  },
+  "registeredConfig": {
+    "defaultSiteType": "project",
+    "privateSiteTypes": "",
+    "publicChangeableSiteTypes": "project",
+    "site_mode": "sitesetup",
+    "publicSiteTypes": "course",
+    "siteTypes": "course,project"
+  },
+  "title": "Worksite Setup",
+  "entityReference": "\/tool\/sakai.sitesetup",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.sitesetup",
+  "entityId": "sakai.sitesetup",
+  "entityTitle": "Worksite Setup"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For displaying usage statistics about the site by user, event, or resource",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.sitestats",
+  "keywords": [],
+  "mutableConfig": {
+    "roles.allow": "maintain,Instructor",
+    "functions.require": "sitestats.view|sitestats.own"
+  },
+  "registeredConfig": {
+    "roles.allow": "maintain,Instructor",
+    "functions.require": "sitestats.view|sitestats.own"
+  },
+  "title": "Statistics",
+  "entityReference": "\/tool\/sakai.sitestats",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.sitestats",
+  "entityId": "sakai.sitestats",
+  "entityTitle": "Statistics"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For statistics management and administration",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.sitestats.admin",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "sitestats.admin.view"
+  },
+  "registeredConfig": {
+    "functions.require": "sitestats.admin.view"
+  },
+  "title": "Statistics management",
+  "entityReference": "\/tool\/sakai.sitestats.admin",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.sitestats.admin",
+  "entityId": "sakai.sitestats.admin",
+  "entityTitle": "Statistics management"
+},{
+  "access": "tool",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For logging in as another user",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.su",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Become User",
+  "entityReference": "\/tool\/sakai.su",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.su",
+  "entityId": "sakai.su",
+  "entityTitle": "Become User"
+},{
+  "access": "portal",
+  "categories": [
+    "widget"
+  ],
+  "description": "For viewing a summary of calendar events",
+  "finalConfig": {
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.summary.calendar",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "calendar.read"
+  },
+  "registeredConfig": {
+    "functions.require": "calendar.read",
+    "reset.button": "false"
+  },
+  "title": "Calendar",
+  "entityReference": "\/tool\/sakai.summary.calendar",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.summary.calendar",
+  "entityId": "sakai.summary.calendar",
+  "entityTitle": "Calendar"
+},{
+  "access": "portal",
+  "categories": [
+    "course",
+    "project"
+  ],
+  "description": "For posting an outline of the site's information, such as objectives, requirements, policies, and expectations",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.syllabus",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+  },
+  "title": "Syllabus",
+  "entityReference": "\/tool\/sakai.syllabus",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.syllabus",
+  "entityId": "sakai.syllabus",
+  "entityTitle": "Syllabus"
+},{
+  "access": "portal",
+  "categories": [
+    "widget"
+  ],
+  "description": "For displaying recent announcements, updated as new events arrive",
+  "finalConfig": {
+    "help.id": "sakai.synoptic.announcements",
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.synoptic.announcement",
+  "keywords": [],
+  "mutableConfig": {
+    "showOnlyOptionsButton": "true",
+    "items": "3",
+    "showAnnouncementBody": "false",
+    "functions.require": "annc.read",
+    "length": "50",
+    "channel": "",
+    "showAllColumns": "false",
+    "days": "10"
+  },
+  "registeredConfig": {
+    "reset.button": "false",
+    "showOnlyOptionsButton": "true",
+    "functions.require": "annc.read",
+    "length": "50",
+    "channel": "",
+    "items": "3",
+    "days": "10",
+    "showAllColumns": "false",
+    "showAnnouncementBody": "false",
+    "help.id": "sakai.synoptic.announcements"
+  },
+  "title": "Recent Announcements",
+  "entityReference": "\/tool\/sakai.synoptic.announcement",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.synoptic.announcement",
+  "entityId": "sakai.synoptic.announcement",
+  "entityTitle": "Recent Announcements"
+},{
+  "access": "portal",
+  "categories": [
+    "widget"
+  ],
+  "description": "For displaying recent chat messages, updated as new messages arrive",
+  "finalConfig": {
+    "help.id": "sakai.chat",
+    "message-service": "org.sakaiproject.chat.api.ChatService",
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.synoptic.chat",
+  "keywords": [],
+  "mutableConfig": {
+    "items": "3",
+    "show-subject": "false",
+    "functions.require": "site.visit",
+    "length": "50",
+    "show-newlines": "false",
+    "channel": "",
+    "days": "10"
+  },
+  "registeredConfig": {
+    "reset.button": "false",
+    "functions.require": "site.visit",
+    "length": "50",
+    "show-subject": "false",
+    "message-service": "org.sakaiproject.chat.api.ChatService",
+    "channel": "",
+    "items": "3",
+    "show-newlines": "false",
+    "days": "10",
+    "help.id": "sakai.chat"
+  },
+  "title": "Recent Chat Messages",
+  "entityReference": "\/tool\/sakai.synoptic.chat",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.synoptic.chat",
+  "entityId": "sakai.synoptic.chat",
+  "entityTitle": "Recent Chat Messages"
+},{
+  "access": "portal",
+  "categories": [
+    "widget"
+  ],
+  "description": "For displaying unread discussion and forum topic messages for all sites or a site",
+  "finalConfig": {
+    "reset.button": "false"
+  },
+  "home": null,
+  "id": "sakai.synoptic.messagecenter",
+  "keywords": [],
+  "mutableConfig": {
+  },
+  "registeredConfig": {
+    "reset.button": "false"
+  },
+  "title": "Message Center Notifications",
+  "entityReference": "\/tool\/sakai.synoptic.messagecenter",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.synoptic.messagecenter",
+  "entityId": "sakai.synoptic.messagecenter",
+  "entityTitle": "Message Center Notifications"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For managing tags and collections of tags",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.tagservice",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "tagservice.manage"
+  },
+  "registeredConfig": {
+    "functions.require": "tagservice.manage"
+  },
+  "title": "Tags Service",
+  "entityReference": "\/tool\/sakai.tagservice",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.tagservice",
+  "entityId": "sakai.tagservice",
+  "entityTitle": "Tags Service"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.helper"
+  ],
+  "description": "For showing changes to user membership in a site",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.useraudit",
+  "keywords": [],
+  "mutableConfig": {
+    "functions.require": "site.upd"
+  },
+  "registeredConfig": {
+    "functions.require": "site.upd"
+  },
+  "title": "Site User Audit Event Log",
+  "entityReference": "\/tool\/sakai.useraudit",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.useraudit",
+  "entityId": "sakai.useraudit",
+  "entityTitle": "Site User Audit Event Log"
+},{
+  "access": "portal",
+  "categories": [
+    "sakai.admin"
+  ],
+  "description": "For retrieving site membership information about users",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.usermembership",
+  "keywords": [],
+  "mutableConfig": {
+    "userType.limitToList": "",
+    "help.id": "sakai.usermembership",
+    "functions.require": "usermembership.view",
+    "userType.limitToSelf": "false"
+  },
+  "registeredConfig": {
+    "userType.limitToList": "",
+    "help.id": "sakai.usermembership",
+    "functions.require": "usermembership.view",
+    "userType.limitToSelf": "false"
+  },
+  "title": "User Membership",
+  "entityReference": "\/tool\/sakai.usermembership",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.usermembership",
+  "entityId": "sakai.usermembership",
+  "entityTitle": "User Membership"
+},{
+  "access": "portal",
+  "categories": [],
+  "description": "For editing local user accounts",
+  "finalConfig": {
+  },
+  "home": null,
+  "id": "sakai.users",
+  "keywords": [],
+  "mutableConfig": {
+    "pagesize": "20"
+  },
+  "registeredConfig": {
+    "pagesize": "20"
+  },
+  "title": "Users",
+  "entityReference": "\/tool\/sakai.users",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.users",
+  "entityId": "sakai.users",
+  "entityTitle": "Users"
+},{
+  "access": "portal",
+  "categories": [
+    "stealth"
+  ],
+  "description": "For accessing an external website within the site.",
+  "finalConfig": {
+    "portlet-name": "SakaiIFrame",
+    "portlet-context": "\/sakai-web-portlet-basiclti",
+    "portlet-app-name": "\/sakai-web-portlet-basiclti"
+  },
+  "home": null,
+  "id": "sakai.web.168",
+  "keywords": [],
+  "mutableConfig": {
+    "height": "600px",
+    "functions.require": "",
+    "source": ""
+  },
+  "registeredConfig": {
+    "height": "600px",
+    "functions.require": "",
+    "portlet-name": "SakaiIFrame",
+    "portlet-context": "\/sakai-web-portlet-basiclti",
+    "source": "",
+    "portlet-app-name": "\/sakai-web-portlet-basiclti"
+  },
+  "title": "Web Portlet",
+  "entityReference": "\/tool\/sakai.web.168",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/tool\/sakai.web.168",
+  "entityId": "sakai.web.168",
+  "entityTitle": "Web Portlet"
+}
+]}

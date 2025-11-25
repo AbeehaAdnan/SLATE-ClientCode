@@ -1,0 +1,11 @@
+{"entityPrefix": "mailarchive", "mailarchive_collection": [
+{
+  "data": "siteId must be set in order to get the mailArchiveMessages for a site, via the URL \/mailArchiveMessage\/site\/siteId",
+  "displayTitle": "mailarchive : \/mailarchive",
+  "entityId": null,
+  "entityProperties": {
+  },
+  "entityReference": "\/mailarchive",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/mailarchive"
+}
+]}

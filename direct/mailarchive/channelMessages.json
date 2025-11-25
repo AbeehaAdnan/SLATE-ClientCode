@@ -1,0 +1,11 @@
+{"entityPrefix": "mailarchive", "mailarchive_collection": [
+{
+  "data": "You must supply the siteId.",
+  "displayTitle": "mailarchive : \/mailarchive",
+  "entityId": null,
+  "entityProperties": {
+  },
+  "entityReference": "\/mailarchive",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/mailarchive"
+}
+]}

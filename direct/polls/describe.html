@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+    <h3 style='margin-bottom: 0.3em;'><a href='describe.html'>polls</a> (<a href='describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents polls, options (choices), and votes of the poll tool. </div>
+      <div style='font-style: italic; padding-left:1em;'>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></div>
+      <div style='font-style: italic; padding-left:2em; font-size:0.9em;'>HTTP response codes as returned by the system: <br/> 200 - OK (request is ok and content returned) <br/> 201 - CREATED (request created new content, URL and id of content in the header) <br/> 204 - NO CONTENT (request is ok but no content to return) <br/> 400 - ERROR (general error in the request, probably invalid parameters or data) <br/> 401 - UNAUTHORIZED (user authentication required for this request) <br/> 403 - FORBIDDEN (authorization required, insufficient privileges, user is already authenticated) <br/> 404 - NOT FOUND (resource not found, URL is invalid in some way, id or action are invalid) <br/> 405 - METHOD NOT ALLOWED (the method is not supported for this entity type) <br/> 406 - NOT ACCEPTABLE (the data format requested is unavailable for this entity type) <br/> 500 - INTERNAL SERVER ERROR (general server failure, probably a failure in the provider) <br/> 501 - NOT IMPLEMENTED (indicates that a prefix is invalid)</div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Custom Actions</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/option-create'>option-create</a> : <span>new (POST)</span> : <span>[/polls/option-create]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Creates an new option (choice) in a poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-view'>poll-view</a> : <span>show (GET)</span> : <span>[/polls/:ID:/poll-view]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-view.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-view.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets a single poll by the pollId (the long, not the UUID string), returns only the poll itself by default, add in the options using 'includeOptions' (boolean), add in the votes using 'includeVotes' (boolean)</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/vote-view'>vote-view</a> : <span>show (GET)</span> : <span>[/polls/:ID:/vote-view]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/vote-view.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/vote-view.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets a vote for a specific poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/vote-create'>vote-create</a> : <span>new (POST)</span> : <span>[/polls/vote-create]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Vote for a specific poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='vote-list.html'>vote-list</a> : <span>list (GET)</span> : <span>[/polls/vote-list]</span>  (<a href='vote-list.xml'>xml</a>) (<a href='vote-list.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets all the votes for a specific poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/poll-create'>poll-create</a> : <span>new (POST)</span> : <span>[/polls/poll-create]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Creates a new poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-update'>poll-update</a> : <span>edit (PUT)</span> : <span>[/polls/:ID:/poll-update]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Updates an existing poll by the pollId (the long, not the UUID string)</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/my'>my</a> : <span>list (GET)</span> : <span>[/polls/my]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/my.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/my.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets all the polls that the current user can take in all sites, limit to a specific site using 'siteId' or 'siteReference', switch to the polls a user can control (administrate) using 'admin' (boolean) set to true</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-option-list'>poll-option-list</a> : <span>show (GET)</span> : <span>[/polls/:ID:/poll-option-list]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-option-list.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-option-list.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets all the options for a specific poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/option-update'>option-update</a> : <span>edit (PUT)</span> : <span>[/polls/:ID:/option-update]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Updates an option (choice) in a poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/site'>site</a> : <span>list (GET)</span> : <span>[/polls/site]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/site.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/site.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets all the polls the current user can take in the given site</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/option-delete'>option-delete</a> : <span>show (GET)</span> : <span>[/polls/:ID:/option-delete]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/option-delete.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/option-delete.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>an option (choice) in a poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-delete'>poll-delete</a> : <span>show (GET)</span> : <span>[/polls/:ID:/poll-delete]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-delete.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/poll-delete.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Deletes an existing poll by the pollId (the long, not the UUID string)</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/vote'>vote</a> : <span>new (POST)</span> : <span>[/polls/vote]</span> <br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Vote for a specific poll</div>
+        </div>
+        <div>
+          <a style='font-weight:bold;' href='http://slate.nu.edu.pk/direct/polls/:ID:/option-view'>option-view</a> : <span>show (GET)</span> : <span>[/polls/:ID:/option-view]</span>  (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/option-view.xml'>xml</a>) (<a href='http://slate.nu.edu.pk/direct/polls/:ID:/option-view.json'>json</a>)<br/>
+          <div style='font-style:italic;font-size:0.9em;padding-left:1.5em;'>Gets an option (choice) in a poll</div>
+        </div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Data and Request Handling</h4>
+      <div style='padding-left:1em;padding-bottom:1em;'>
+        <div>Output formats : xml, json</div>
+        <div>Input formats : <i>No formats allowed</i></div>
+        <div style='font-style:italic;padding-left:1em'>No Access Provider registered for request processing</div>
+      </div>
+      <h4 style='padding-left:0.5em;margin-bottom:0.2em;'>Capabilities</h4>
+      <table width='95%' style='padding-left:1.5em;'>
+        <tr style='font-size:0.9em;'><th width='1%'></th><th width='14%'>Name</th><th width='30%'>Type</th><th width='55%'>Description</th></tr>
+        <tr style='font-size:0.9em;'><td>1</td><td>EntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.EntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>2</td><td>ActionsExecutable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.ActionsExecutable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>3</td><td>AutoRegisterEntityProvider</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.AutoRegisterEntityProvider</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>4</td><td>Describeable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Describeable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>5</td><td>Outputable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.Outputable</td><td></td></tr>
+        <tr style='font-size:0.9em;'><td>6</td><td>RequestStorable</td><td>org.sakaiproject.entitybroker.entityprovider.capabilities.RequestStorable</td><td></td></tr>
+      </table>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

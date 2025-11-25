@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Describe Entities</title>
+</head>
+<body>
+<h1><a href='index.html'>Describe all</a> registered entities (<a href='describe.xml'>xml</a>)</h1>
+  <i>RESTful URLs: <a href='http://microformats.org/wiki/rest/urls'>http://microformats.org/wiki/rest/urls</a></i><br/>
+  <h2>Describe all (registered entities): 77</h2>
+  <div style='font-style:italic;padding-bottom:0.5em;'>General notes on special params and headers: <br/> no-cache - this will cause the caching headers to be set for no caching (default caching is set based on last modified date on entity OR 5 minutes) <br/> last-modified - this will force the last-modified date header to be set (unix timestamp in ms), no-cache overrides this <br/> accept - this standard header can be used in place of format extensions (e.g. xml), just leave the extension off the URL</div>
+  <div style='font-style:italic;'>When searching for entities in a list, the following params are handled specially in the system (note that all the RoR conventions are followed for sorting/paging):<br/> _start (number): the position of the first entity to return (0 is the first), e.g. _start=5 <br/> _page (number): the page of data to display (0 is first), e.g. _page=2 <br/> _perpage (number): the number of entities to return for the page (0 means all), e.g. _perpage=20 <br/> _limit (number): the maximum number of entities to return (0 means all), e.g. _limit=50 <br/> _order (string): the sort order to return entities in (default is ascending), should be a comma separated list of entity field names which optionally include a suffix to determine order, suffix can be _reverse or _desc for descending order OR '' (blank) or _asc for ascending order, e.g. _order=name OR _order=name_reverse OR _order=name,email_desc,firstname_asc,lastname_reverse<br/> _sort (string): same as order<br/> _validateSession: supply this parameter if sessions are to be explicitly checked to ensure a valid session. Without this, the session validation is left to the provider</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='announcement/describe.html'>announcement</a> (<a href='announcement/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents announcements for a given site (including merged announcements) or all announcements for a user. Also includes Message Of The Day and public announcements. There are three optional URL parameters available: 'n' to set the total number of announcements returned, 'd' to set the number of days in the past to retrieve announcements for, and 'a' to set an ascending sort order of true or false. If the system is configured with the (default) 'Announcement Reorder' property, announcements will be additionally sorted by the message_order. If these parameters are not set, they are retrieved from the tool configuration, or the standard defaults of n=3, d=10, a=0 are used. For example /announcements/site/mercury.json?n=20&amp;d=100&amp;a=1 will retrieve up to 20 total announcements for up to 100 days ago with an ascending order.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='assignment/describe.html'>assignment</a> (<a href='assignment/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents assignments for a given site.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='basiclti-events/describe.html'>basiclti-events</a> (<a href='basiclti-events/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Enables reporting of LTI usage to SiteStats. There are no usable interfaces here.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='calendar/describe.html'>calendar</a> (<a href='calendar/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents calendar events.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='chat-channel/describe.html'>chat-channel</a> (<a href='chat-channel/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>A chat channel represents a chat room in a context (site).</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='chat-message/describe.html'>chat-message</a> (<a href='chat-message/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>A chat message represents a message in a chat channel (room).</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='citation/describe.html'>citation</a> (<a href='citation/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-academic-session/describe.html'>cm-academic-session</a> (<a href='cm-academic-session/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-canonical-course/describe.html'>cm-canonical-course</a> (<a href='cm-canonical-course/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-course-offering/describe.html'>cm-course-offering</a> (<a href='cm-course-offering/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-course-set/describe.html'>cm-course-set</a> (<a href='cm-course-set/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-enrollment/describe.html'>cm-enrollment</a> (<a href='cm-enrollment/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-enrollment-set/describe.html'>cm-enrollment-set</a> (<a href='cm-enrollment-set/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-section/describe.html'>cm-section</a> (<a href='cm-section/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='cm-section-category/describe.html'>cm-section-category</a> (<a href='cm-section-category/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='commons/describe.html'>commons</a> (<a href='commons/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'><br />Provides a set of RESTful endpoints for retrieving COMMONS posts. <br /><br /></div>
+    <h3 style='margin-bottom: 0.3em;'><a href='content/describe.html'>content</a> (<a href='content/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents the Content/Resources tool</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='contentajax/describe.html'>contentajax</a> (<a href='contentajax/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='delegated_access/describe.html'>delegated_access</a> (<a href='delegated_access/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='dropbox/describe.html'>dropbox</a> (<a href='dropbox/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents the Drop Box tool</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='feedback/describe.html'>feedback</a> (<a href='feedback/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='forum/describe.html'>forum</a> (<a href='forum/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='forum_message/describe.html'>forum_message</a> (<a href='forum_message/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='forum_topic/describe.html'>forum_topic</a> (<a href='forum_topic/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='forums/describe.html'>forums</a> (<a href='forums/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Provides a set of RESTful endpoints for retrieving single fora, site collections of fora , individual topics (collections of conversations) and messages with their children. An example workflow would be to call the site action with /direct/forums/site/SITEID.json for the top level fora in a site, then to use /direct/forums/site/SITEID/forum/FORUMID.json to get an individual forum to the topic level. After that you would use /direct/forums/site/SITEID/forum/FORUMID/topic/TOPICID.json to get a topic, basicallya set of conversations, then you would call /direct/forums/site/SITEID/forum/FORUMID/topic/TOPICID/message/MESSAGEID.json to get a fully populated message with attachments and children.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='gbng/describe.html'>gbng</a> (<a href='gbng/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='lessonbuilder/describe.html'>lessonbuilder</a> (<a href='lessonbuilder/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='lessons/describe.html'>lessons</a> (<a href='lessons/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='lti/describe.html'>lti</a> (<a href='lti/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Allows access to the various data structures available from the LTIService support LTI 1.x and LTI 2.x work.  Collection endpoints allow the use of first= last= and order= parameters.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='mailarchive/describe.html'>mailarchive</a> (<a href='mailarchive/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents mailarchive messages for a given site</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='membership/describe.html'>membership</a> (<a href='membership/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a user's membership in a location (site, group, etc.) in the system, works with the site/group entities and the user entities. In the documentation below, a membership ID is a string in the form USER_ID::LOCATION_REFERENCE (e.g., "aaronz::site:mySiteId").</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='my/describe.html'>my</a> (<a href='my/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>A set of URLs that can be used for directly linking to various pages and views in Profile2.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='mySignup/describe.html'>mySignup</a> (<a href='mySignup/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='notify/describe.html'>notify</a> (<a href='notify/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Allows access to Sakai's email notification handling</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='pasystem/describe.html'>pasystem</a> (<a href='pasystem/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='pasystem-admin/describe.html'>pasystem-admin</a> (<a href='pasystem-admin/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='permissions/describe.html'>permissions</a> (<a href='permissions/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='podcast/describe.html'>podcast</a> (<a href='podcast/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents the Podcast tool</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='poll/describe.html'>poll</a> (<a href='poll/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'><b>Deprecated. Use polls entity provider.</b> Represents a poll (single item survey) and optionally the votes (responses) to the poll and options (choices)</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='poll-option/describe.html'>poll-option</a> (<a href='poll-option/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'><b>Deprecated. Use polls entity provider.</b> Represents an option (choice) in a poll</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='poll-vote/describe.html'>poll-vote</a> (<a href='poll-vote/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'><b>Deprecated. Use polls entity provider.</b> Represents a user's vote in a poll</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='polls/describe.html'>polls</a> (<a href='polls/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents polls, options (choices), and votes of the poll tool. </div>
+    <h3 style='margin-bottom: 0.3em;'><a href='portal/describe.html'>portal</a> (<a href='portal/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='portal-chat/describe.html'>portal-chat</a> (<a href='portal-chat/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Presents an HTTP interface onto Sakai's portal chat system.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='profile/describe.html'>profile</a> (<a href='profile/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a user's profile. Because of the privacy settings that a user can set for individual parts of their profile, the information in the profile that is returned for a given user will be tailored based on the person requesting it.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='profile-events/describe.html'>profile-events</a> (<a href='profile-events/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Enables anonymous reporting of tool usage to SiteStats. There are no usable interfaces here.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='profile-image/describe.html'>profile-image</a> (<a href='profile-image/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='profile-message/describe.html'>profile-message</a> (<a href='profile-message/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Allows access to the Profile2 messaging system</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='profile-status/describe.html'>profile-status</a> (<a href='profile-status/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a user's status.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='roster/describe.html'>roster</a> (<a href='roster/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents roster of a site.</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='roster-export/describe.html'>roster-export</a> (<a href='roster-export/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='roster-membership/describe.html'>roster-membership</a> (<a href='roster-membership/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='sam_core/describe.html'>sam_core</a> (<a href='sam_core/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='sam_item/describe.html'>sam_item</a> (<a href='sam_item/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='sam_pub/describe.html'>sam_pub</a> (<a href='sam_pub/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='sam_publisheditem/describe.html'>sam_publisheditem</a> (<a href='sam_publisheditem/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='search/describe.html'>search</a> (<a href='search/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='server-config/describe.html'>server-config</a> (<a href='server-config/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents settings in the server configuration</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='session/describe.html'>session</a> (<a href='session/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a user or system session which is currently active, inactive sessions or information about inactive sessions cannot be accessed, the session is effectively immutable and removing it is the same as deactivating it, updating simply has the effect of refreshing it so it will not timeout</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='signupEvent/describe.html'>signupEvent</a> (<a href='signupEvent/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='site/describe.html'>site</a> (<a href='site/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a site (a collection of users and tools) in the Sakai system</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='sitestats/describe.html'>sitestats</a> (<a href='sitestats/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'><br />Provides a set of RESTful endpoints for retrieving Sitestats event data. <br /><br /></div>
+    <h3 style='margin-bottom: 0.3em;'><a href='sitestats-metrics/describe.html'>sitestats-metrics</a> (<a href='sitestats-metrics/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Provides SiteStats event aggregator metrics for the current server node</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='sitestats-report/describe.html'>sitestats-report</a> (<a href='sitestats-report/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='syllabus/describe.html'>syllabus</a> (<a href='syllabus/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents the Syllabus tool</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='synopticmsgcntritem/describe.html'>synopticmsgcntritem</a> (<a href='synopticmsgcntritem/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='tagservice/describe.html'>tagservice</a> (<a href='tagservice/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='tagservice-admin/describe.html'>tagservice-admin</a> (<a href='tagservice-admin/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='tool/describe.html'>tool</a> (<a href='tool/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='topic/describe.html'>topic</a> (<a href='topic/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='tutorial/describe.html'>tutorial</a> (<a href='tutorial/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='url/describe.html'>url</a> (<a href='url/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>An entity provider to allow shortening of URLs via the ShortenedUrlService</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='user/describe.html'>user</a> (<a href='user/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents a user in the system, user data is effectively immutable and removing users cannot override externally provided users</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='userPrefs/describe.html'>userPrefs</a> (<a href='userPrefs/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>User Preference Values</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='validation/describe.html'>validation</a> (<a href='validation/describe.xml'>xml</a>)</h3>
+    <h3 style='margin-bottom: 0.3em;'><a href='webcontent/describe.html'>webcontent</a> (<a href='webcontent/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Represents the Web Content tool</div>
+    <h3 style='margin-bottom: 0.3em;'><a href='wiki/describe.html'>wiki</a> (<a href='wiki/describe.xml'>xml</a>)</h3>
+      <div style='padding-left:0.5em; padding-bottom:0.2em; width:90%;'>Provides a set of RESTful endpoints for retrieving wiki pages.</div>
+<br/>
+<div style='width:100%;text-align:center;font-style:italic;font-size:0.9em;'>REST:: <b>1.0.1</b> SVN: $Revision$ : $Date$</div>
+</body>
+</html>

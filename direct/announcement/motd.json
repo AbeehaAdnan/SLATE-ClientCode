@@ -1,0 +1,33 @@
+{"entityPrefix": "announcement", "announcement_collection": [
+{
+  "announcementId": "ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b",
+  "attachments": [],
+  "body": "<h3><span style=\"color: rgb(231,76,60);\">Dear Users,<\/span><\/h3>\n\n<h3><span style=\"color: rgb(231,76,60);\">Due to some network related issue, assignment tab of courses is taking quite some time to load. We have contacted the network team &amp; they are looking into it. We'll update \/  remove this message accordingly.<\/span><\/h3>",
+  "channel": "motd",
+  "createdByDisplayName": "Administrator Islamabad",
+  "createdOn": 1743427614737,
+  "id": "!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b",
+  "siteId": "!admin",
+  "siteTitle": "Message Of The Day",
+  "title": "Assignment Tab Issue",
+  "entityReference": "\/announcement\/!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/announcement\/!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b",
+  "entityId": "!admin:motd:ee493bd7-ca1e-4cc0-8b06-998cce0d5f3b",
+  "entityTitle": "Assignment Tab Issue"
+},{
+  "announcementId": "58a09685-d8de-4ac3-a798-c802f7b9ebda",
+  "attachments": [],
+  "body": "<p> <\/p>\n\n<p><strong><span style=\"color: rgb(231,76,60);\"><\/span><span style=\"color: rgb(231,76,60);\">Important Notice for Islamabad Campus Only: <\/span><\/strong><\/p>\n\n<p><strong><span style=\"color: rgb(231,76,60);\"><\/span><span style=\"color: rgb(231,76,60);\">We would like to inform you that we are transitioning to a Internet authentication system. As a result, it is essential for you to obtain the passwords associated with your user IDs for your respective domains. Without this authentication, you will not be able to access the internet in the C Block (Initially).<br \/>\n<br \/>\nYou can obtain your passwords from any IT labs or the Help Desk at A Block Reception.<\/span><\/strong><\/p>",
+  "channel": "motd",
+  "createdByDisplayName": "Administrator Islamabad",
+  "createdOn": 1729676672454,
+  "id": "!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda",
+  "siteId": "!admin",
+  "siteTitle": "Message Of The Day",
+  "title": "Important Notice for Islamabad Campus Only",
+  "entityReference": "\/announcement\/!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/announcement\/!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda",
+  "entityId": "!admin:motd:58a09685-d8de-4ac3-a798-c802f7b9ebda",
+  "entityTitle": "Important Notice for Islamabad Campus Only"
+}
+]}

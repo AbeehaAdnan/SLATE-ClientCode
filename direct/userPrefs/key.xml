@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<userPrefs type='bean' size='6'>
+  <data type='map' size='0'>
+  </data>
+  <displayTitle>key</displayTitle>
+  <entityId/>
+  <entityProperties type='map' size='0'>
+  </entityProperties>
+  <entityReference>/userPrefs</entityReference>
+  <entityURL>http://slate.nu.edu.pk/direct/userPrefs</entityURL>
+</userPrefs>

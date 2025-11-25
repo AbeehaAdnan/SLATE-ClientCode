@@ -1,0 +1,199 @@
+{"entityPrefix": "server-config", "server-config_collection": [
+{
+  "name": "accessPath",
+  "type": "string",
+  "value": "\/access",
+  "entityReference": "\/server-config\/accessPath",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/accessPath",
+  "entityId": "accessPath"
+},{
+  "name": "accessUrl",
+  "type": "string",
+  "value": "http:\/\/slate.nu.edu.pk\/access",
+  "entityReference": "\/server-config\/accessUrl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/accessUrl",
+  "entityId": "accessUrl"
+},{
+  "name": "auto.ddl",
+  "type": "boolean",
+  "value": false,
+  "entityReference": "\/server-config\/auto.ddl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/auto.ddl",
+  "entityId": "auto.ddl"
+},{
+  "name": "buildTime.kernel",
+  "type": "string",
+  "value": "",
+  "entityReference": "\/server-config\/buildTime.kernel",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/buildTime.kernel",
+  "entityId": "buildTime.kernel"
+},{
+  "name": "database.vendor",
+  "type": "string",
+  "value": "oracle",
+  "entityReference": "\/server-config\/database.vendor",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/database.vendor",
+  "entityId": "database.vendor"
+},{
+  "name": "display.users.present",
+  "type": "boolean",
+  "value": true,
+  "entityReference": "\/server-config\/display.users.present",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/display.users.present",
+  "entityId": "display.users.present"
+},{
+  "name": "force.url.secure",
+  "type": "string",
+  "value": "",
+  "entityReference": "\/server-config\/force.url.secure",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/force.url.secure",
+  "entityId": "force.url.secure"
+},{
+  "name": "gatewaySiteId",
+  "type": "string",
+  "value": "!gateway",
+  "entityReference": "\/server-config\/gatewaySiteId",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/gatewaySiteId",
+  "entityId": "gatewaySiteId"
+},{
+  "name": "locales",
+  "type": "string",
+  "value": "en_US",
+  "entityReference": "\/server-config\/locales",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/locales",
+  "entityId": "locales"
+},{
+  "name": "loggedOutUrl",
+  "type": "string",
+  "value": "http:\/\/slate.nu.edu.pk\/portal",
+  "entityReference": "\/server-config\/loggedOutUrl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/loggedOutUrl",
+  "entityId": "loggedOutUrl"
+},{
+  "name": "portalPath",
+  "type": "string",
+  "value": "\/portal",
+  "entityReference": "\/server-config\/portalPath",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/portalPath",
+  "entityId": "portalPath"
+},{
+  "name": "portalUrl",
+  "type": "string",
+  "value": "http:\/\/slate.nu.edu.pk\/portal",
+  "entityReference": "\/server-config\/portalUrl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/portalUrl",
+  "entityId": "portalUrl"
+},{
+  "name": "serverHostAddress",
+  "type": "string",
+  "value": "192.168.1.121",
+  "entityReference": "\/server-config\/serverHostAddress",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverHostAddress",
+  "entityId": "serverHostAddress"
+},{
+  "name": "serverHostName",
+  "type": "string",
+  "value": "Slate-App1",
+  "entityReference": "\/server-config\/serverHostName",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverHostName",
+  "entityId": "serverHostName"
+},{
+  "name": "serverId",
+  "type": "string",
+  "value": "s1",
+  "entityReference": "\/server-config\/serverId",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverId",
+  "entityId": "serverId"
+},{
+  "name": "serverIdInstance",
+  "type": "string",
+  "value": "s1-1762466196054",
+  "entityReference": "\/server-config\/serverIdInstance",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverIdInstance",
+  "entityId": "serverIdInstance"
+},{
+  "name": "serverInstance",
+  "type": "string",
+  "value": "1762466196054",
+  "entityReference": "\/server-config\/serverInstance",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverInstance",
+  "entityId": "serverInstance"
+},{
+  "name": "serverName",
+  "type": "string",
+  "value": "nu.edu.pk",
+  "entityReference": "\/server-config\/serverName",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverName",
+  "entityId": "serverName"
+},{
+  "name": "serverUrl",
+  "type": "string",
+  "value": "http:\/\/slate.nu.edu.pk",
+  "entityReference": "\/server-config\/serverUrl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/serverUrl",
+  "entityId": "serverUrl"
+},{
+  "name": "skin.default",
+  "type": "string",
+  "value": "morpheus-default",
+  "entityReference": "\/server-config\/skin.default",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/skin.default",
+  "entityId": "skin.default"
+},{
+  "name": "skin.repo",
+  "type": "string",
+  "value": "\/library\/skin",
+  "entityReference": "\/server-config\/skin.repo",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/skin.repo",
+  "entityId": "skin.repo"
+},{
+  "name": "toolUrl",
+  "type": "string",
+  "value": "http:\/\/slate.nu.edu.pk\/portal\/tool",
+  "entityReference": "\/server-config\/toolUrl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/toolUrl",
+  "entityId": "toolUrl"
+},{
+  "name": "ui.institution",
+  "type": "string",
+  "value": "",
+  "entityReference": "\/server-config\/ui.institution",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/ui.institution",
+  "entityId": "ui.institution"
+},{
+  "name": "ui.service",
+  "type": "string",
+  "value": "SLATE",
+  "entityReference": "\/server-config\/ui.service",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/ui.service",
+  "entityId": "ui.service"
+},{
+  "name": "userHomeUrl",
+  "type": "string",
+  "value": "http:\/\/slate.nu.edu.pk\/portal\/site\/~#UID#",
+  "entityReference": "\/server-config\/userHomeUrl",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/userHomeUrl",
+  "entityId": "userHomeUrl"
+},{
+  "name": "version.sakai",
+  "type": "string",
+  "value": "20.3",
+  "entityReference": "\/server-config\/version.sakai",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/version.sakai",
+  "entityId": "version.sakai"
+},{
+  "name": "version.service",
+  "type": "string",
+  "value": "f43f07d9",
+  "entityReference": "\/server-config\/version.service",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/version.service",
+  "entityId": "version.service"
+},{
+  "name": "webdav.ignore",
+  "type": "string",
+  "value": "[Ljava.lang.String;@279b95bf",
+  "entityReference": "\/server-config\/webdav.ignore",
+  "entityURL": "http:\/\/slate.nu.edu.pk\/direct\/server-config\/webdav.ignore",
+  "entityId": "webdav.ignore"
+}
+]}
